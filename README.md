@@ -1,5 +1,5 @@
 # CrossPoint_reappear
-## [Paper Link](https://arxiv.org/abs/2203.00680) | [Project Page](https://mohamedafham.github.io/CrossPoint/) 
+## [Reference github](https://github.com/MohamedAfham/CrossPoint) | [Original Paper Link](https://arxiv.org/abs/2203.00680) | [Original Project Page](https://mohamedafham.github.io/CrossPoint/) 
 
 ## usage
 sign up a wandb account so that you can easily visualize the output.
