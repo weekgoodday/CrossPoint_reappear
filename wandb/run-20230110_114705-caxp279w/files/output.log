@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train_crosspoint_update.py", line 485, in <module>
+    train(args, io)
+  File "train_crosspoint_update.py", line 238, in train
+    raise NotImplementedError
+NotImplementedError
+Use Adam
+Start training epoch: (0/100)

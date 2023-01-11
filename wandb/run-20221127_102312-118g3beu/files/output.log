@@ -1,0 +1,26 @@
+Use Adam
+Start training epoch: (0/100)
+Epoch (0), Batch(0/2189), loss: 13.773583, imid loss: 5.551381, cmid loss: 8.222202
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Epoch (0), Batch(200/2189), loss: 6.593550, imid loss: 2.977596, cmid loss: 3.615954
+Epoch (0), Batch(400/2189), loss: 5.962626, imid loss: 2.577637, cmid loss: 3.384989
+Epoch (0), Batch(600/2189), loss: 5.565337, imid loss: 2.343015, cmid loss: 3.222323
+Traceback (most recent call last):
+  File "train_crosspoint.py", line 258, in <module>
+    train(args, io)
+  File "train_crosspoint.py", line 112, in train
+    opt.step()
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py", line 65, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/optimizer.py", line 88, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 28, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/adam.py", line 107, in step
+    F.adam(params_with_grad,
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/_functional.py", line 87, in adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1 - beta2)
+KeyboardInterrupt

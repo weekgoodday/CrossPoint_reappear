@@ -1,0 +1,47 @@
+2023-01-10 13:22:33,909 INFO    MainThread:17714 [internal.py:wandb_internal():86] W&B internal server running at pid: 17714, started at: 2023-01-10 13:22:33.909319
+2023-01-10 13:22:33,910 DEBUG   HandlerThread:17714 [handler.py:handle_request():126] handle_request: check_version
+2023-01-10 13:22:33,910 INFO    WriterThread:17714 [datastore.py:open_for_write():77] open: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/run-1319iduv.wandb
+2023-01-10 13:22:33,912 DEBUG   SenderThread:17714 [sender.py:send():182] send: header
+2023-01-10 13:22:33,912 DEBUG   SenderThread:17714 [sender.py:send_request():196] send_request: check_version
+2023-01-10 13:22:34,354 DEBUG   SenderThread:17714 [sender.py:send():182] send: run
+2023-01-10 13:22:34,712 INFO    SenderThread:17714 [dir_watcher.py:__init__():169] watching files in: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files
+2023-01-10 13:22:34,712 INFO    SenderThread:17714 [sender.py:_start_run_threads():740] run started: 1319iduv with start time 1673328153
+2023-01-10 13:22:34,712 DEBUG   SenderThread:17714 [sender.py:send():182] send: summary
+2023-01-10 13:22:34,712 INFO    SenderThread:17714 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2023-01-10 13:22:34,712 DEBUG   HandlerThread:17714 [handler.py:handle_request():126] handle_request: run_start
+2023-01-10 13:22:34,715 DEBUG   HandlerThread:17714 [meta.py:__init__():40] meta init
+2023-01-10 13:22:34,716 DEBUG   HandlerThread:17714 [meta.py:__init__():54] meta init done
+2023-01-10 13:22:34,716 DEBUG   HandlerThread:17714 [meta.py:probe():211] probe
+2023-01-10 13:22:34,722 DEBUG   HandlerThread:17714 [meta.py:_setup_git():201] setup git
+2023-01-10 13:22:34,729 DEBUG   HandlerThread:17714 [meta.py:_setup_git():208] setup git done
+2023-01-10 13:22:34,729 DEBUG   HandlerThread:17714 [meta.py:_save_pip():58] save pip
+2023-01-10 13:22:34,730 DEBUG   HandlerThread:17714 [meta.py:_save_pip():72] save pip done
+2023-01-10 13:22:34,730 DEBUG   HandlerThread:17714 [meta.py:_save_conda():79] save conda
+2023-01-10 13:22:35,010 WARNING MainThread:17714 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-01-10 13:22:35,714 INFO    Thread-8  :17714 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/wandb-summary.json
+2023-01-10 13:22:35,714 INFO    Thread-8  :17714 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/requirements.txt
+2023-01-10 13:22:35,714 INFO    Thread-8  :17714 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/conda-environment.yaml
+2023-01-10 13:22:36,798 DEBUG   HandlerThread:17714 [meta.py:_save_conda():87] save conda done
+2023-01-10 13:22:36,798 DEBUG   HandlerThread:17714 [meta.py:probe():249] probe done
+2023-01-10 13:22:36,800 DEBUG   SenderThread:17714 [sender.py:send():182] send: files
+2023-01-10 13:22:36,801 INFO    SenderThread:17714 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2023-01-10 13:22:37,715 INFO    Thread-8  :17714 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/wandb-metadata.json
+2023-01-10 13:22:37,819 INFO    Thread-11 :17714 [upload_job.py:push():137] Uploaded file /tmp/tmp6hhn6sgywandb/2jh9cnj8-wandb-metadata.json
+2023-01-10 13:22:57,915 WARNING MainThread:17714 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-01-10 13:22:57,915 ERROR   MainThread:17714 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-01-10 13:22:58,806 INFO    SenderThread:17714 [sender.py:finish():979] shutting down sender
+2023-01-10 13:22:58,806 INFO    SenderThread:17714 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-01-10 13:22:58,806 INFO    WriterThread:17714 [datastore.py:close():281] close: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/run-1319iduv.wandb
+2023-01-10 13:22:58,824 INFO    HandlerThread:17714 [handler.py:finish():683] shutting down handler
+2023-01-10 13:22:59,720 INFO    SenderThread:17714 [dir_watcher.py:finish():313] scan: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files
+2023-01-10 13:22:59,720 INFO    SenderThread:17714 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/wandb-summary.json wandb-summary.json
+2023-01-10 13:22:59,720 INFO    SenderThread:17714 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/conda-environment.yaml conda-environment.yaml
+2023-01-10 13:22:59,720 INFO    SenderThread:17714 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/config.yaml config.yaml
+2023-01-10 13:22:59,721 INFO    SenderThread:17714 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/requirements.txt requirements.txt
+2023-01-10 13:22:59,721 INFO    SenderThread:17714 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/wandb-metadata.json wandb-metadata.json
+2023-01-10 13:22:59,721 INFO    SenderThread:17714 [file_pusher.py:finish():177] shutting down file pusher
+2023-01-10 13:22:59,721 INFO    SenderThread:17714 [file_pusher.py:join():182] waiting for file pusher
+2023-01-10 13:23:00,577 INFO    Thread-12 :17714 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/wandb-summary.json
+2023-01-10 13:23:00,697 INFO    Thread-14 :17714 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/requirements.txt
+2023-01-10 13:23:00,713 INFO    Thread-13 :17714 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230110_132233-1319iduv/files/config.yaml
+2023-01-10 13:23:01,452 INFO    MainThread:17714 [internal.py:handle_exit():76] Internal process exited

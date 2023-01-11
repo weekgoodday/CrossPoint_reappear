@@ -1,0 +1,22 @@
+Use Adam
+Start training epoch: (0/100)
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+Traceback (most recent call last):
+  File "train_crosspoint.py", line 290, in <module>
+    train(args, io)
+  File "train_crosspoint.py", line 101, in train
+    for i, ((data_t1, data_t2), (imgs0, imgs1), idxs) in enumerate(train_loader):
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zht/github_play/crosspoint/CrossPoint/datasets/data.py", line 135, in __getitem__
+    render_img_path = random.choices(get_render_imgs(pcd_path), 2)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/random.py", line 400, in choices
+    cum_weights = list(_accumulate(weights))
+TypeError: 'int' object is not iterable

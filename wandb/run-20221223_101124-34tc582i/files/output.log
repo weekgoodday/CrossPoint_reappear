@@ -1,0 +1,1439 @@
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Use Adam
+Start training epoch: (0/100)
+Epoch (0), Batch(0/2189), loss: 19.695066, imid loss: 4.978726, imid1 loss: 5.973049, cmid0 loss: 8.743292
+Epoch (0), Batch(200/2189), loss: 9.811191, imid loss: 2.997091, imid1 loss: 3.155132, cmid0 loss: 3.658968
+Epoch (0), Batch(400/2189), loss: 8.874317, imid loss: 2.634645, imid1 loss: 2.829286, cmid0 loss: 3.410386
+Epoch (0), Batch(600/2189), loss: 8.107191, imid loss: 2.356142, imid1 loss: 2.535081, cmid0 loss: 3.215968
+Epoch (0), Batch(800/2189), loss: 7.500988, imid loss: 2.131468, imid1 loss: 2.310927, cmid0 loss: 3.058593
+Epoch (0), Batch(1000/2189), loss: 6.978852, imid loss: 1.951484, imid1 loss: 2.125180, cmid0 loss: 2.902188
+Epoch (0), Batch(1200/2189), loss: 6.566610, imid loss: 1.812413, imid1 loss: 1.977765, cmid0 loss: 2.776433
+Epoch (0), Batch(1400/2189), loss: 6.235302, imid loss: 1.698687, imid1 loss: 1.858021, cmid0 loss: 2.678594
+Epoch (0), Batch(1600/2189), loss: 6.005448, imid loss: 1.610091, imid1 loss: 1.791765, cmid0 loss: 2.603593
+Epoch (0), Batch(1800/2189), loss: 5.780095, imid loss: 1.536177, imid1 loss: 1.717460, cmid0 loss: 2.526458
+Epoch (0), Batch(2000/2189), loss: 5.584213, imid loss: 1.469997, imid1 loss: 1.651506, cmid0 loss: 2.462710
+Train 0, loss: 5.416795
+Linear Accuracy : 0.8731766612641815
+==> Saving Best Model...
+==> Saving...
+Start training epoch: (1/100)
+Epoch (1), Batch(0/2189), loss: 4.238463, imid loss: 1.288262, imid1 loss: 0.945368, cmid0 loss: 2.004834
+Epoch (1), Batch(200/2189), loss: 3.361670, imid loss: 0.760650, imid1 loss: 0.947480, cmid0 loss: 1.653541
+Epoch (1), Batch(400/2189), loss: 3.230968, imid loss: 0.730159, imid1 loss: 0.905911, cmid0 loss: 1.594898
+Epoch (1), Batch(600/2189), loss: 3.139893, imid loss: 0.706050, imid1 loss: 0.887429, cmid0 loss: 1.546414
+Epoch (1), Batch(800/2189), loss: 3.095959, imid loss: 0.691708, imid1 loss: 0.880640, cmid0 loss: 1.523611
+Epoch (1), Batch(1000/2189), loss: 3.037796, imid loss: 0.672002, imid1 loss: 0.872316, cmid0 loss: 1.493478
+Epoch (1), Batch(1200/2189), loss: 2.975924, imid loss: 0.655609, imid1 loss: 0.856458, cmid0 loss: 1.463857
+Epoch (1), Batch(1400/2189), loss: 2.933126, imid loss: 0.646144, imid1 loss: 0.840500, cmid0 loss: 1.446482
+Epoch (1), Batch(1600/2189), loss: 2.883485, imid loss: 0.633780, imid1 loss: 0.823370, cmid0 loss: 1.426335
+Epoch (1), Batch(1800/2189), loss: 2.828922, imid loss: 0.623017, imid1 loss: 0.803279, cmid0 loss: 1.402625
+Epoch (1), Batch(2000/2189), loss: 2.789309, imid loss: 0.614053, imid1 loss: 0.789585, cmid0 loss: 1.385671
+Train 1, loss: 2.738068
+Linear Accuracy : 0.8727714748784441
+Start training epoch: (2/100)
+Epoch (2), Batch(0/2189), loss: 1.700247, imid loss: 0.446161, imid1 loss: 0.443565, cmid0 loss: 0.810521
+Epoch (2), Batch(200/2189), loss: 2.254172, imid loss: 0.486973, imid1 loss: 0.643057, cmid0 loss: 1.124142
+Epoch (2), Batch(400/2189), loss: 2.191303, imid loss: 0.469734, imid1 loss: 0.612489, cmid0 loss: 1.109081
+Epoch (2), Batch(600/2189), loss: 2.141872, imid loss: 0.457180, imid1 loss: 0.589240, cmid0 loss: 1.095452
+Epoch (2), Batch(800/2189), loss: 2.112867, imid loss: 0.450681, imid1 loss: 0.577593, cmid0 loss: 1.084593
+Epoch (2), Batch(1000/2189), loss: 2.097599, imid loss: 0.445974, imid1 loss: 0.573273, cmid0 loss: 1.078353
+Epoch (2), Batch(1200/2189), loss: 2.081544, imid loss: 0.443714, imid1 loss: 0.568992, cmid0 loss: 1.068839
+Epoch (2), Batch(1400/2189), loss: 2.051686, imid loss: 0.437533, imid1 loss: 0.560522, cmid0 loss: 1.053630
+Epoch (2), Batch(1600/2189), loss: 2.036159, imid loss: 0.432610, imid1 loss: 0.559411, cmid0 loss: 1.044138
+Epoch (2), Batch(1800/2189), loss: 2.009016, imid loss: 0.426227, imid1 loss: 0.548390, cmid0 loss: 1.034399
+Epoch (2), Batch(2000/2189), loss: 1.989750, imid loss: 0.421313, imid1 loss: 0.542107, cmid0 loss: 1.026331
+Train 2, loss: 1.972871
+Linear Accuracy : 0.8707455429497569
+Start training epoch: (3/100)
+Epoch (3), Batch(0/2189), loss: 1.947634, imid loss: 0.579376, imid1 loss: 0.333390, cmid0 loss: 1.034867
+Epoch (3), Batch(200/2189), loss: 1.745161, imid loss: 0.387090, imid1 loss: 0.452512, cmid0 loss: 0.905559
+Epoch (3), Batch(400/2189), loss: 1.747480, imid loss: 0.379762, imid1 loss: 0.460536, cmid0 loss: 0.907182
+Epoch (3), Batch(600/2189), loss: 1.732222, imid loss: 0.372171, imid1 loss: 0.450996, cmid0 loss: 0.909055
+Epoch (3), Batch(800/2189), loss: 1.725212, imid loss: 0.366763, imid1 loss: 0.450954, cmid0 loss: 0.907495
+Epoch (3), Batch(1000/2189), loss: 1.702711, imid loss: 0.360061, imid1 loss: 0.445578, cmid0 loss: 0.897072
+Epoch (3), Batch(1200/2189), loss: 1.683723, imid loss: 0.356468, imid1 loss: 0.441240, cmid0 loss: 0.886016
+Epoch (3), Batch(1400/2189), loss: 1.658504, imid loss: 0.351581, imid1 loss: 0.434869, cmid0 loss: 0.872055
+Epoch (3), Batch(1600/2189), loss: 1.626153, imid loss: 0.344927, imid1 loss: 0.425454, cmid0 loss: 0.855772
+Epoch (3), Batch(1800/2189), loss: 1.609864, imid loss: 0.342456, imid1 loss: 0.421673, cmid0 loss: 0.845735
+Epoch (3), Batch(2000/2189), loss: 1.595102, imid loss: 0.339305, imid1 loss: 0.416930, cmid0 loss: 0.838867
+Train 3, loss: 1.582703
+Linear Accuracy : 0.869935170178282
+Start training epoch: (4/100)
+Epoch (4), Batch(0/2189), loss: 1.120375, imid loss: 0.325405, imid1 loss: 0.265105, cmid0 loss: 0.529865
+Epoch (4), Batch(200/2189), loss: 1.464766, imid loss: 0.323004, imid1 loss: 0.375713, cmid0 loss: 0.766048
+Epoch (4), Batch(400/2189), loss: 1.465348, imid loss: 0.314527, imid1 loss: 0.378842, cmid0 loss: 0.771979
+Epoch (4), Batch(600/2189), loss: 1.417959, imid loss: 0.303729, imid1 loss: 0.367544, cmid0 loss: 0.746686
+Epoch (4), Batch(800/2189), loss: 1.424560, imid loss: 0.303759, imid1 loss: 0.368589, cmid0 loss: 0.752212
+Epoch (4), Batch(1000/2189), loss: 1.417664, imid loss: 0.304401, imid1 loss: 0.366057, cmid0 loss: 0.747207
+Epoch (4), Batch(1200/2189), loss: 1.394274, imid loss: 0.301508, imid1 loss: 0.358032, cmid0 loss: 0.734735
+Epoch (4), Batch(1400/2189), loss: 1.384524, imid loss: 0.301143, imid1 loss: 0.354379, cmid0 loss: 0.729002
+Epoch (4), Batch(1600/2189), loss: 1.375774, imid loss: 0.300407, imid1 loss: 0.349842, cmid0 loss: 0.725525
+Epoch (4), Batch(1800/2189), loss: 1.362992, imid loss: 0.297072, imid1 loss: 0.346109, cmid0 loss: 0.719811
+Epoch (4), Batch(2000/2189), loss: 1.363478, imid loss: 0.296124, imid1 loss: 0.349058, cmid0 loss: 0.718296
+Train 4, loss: 1.353393
+Linear Accuracy : 0.8743922204213939
+==> Saving Best Model...
+Start training epoch: (5/100)
+Epoch (5), Batch(0/2189), loss: 0.705457, imid loss: 0.121968, imid1 loss: 0.114102, cmid0 loss: 0.469387
+Epoch (5), Batch(200/2189), loss: 1.245647, imid loss: 0.265846, imid1 loss: 0.313961, cmid0 loss: 0.665841
+Epoch (5), Batch(400/2189), loss: 1.237820, imid loss: 0.267973, imid1 loss: 0.314923, cmid0 loss: 0.654924
+Epoch (5), Batch(600/2189), loss: 1.223576, imid loss: 0.268592, imid1 loss: 0.307387, cmid0 loss: 0.647597
+Epoch (5), Batch(800/2189), loss: 1.218006, imid loss: 0.268522, imid1 loss: 0.306831, cmid0 loss: 0.642653
+Epoch (5), Batch(1000/2189), loss: 1.209052, imid loss: 0.265161, imid1 loss: 0.303746, cmid0 loss: 0.640145
+Epoch (5), Batch(1200/2189), loss: 1.200115, imid loss: 0.263933, imid1 loss: 0.301849, cmid0 loss: 0.634333
+Epoch (5), Batch(1400/2189), loss: 1.188888, imid loss: 0.260373, imid1 loss: 0.297769, cmid0 loss: 0.630746
+Epoch (5), Batch(1600/2189), loss: 1.187221, imid loss: 0.260209, imid1 loss: 0.297096, cmid0 loss: 0.629916
+Epoch (5), Batch(1800/2189), loss: 1.182575, imid loss: 0.258796, imid1 loss: 0.296264, cmid0 loss: 0.627516
+Epoch (5), Batch(2000/2189), loss: 1.176239, imid loss: 0.257678, imid1 loss: 0.294542, cmid0 loss: 0.624019
+Train 5, loss: 1.169639
+Linear Accuracy : 0.8752025931928687
+==> Saving Best Model...
+==> Saving...
+Start training epoch: (6/100)
+Epoch (6), Batch(0/2189), loss: 1.667518, imid loss: 0.288108, imid1 loss: 0.338165, cmid0 loss: 1.041245
+Epoch (6), Batch(200/2189), loss: 1.100154, imid loss: 0.246010, imid1 loss: 0.266877, cmid0 loss: 0.587267
+Epoch (6), Batch(400/2189), loss: 1.104951, imid loss: 0.242460, imid1 loss: 0.270813, cmid0 loss: 0.591678
+Epoch (6), Batch(600/2189), loss: 1.092939, imid loss: 0.240929, imid1 loss: 0.267445, cmid0 loss: 0.584566
+Epoch (6), Batch(800/2189), loss: 1.090437, imid loss: 0.239357, imid1 loss: 0.268225, cmid0 loss: 0.582855
+Epoch (6), Batch(1000/2189), loss: 1.074494, imid loss: 0.235870, imid1 loss: 0.264409, cmid0 loss: 0.574215
+Epoch (6), Batch(1200/2189), loss: 1.068920, imid loss: 0.235328, imid1 loss: 0.262137, cmid0 loss: 0.571454
+Epoch (6), Batch(1400/2189), loss: 1.059120, imid loss: 0.233820, imid1 loss: 0.260281, cmid0 loss: 0.565019
+Epoch (6), Batch(1600/2189), loss: 1.051548, imid loss: 0.232152, imid1 loss: 0.257998, cmid0 loss: 0.561397
+Epoch (6), Batch(1800/2189), loss: 1.045927, imid loss: 0.230190, imid1 loss: 0.256758, cmid0 loss: 0.558979
+Epoch (6), Batch(2000/2189), loss: 1.042996, imid loss: 0.230091, imid1 loss: 0.256188, cmid0 loss: 0.556717
+Train 6, loss: 1.035290
+Linear Accuracy : 0.8796596434359806
+==> Saving Best Model...
+Start training epoch: (7/100)
+Epoch (7), Batch(0/2189), loss: 0.464013, imid loss: 0.150005, imid1 loss: 0.080171, cmid0 loss: 0.233838
+Epoch (7), Batch(200/2189), loss: 0.967137, imid loss: 0.221583, imid1 loss: 0.250529, cmid0 loss: 0.495025
+Epoch (7), Batch(400/2189), loss: 0.986842, imid loss: 0.224626, imid1 loss: 0.250667, cmid0 loss: 0.511549
+Epoch (7), Batch(600/2189), loss: 0.996334, imid loss: 0.225238, imid1 loss: 0.251109, cmid0 loss: 0.519987
+Epoch (7), Batch(800/2189), loss: 0.997392, imid loss: 0.224019, imid1 loss: 0.247685, cmid0 loss: 0.525687
+Epoch (7), Batch(1000/2189), loss: 0.976090, imid loss: 0.216889, imid1 loss: 0.243200, cmid0 loss: 0.516001
+Epoch (7), Batch(1200/2189), loss: 0.970792, imid loss: 0.216941, imid1 loss: 0.240335, cmid0 loss: 0.513516
+Epoch (7), Batch(1400/2189), loss: 0.970842, imid loss: 0.217741, imid1 loss: 0.239070, cmid0 loss: 0.514030
+Epoch (7), Batch(1600/2189), loss: 0.963593, imid loss: 0.215519, imid1 loss: 0.237118, cmid0 loss: 0.510956
+Epoch (7), Batch(1800/2189), loss: 0.961926, imid loss: 0.214153, imid1 loss: 0.237044, cmid0 loss: 0.510729
+Epoch (7), Batch(2000/2189), loss: 0.953283, imid loss: 0.211851, imid1 loss: 0.235095, cmid0 loss: 0.506338
+Train 7, loss: 0.949476
+Linear Accuracy : 0.8784440842787682
+Start training epoch: (8/100)
+Epoch (8), Batch(0/2189), loss: 0.458212, imid loss: 0.121054, imid1 loss: 0.090646, cmid0 loss: 0.246512
+Epoch (8), Batch(200/2189), loss: 0.895982, imid loss: 0.201900, imid1 loss: 0.221326, cmid0 loss: 0.472755
+Epoch (8), Batch(400/2189), loss: 0.890946, imid loss: 0.198084, imid1 loss: 0.222375, cmid0 loss: 0.470487
+Epoch (8), Batch(600/2189), loss: 0.884017, imid loss: 0.195698, imid1 loss: 0.220279, cmid0 loss: 0.468041
+Epoch (8), Batch(800/2189), loss: 0.872146, imid loss: 0.193950, imid1 loss: 0.213992, cmid0 loss: 0.464205
+Epoch (8), Batch(1000/2189), loss: 0.873301, imid loss: 0.193925, imid1 loss: 0.214828, cmid0 loss: 0.464547
+Epoch (8), Batch(1200/2189), loss: 0.870934, imid loss: 0.193273, imid1 loss: 0.213739, cmid0 loss: 0.463922
+Epoch (8), Batch(1400/2189), loss: 0.869068, imid loss: 0.194413, imid1 loss: 0.212176, cmid0 loss: 0.462479
+Epoch (8), Batch(1600/2189), loss: 0.871692, imid loss: 0.194444, imid1 loss: 0.213559, cmid0 loss: 0.463689
+Epoch (8), Batch(1800/2189), loss: 0.871902, imid loss: 0.194328, imid1 loss: 0.213416, cmid0 loss: 0.464158
+Epoch (8), Batch(2000/2189), loss: 0.870114, imid loss: 0.194025, imid1 loss: 0.214502, cmid0 loss: 0.461588
+Train 8, loss: 0.863410
+Linear Accuracy : 0.8922204213938412
+==> Saving Best Model...
+Start training epoch: (9/100)
+Epoch (9), Batch(0/2189), loss: 0.728471, imid loss: 0.120270, imid1 loss: 0.202286, cmid0 loss: 0.405914
+Epoch (9), Batch(200/2189), loss: 0.789664, imid loss: 0.170811, imid1 loss: 0.191885, cmid0 loss: 0.426967
+Epoch (9), Batch(400/2189), loss: 0.804142, imid loss: 0.175309, imid1 loss: 0.198411, cmid0 loss: 0.430422
+Epoch (9), Batch(600/2189), loss: 0.803689, imid loss: 0.174087, imid1 loss: 0.202797, cmid0 loss: 0.426805
+Epoch (9), Batch(800/2189), loss: 0.801019, imid loss: 0.175122, imid1 loss: 0.199992, cmid0 loss: 0.425905
+Epoch (9), Batch(1000/2189), loss: 0.806051, imid loss: 0.177951, imid1 loss: 0.198863, cmid0 loss: 0.429237
+Epoch (9), Batch(1200/2189), loss: 0.800500, imid loss: 0.176948, imid1 loss: 0.196044, cmid0 loss: 0.427508
+Epoch (9), Batch(1400/2189), loss: 0.797312, imid loss: 0.175842, imid1 loss: 0.195383, cmid0 loss: 0.426087
+Epoch (9), Batch(1600/2189), loss: 0.798943, imid loss: 0.176016, imid1 loss: 0.195776, cmid0 loss: 0.427151
+Epoch (9), Batch(1800/2189), loss: 0.798769, imid loss: 0.175750, imid1 loss: 0.195748, cmid0 loss: 0.427270
+Epoch (9), Batch(2000/2189), loss: 0.796959, imid loss: 0.176552, imid1 loss: 0.195065, cmid0 loss: 0.425342
+Train 9, loss: 0.795292
+Linear Accuracy : 0.8849270664505673
+Start training epoch: (10/100)
+Epoch (10), Batch(0/2189), loss: 0.666058, imid loss: 0.111756, imid1 loss: 0.106933, cmid0 loss: 0.447370
+Epoch (10), Batch(200/2189), loss: 0.783352, imid loss: 0.180724, imid1 loss: 0.191833, cmid0 loss: 0.410795
+Epoch (10), Batch(400/2189), loss: 0.776131, imid loss: 0.177936, imid1 loss: 0.186065, cmid0 loss: 0.412130
+Epoch (10), Batch(600/2189), loss: 0.777838, imid loss: 0.177131, imid1 loss: 0.187490, cmid0 loss: 0.413217
+Epoch (10), Batch(800/2189), loss: 0.783880, imid loss: 0.181501, imid1 loss: 0.187486, cmid0 loss: 0.414893
+Epoch (10), Batch(1000/2189), loss: 0.776496, imid loss: 0.178908, imid1 loss: 0.184827, cmid0 loss: 0.412761
+Epoch (10), Batch(1200/2189), loss: 0.774851, imid loss: 0.177844, imid1 loss: 0.184268, cmid0 loss: 0.412739
+Epoch (10), Batch(1400/2189), loss: 0.768533, imid loss: 0.176072, imid1 loss: 0.182510, cmid0 loss: 0.409951
+Epoch (10), Batch(1600/2189), loss: 0.768660, imid loss: 0.175525, imid1 loss: 0.183762, cmid0 loss: 0.409373
+Epoch (10), Batch(1800/2189), loss: 0.767430, imid loss: 0.176108, imid1 loss: 0.182477, cmid0 loss: 0.408845
+Epoch (10), Batch(2000/2189), loss: 0.760953, imid loss: 0.174070, imid1 loss: 0.181127, cmid0 loss: 0.405756
+Train 10, loss: 0.759558
+Linear Accuracy : 0.8865478119935171
+==> Saving...
+Start training epoch: (11/100)
+Epoch (11), Batch(0/2189), loss: 0.624766, imid loss: 0.212831, imid1 loss: 0.097936, cmid0 loss: 0.314000
+Epoch (11), Batch(200/2189), loss: 0.778261, imid loss: 0.175080, imid1 loss: 0.197958, cmid0 loss: 0.405224
+Epoch (11), Batch(400/2189), loss: 0.743485, imid loss: 0.171223, imid1 loss: 0.182318, cmid0 loss: 0.389944
+Epoch (11), Batch(600/2189), loss: 0.735567, imid loss: 0.171393, imid1 loss: 0.174385, cmid0 loss: 0.389790
+Epoch (11), Batch(800/2189), loss: 0.747933, imid loss: 0.174179, imid1 loss: 0.175381, cmid0 loss: 0.398373
+Epoch (11), Batch(1000/2189), loss: 0.754535, imid loss: 0.171749, imid1 loss: 0.179933, cmid0 loss: 0.402853
+Epoch (11), Batch(1200/2189), loss: 0.748506, imid loss: 0.171142, imid1 loss: 0.177554, cmid0 loss: 0.399810
+Epoch (11), Batch(1400/2189), loss: 0.743288, imid loss: 0.169059, imid1 loss: 0.176597, cmid0 loss: 0.397632
+Epoch (11), Batch(1600/2189), loss: 0.737711, imid loss: 0.168343, imid1 loss: 0.175200, cmid0 loss: 0.394167
+Epoch (11), Batch(1800/2189), loss: 0.735205, imid loss: 0.166585, imid1 loss: 0.175364, cmid0 loss: 0.393257
+Epoch (11), Batch(2000/2189), loss: 0.732213, imid loss: 0.166139, imid1 loss: 0.173984, cmid0 loss: 0.392089
+Train 11, loss: 0.726419
+Linear Accuracy : 0.8845218800648298
+Start training epoch: (12/100)
+Epoch (12), Batch(0/2189), loss: 0.731823, imid loss: 0.197061, imid1 loss: 0.165008, cmid0 loss: 0.369754
+Epoch (12), Batch(200/2189), loss: 0.702181, imid loss: 0.160632, imid1 loss: 0.173170, cmid0 loss: 0.368379
+Epoch (12), Batch(400/2189), loss: 0.684972, imid loss: 0.154636, imid1 loss: 0.166838, cmid0 loss: 0.363497
+Epoch (12), Batch(600/2189), loss: 0.683804, imid loss: 0.156451, imid1 loss: 0.164538, cmid0 loss: 0.362815
+Epoch (12), Batch(800/2189), loss: 0.692573, imid loss: 0.158714, imid1 loss: 0.164286, cmid0 loss: 0.369573
+Epoch (12), Batch(1000/2189), loss: 0.686252, imid loss: 0.157311, imid1 loss: 0.163956, cmid0 loss: 0.364985
+Epoch (12), Batch(1200/2189), loss: 0.678978, imid loss: 0.154385, imid1 loss: 0.162600, cmid0 loss: 0.361993
+Epoch (12), Batch(1400/2189), loss: 0.679828, imid loss: 0.155198, imid1 loss: 0.163564, cmid0 loss: 0.361067
+Epoch (12), Batch(1600/2189), loss: 0.678835, imid loss: 0.153508, imid1 loss: 0.164642, cmid0 loss: 0.360686
+Epoch (12), Batch(1800/2189), loss: 0.678941, imid loss: 0.152884, imid1 loss: 0.164100, cmid0 loss: 0.361957
+Epoch (12), Batch(2000/2189), loss: 0.677742, imid loss: 0.153197, imid1 loss: 0.163507, cmid0 loss: 0.361038
+Train 12, loss: 0.676839
+Linear Accuracy : 0.8853322528363047
+Start training epoch: (13/100)
+Epoch (13), Batch(0/2189), loss: 1.302698, imid loss: 0.471408, imid1 loss: 0.173998, cmid0 loss: 0.657292
+Epoch (13), Batch(200/2189), loss: 0.687087, imid loss: 0.159300, imid1 loss: 0.164403, cmid0 loss: 0.363384
+Epoch (13), Batch(400/2189), loss: 0.667490, imid loss: 0.150858, imid1 loss: 0.159319, cmid0 loss: 0.357313
+Epoch (13), Batch(600/2189), loss: 0.656342, imid loss: 0.151082, imid1 loss: 0.154329, cmid0 loss: 0.350931
+Epoch (13), Batch(800/2189), loss: 0.656229, imid loss: 0.151252, imid1 loss: 0.155208, cmid0 loss: 0.349768
+Epoch (13), Batch(1000/2189), loss: 0.650970, imid loss: 0.149218, imid1 loss: 0.154912, cmid0 loss: 0.346840
+Epoch (13), Batch(1200/2189), loss: 0.657135, imid loss: 0.150618, imid1 loss: 0.156634, cmid0 loss: 0.349883
+Epoch (13), Batch(1400/2189), loss: 0.658481, imid loss: 0.149949, imid1 loss: 0.156903, cmid0 loss: 0.351629
+Epoch (13), Batch(1600/2189), loss: 0.662437, imid loss: 0.151343, imid1 loss: 0.157599, cmid0 loss: 0.353495
+Epoch (13), Batch(1800/2189), loss: 0.661309, imid loss: 0.151900, imid1 loss: 0.157100, cmid0 loss: 0.352309
+Epoch (13), Batch(2000/2189), loss: 0.656091, imid loss: 0.151292, imid1 loss: 0.155174, cmid0 loss: 0.349626
+Train 13, loss: 0.656482
+Linear Accuracy : 0.890194489465154
+Start training epoch: (14/100)
+Epoch (14), Batch(0/2189), loss: 0.169749, imid loss: 0.034758, imid1 loss: 0.013786, cmid0 loss: 0.121204
+Epoch (14), Batch(200/2189), loss: 0.602181, imid loss: 0.136371, imid1 loss: 0.150008, cmid0 loss: 0.315802
+Epoch (14), Batch(400/2189), loss: 0.595637, imid loss: 0.135482, imid1 loss: 0.145561, cmid0 loss: 0.314594
+Epoch (14), Batch(600/2189), loss: 0.607903, imid loss: 0.139541, imid1 loss: 0.145989, cmid0 loss: 0.322373
+Epoch (14), Batch(800/2189), loss: 0.605556, imid loss: 0.141053, imid1 loss: 0.143683, cmid0 loss: 0.320819
+Epoch (14), Batch(1000/2189), loss: 0.616727, imid loss: 0.143615, imid1 loss: 0.145490, cmid0 loss: 0.327622
+Epoch (14), Batch(1200/2189), loss: 0.619968, imid loss: 0.144477, imid1 loss: 0.147068, cmid0 loss: 0.328423
+Epoch (14), Batch(1400/2189), loss: 0.621153, imid loss: 0.145576, imid1 loss: 0.146282, cmid0 loss: 0.329294
+Epoch (14), Batch(1600/2189), loss: 0.618481, imid loss: 0.144814, imid1 loss: 0.146772, cmid0 loss: 0.326895
+Epoch (14), Batch(1800/2189), loss: 0.616347, imid loss: 0.144460, imid1 loss: 0.145471, cmid0 loss: 0.326416
+Epoch (14), Batch(2000/2189), loss: 0.612319, imid loss: 0.143251, imid1 loss: 0.143710, cmid0 loss: 0.325358
+Train 14, loss: 0.612245
+Linear Accuracy : 0.8877633711507293
+Start training epoch: (15/100)
+Epoch (15), Batch(0/2189), loss: 0.781445, imid loss: 0.195559, imid1 loss: 0.223042, cmid0 loss: 0.362845
+Epoch (15), Batch(200/2189), loss: 0.634091, imid loss: 0.148093, imid1 loss: 0.160938, cmid0 loss: 0.325059
+Epoch (15), Batch(400/2189), loss: 0.617625, imid loss: 0.144494, imid1 loss: 0.156029, cmid0 loss: 0.317101
+Epoch (15), Batch(600/2189), loss: 0.605563, imid loss: 0.139826, imid1 loss: 0.151122, cmid0 loss: 0.314615
+Epoch (15), Batch(800/2189), loss: 0.605278, imid loss: 0.142277, imid1 loss: 0.148326, cmid0 loss: 0.314676
+Epoch (15), Batch(1000/2189), loss: 0.599902, imid loss: 0.141813, imid1 loss: 0.144075, cmid0 loss: 0.314014
+Epoch (15), Batch(1200/2189), loss: 0.591604, imid loss: 0.138657, imid1 loss: 0.142024, cmid0 loss: 0.310922
+Epoch (15), Batch(1400/2189), loss: 0.590554, imid loss: 0.139205, imid1 loss: 0.140232, cmid0 loss: 0.311117
+Epoch (15), Batch(1600/2189), loss: 0.593153, imid loss: 0.140902, imid1 loss: 0.139827, cmid0 loss: 0.312424
+Epoch (15), Batch(1800/2189), loss: 0.593394, imid loss: 0.140500, imid1 loss: 0.140915, cmid0 loss: 0.311978
+Epoch (15), Batch(2000/2189), loss: 0.595663, imid loss: 0.141588, imid1 loss: 0.140964, cmid0 loss: 0.313111
+Train 15, loss: 0.592542
+Linear Accuracy : 0.8873581847649918
+==> Saving...
+Start training epoch: (16/100)
+Epoch (16), Batch(0/2189), loss: 0.488049, imid loss: 0.161606, imid1 loss: 0.151029, cmid0 loss: 0.175414
+Epoch (16), Batch(200/2189), loss: 0.601940, imid loss: 0.136807, imid1 loss: 0.150500, cmid0 loss: 0.314632
+Epoch (16), Batch(400/2189), loss: 0.601853, imid loss: 0.139653, imid1 loss: 0.143678, cmid0 loss: 0.318522
+Epoch (16), Batch(600/2189), loss: 0.591994, imid loss: 0.139272, imid1 loss: 0.140316, cmid0 loss: 0.312406
+Epoch (16), Batch(800/2189), loss: 0.583268, imid loss: 0.134601, imid1 loss: 0.138344, cmid0 loss: 0.310323
+Epoch (16), Batch(1000/2189), loss: 0.577169, imid loss: 0.132632, imid1 loss: 0.138610, cmid0 loss: 0.305927
+Epoch (16), Batch(1200/2189), loss: 0.575900, imid loss: 0.132965, imid1 loss: 0.137858, cmid0 loss: 0.305077
+Epoch (16), Batch(1400/2189), loss: 0.575293, imid loss: 0.133428, imid1 loss: 0.137670, cmid0 loss: 0.304196
+Epoch (16), Batch(1600/2189), loss: 0.570237, imid loss: 0.131816, imid1 loss: 0.135975, cmid0 loss: 0.302445
+Epoch (16), Batch(1800/2189), loss: 0.572335, imid loss: 0.131828, imid1 loss: 0.136838, cmid0 loss: 0.303669
+Epoch (16), Batch(2000/2189), loss: 0.571240, imid loss: 0.131090, imid1 loss: 0.136754, cmid0 loss: 0.303396
+Train 16, loss: 0.570553
+Linear Accuracy : 0.88290113452188
+Start training epoch: (17/100)
+Epoch (17), Batch(0/2189), loss: 0.563854, imid loss: 0.283524, imid1 loss: 0.079319, cmid0 loss: 0.201011
+Epoch (17), Batch(200/2189), loss: 0.533798, imid loss: 0.126372, imid1 loss: 0.128817, cmid0 loss: 0.278610
+Epoch (17), Batch(400/2189), loss: 0.543957, imid loss: 0.126209, imid1 loss: 0.128827, cmid0 loss: 0.288921
+Epoch (17), Batch(600/2189), loss: 0.556250, imid loss: 0.132240, imid1 loss: 0.128909, cmid0 loss: 0.295100
+Epoch (17), Batch(800/2189), loss: 0.560312, imid loss: 0.132282, imid1 loss: 0.132510, cmid0 loss: 0.295520
+Epoch (17), Batch(1000/2189), loss: 0.558480, imid loss: 0.132388, imid1 loss: 0.130792, cmid0 loss: 0.295300
+Epoch (17), Batch(1200/2189), loss: 0.550094, imid loss: 0.130251, imid1 loss: 0.128923, cmid0 loss: 0.290920
+Epoch (17), Batch(1400/2189), loss: 0.549648, imid loss: 0.128474, imid1 loss: 0.128985, cmid0 loss: 0.292188
+Epoch (17), Batch(1600/2189), loss: 0.551535, imid loss: 0.128967, imid1 loss: 0.129908, cmid0 loss: 0.292659
+Epoch (17), Batch(1800/2189), loss: 0.552378, imid loss: 0.130022, imid1 loss: 0.129721, cmid0 loss: 0.292636
+Epoch (17), Batch(2000/2189), loss: 0.553177, imid loss: 0.130080, imid1 loss: 0.129857, cmid0 loss: 0.293240
+Train 17, loss: 0.552766
+Linear Accuracy : 0.8857374392220422
+Start training epoch: (18/100)
+Epoch (18), Batch(0/2189), loss: 0.369236, imid loss: 0.102272, imid1 loss: 0.078964, cmid0 loss: 0.188000
+Epoch (18), Batch(200/2189), loss: 0.530779, imid loss: 0.127831, imid1 loss: 0.120307, cmid0 loss: 0.282640
+Epoch (18), Batch(400/2189), loss: 0.534814, imid loss: 0.129959, imid1 loss: 0.120184, cmid0 loss: 0.284671
+Epoch (18), Batch(600/2189), loss: 0.533979, imid loss: 0.128435, imid1 loss: 0.121903, cmid0 loss: 0.283640
+Epoch (18), Batch(800/2189), loss: 0.537841, imid loss: 0.129580, imid1 loss: 0.124986, cmid0 loss: 0.283275
+Epoch (18), Batch(1000/2189), loss: 0.533208, imid loss: 0.126054, imid1 loss: 0.124777, cmid0 loss: 0.282377
+Epoch (18), Batch(1200/2189), loss: 0.534129, imid loss: 0.126325, imid1 loss: 0.125858, cmid0 loss: 0.281947
+Epoch (18), Batch(1400/2189), loss: 0.532883, imid loss: 0.125645, imid1 loss: 0.127540, cmid0 loss: 0.279698
+Epoch (18), Batch(1600/2189), loss: 0.532358, imid loss: 0.125878, imid1 loss: 0.127401, cmid0 loss: 0.279078
+Epoch (18), Batch(1800/2189), loss: 0.528607, imid loss: 0.124877, imid1 loss: 0.126557, cmid0 loss: 0.277173
+Epoch (18), Batch(2000/2189), loss: 0.526744, imid loss: 0.124524, imid1 loss: 0.125096, cmid0 loss: 0.277124
+Train 18, loss: 0.525320
+Linear Accuracy : 0.893030794165316
+==> Saving Best Model...
+Start training epoch: (19/100)
+Epoch (19), Batch(0/2189), loss: 0.399701, imid loss: 0.057701, imid1 loss: 0.115458, cmid0 loss: 0.226542
+Epoch (19), Batch(200/2189), loss: 0.511329, imid loss: 0.121771, imid1 loss: 0.116398, cmid0 loss: 0.273161
+Epoch (19), Batch(400/2189), loss: 0.504955, imid loss: 0.119101, imid1 loss: 0.115316, cmid0 loss: 0.270538
+Epoch (19), Batch(600/2189), loss: 0.501370, imid loss: 0.118337, imid1 loss: 0.116884, cmid0 loss: 0.266149
+Epoch (19), Batch(800/2189), loss: 0.503188, imid loss: 0.120940, imid1 loss: 0.115156, cmid0 loss: 0.267091
+Epoch (19), Batch(1000/2189), loss: 0.504518, imid loss: 0.120488, imid1 loss: 0.115382, cmid0 loss: 0.268648
+Epoch (19), Batch(1200/2189), loss: 0.501260, imid loss: 0.119156, imid1 loss: 0.115352, cmid0 loss: 0.266752
+Epoch (19), Batch(1400/2189), loss: 0.501765, imid loss: 0.119264, imid1 loss: 0.115965, cmid0 loss: 0.266537
+Epoch (19), Batch(1600/2189), loss: 0.503092, imid loss: 0.118841, imid1 loss: 0.116264, cmid0 loss: 0.267986
+Epoch (19), Batch(1800/2189), loss: 0.502049, imid loss: 0.118059, imid1 loss: 0.116193, cmid0 loss: 0.267796
+Epoch (19), Batch(2000/2189), loss: 0.499631, imid loss: 0.117297, imid1 loss: 0.116265, cmid0 loss: 0.266069
+Train 19, loss: 0.501260
+Linear Accuracy : 0.8905996758508914
+Start training epoch: (20/100)
+Epoch (20), Batch(0/2189), loss: 0.411735, imid loss: 0.054970, imid1 loss: 0.186886, cmid0 loss: 0.169878
+Epoch (20), Batch(200/2189), loss: 0.495365, imid loss: 0.125101, imid1 loss: 0.117342, cmid0 loss: 0.252922
+Epoch (20), Batch(400/2189), loss: 0.480405, imid loss: 0.117683, imid1 loss: 0.111079, cmid0 loss: 0.251643
+Epoch (20), Batch(600/2189), loss: 0.489365, imid loss: 0.118672, imid1 loss: 0.113292, cmid0 loss: 0.257400
+Epoch (20), Batch(800/2189), loss: 0.488908, imid loss: 0.117157, imid1 loss: 0.112620, cmid0 loss: 0.259131
+Epoch (20), Batch(1000/2189), loss: 0.487715, imid loss: 0.116025, imid1 loss: 0.113894, cmid0 loss: 0.257797
+Epoch (20), Batch(1200/2189), loss: 0.494076, imid loss: 0.117873, imid1 loss: 0.115233, cmid0 loss: 0.260970
+Epoch (20), Batch(1400/2189), loss: 0.488583, imid loss: 0.115361, imid1 loss: 0.114133, cmid0 loss: 0.259089
+Epoch (20), Batch(1600/2189), loss: 0.487247, imid loss: 0.115098, imid1 loss: 0.114417, cmid0 loss: 0.257732
+Epoch (20), Batch(1800/2189), loss: 0.486214, imid loss: 0.114793, imid1 loss: 0.113828, cmid0 loss: 0.257593
+Epoch (20), Batch(2000/2189), loss: 0.490829, imid loss: 0.115983, imid1 loss: 0.115367, cmid0 loss: 0.259479
+Train 20, loss: 0.493011
+Linear Accuracy : 0.8926256077795786
+==> Saving...
+Start training epoch: (21/100)
+Epoch (21), Batch(0/2189), loss: 0.543947, imid loss: 0.078615, imid1 loss: 0.145872, cmid0 loss: 0.319460
+Epoch (21), Batch(200/2189), loss: 0.491882, imid loss: 0.120343, imid1 loss: 0.110524, cmid0 loss: 0.261015
+Epoch (21), Batch(400/2189), loss: 0.499486, imid loss: 0.119003, imid1 loss: 0.114306, cmid0 loss: 0.266177
+Epoch (21), Batch(600/2189), loss: 0.492855, imid loss: 0.116013, imid1 loss: 0.115007, cmid0 loss: 0.261835
+Epoch (21), Batch(800/2189), loss: 0.493225, imid loss: 0.116350, imid1 loss: 0.113877, cmid0 loss: 0.262998
+Epoch (21), Batch(1000/2189), loss: 0.492169, imid loss: 0.115764, imid1 loss: 0.114683, cmid0 loss: 0.261723
+Epoch (21), Batch(1200/2189), loss: 0.489713, imid loss: 0.116001, imid1 loss: 0.113862, cmid0 loss: 0.259850
+Epoch (21), Batch(1400/2189), loss: 0.487672, imid loss: 0.116561, imid1 loss: 0.112141, cmid0 loss: 0.258970
+Epoch (21), Batch(1600/2189), loss: 0.486562, imid loss: 0.116055, imid1 loss: 0.111675, cmid0 loss: 0.258833
+Epoch (21), Batch(1800/2189), loss: 0.485230, imid loss: 0.115485, imid1 loss: 0.111541, cmid0 loss: 0.258204
+Epoch (21), Batch(2000/2189), loss: 0.483761, imid loss: 0.115350, imid1 loss: 0.111093, cmid0 loss: 0.257318
+Train 21, loss: 0.485585
+Linear Accuracy : 0.8861426256077796
+Start training epoch: (22/100)
+Epoch (22), Batch(0/2189), loss: 0.683352, imid loss: 0.129832, imid1 loss: 0.203086, cmid0 loss: 0.350435
+Epoch (22), Batch(200/2189), loss: 0.491420, imid loss: 0.119571, imid1 loss: 0.107301, cmid0 loss: 0.264547
+Epoch (22), Batch(400/2189), loss: 0.472340, imid loss: 0.111913, imid1 loss: 0.108559, cmid0 loss: 0.251868
+Epoch (22), Batch(600/2189), loss: 0.477764, imid loss: 0.114120, imid1 loss: 0.111091, cmid0 loss: 0.252553
+Epoch (22), Batch(800/2189), loss: 0.471339, imid loss: 0.112129, imid1 loss: 0.108679, cmid0 loss: 0.250532
+Epoch (22), Batch(1000/2189), loss: 0.472796, imid loss: 0.112184, imid1 loss: 0.109333, cmid0 loss: 0.251279
+Epoch (22), Batch(1200/2189), loss: 0.469755, imid loss: 0.112395, imid1 loss: 0.107149, cmid0 loss: 0.250211
+Epoch (22), Batch(1400/2189), loss: 0.469471, imid loss: 0.112192, imid1 loss: 0.106957, cmid0 loss: 0.250322
+Epoch (22), Batch(1600/2189), loss: 0.469748, imid loss: 0.111870, imid1 loss: 0.108311, cmid0 loss: 0.249568
+Epoch (22), Batch(1800/2189), loss: 0.470698, imid loss: 0.112024, imid1 loss: 0.108907, cmid0 loss: 0.249767
+Epoch (22), Batch(2000/2189), loss: 0.471454, imid loss: 0.112130, imid1 loss: 0.109239, cmid0 loss: 0.250086
+Train 22, loss: 0.473244
+Linear Accuracy : 0.8914100486223663
+Start training epoch: (23/100)
+Epoch (23), Batch(0/2189), loss: 0.694576, imid loss: 0.272402, imid1 loss: 0.140024, cmid0 loss: 0.282150
+Epoch (23), Batch(200/2189), loss: 0.434800, imid loss: 0.107034, imid1 loss: 0.101857, cmid0 loss: 0.225909
+Epoch (23), Batch(400/2189), loss: 0.451188, imid loss: 0.107702, imid1 loss: 0.107845, cmid0 loss: 0.235640
+Epoch (23), Batch(600/2189), loss: 0.455063, imid loss: 0.110412, imid1 loss: 0.106831, cmid0 loss: 0.237819
+Epoch (23), Batch(800/2189), loss: 0.452235, imid loss: 0.112444, imid1 loss: 0.104813, cmid0 loss: 0.234978
+Epoch (23), Batch(1000/2189), loss: 0.459356, imid loss: 0.112843, imid1 loss: 0.107488, cmid0 loss: 0.239025
+Epoch (23), Batch(1200/2189), loss: 0.460258, imid loss: 0.112771, imid1 loss: 0.107762, cmid0 loss: 0.239725
+Epoch (23), Batch(1400/2189), loss: 0.455020, imid loss: 0.110497, imid1 loss: 0.107170, cmid0 loss: 0.237353
+Epoch (23), Batch(1600/2189), loss: 0.457006, imid loss: 0.110879, imid1 loss: 0.107759, cmid0 loss: 0.238367
+Epoch (23), Batch(1800/2189), loss: 0.458604, imid loss: 0.110975, imid1 loss: 0.108523, cmid0 loss: 0.239106
+Epoch (23), Batch(2000/2189), loss: 0.459574, imid loss: 0.110733, imid1 loss: 0.108470, cmid0 loss: 0.240370
+Train 23, loss: 0.457086
+Linear Accuracy : 0.8885737439222042
+Start training epoch: (24/100)
+Epoch (24), Batch(0/2189), loss: 0.558277, imid loss: 0.167269, imid1 loss: 0.050724, cmid0 loss: 0.340284
+Epoch (24), Batch(200/2189), loss: 0.457754, imid loss: 0.101292, imid1 loss: 0.117478, cmid0 loss: 0.238983
+Epoch (24), Batch(400/2189), loss: 0.441778, imid loss: 0.103749, imid1 loss: 0.106518, cmid0 loss: 0.231510
+Epoch (24), Batch(600/2189), loss: 0.426136, imid loss: 0.101209, imid1 loss: 0.100290, cmid0 loss: 0.224637
+Epoch (24), Batch(800/2189), loss: 0.424711, imid loss: 0.100407, imid1 loss: 0.098792, cmid0 loss: 0.225511
+Epoch (24), Batch(1000/2189), loss: 0.427455, imid loss: 0.102346, imid1 loss: 0.098610, cmid0 loss: 0.226498
+Epoch (24), Batch(1200/2189), loss: 0.438859, imid loss: 0.104484, imid1 loss: 0.101471, cmid0 loss: 0.232904
+Epoch (24), Batch(1400/2189), loss: 0.437293, imid loss: 0.104612, imid1 loss: 0.101144, cmid0 loss: 0.231537
+Epoch (24), Batch(1600/2189), loss: 0.441028, imid loss: 0.105964, imid1 loss: 0.101051, cmid0 loss: 0.234014
+Epoch (24), Batch(1800/2189), loss: 0.437637, imid loss: 0.105462, imid1 loss: 0.099936, cmid0 loss: 0.232240
+Epoch (24), Batch(2000/2189), loss: 0.436909, imid loss: 0.104800, imid1 loss: 0.099811, cmid0 loss: 0.232298
+Train 24, loss: 0.438937
+Linear Accuracy : 0.8946515397082658
+==> Saving Best Model...
+Start training epoch: (25/100)
+Epoch (25), Batch(0/2189), loss: 0.556049, imid loss: 0.118318, imid1 loss: 0.189080, cmid0 loss: 0.248651
+Epoch (25), Batch(200/2189), loss: 0.431900, imid loss: 0.108087, imid1 loss: 0.096547, cmid0 loss: 0.227267
+Epoch (25), Batch(400/2189), loss: 0.437177, imid loss: 0.106823, imid1 loss: 0.101473, cmid0 loss: 0.228881
+Epoch (25), Batch(600/2189), loss: 0.430838, imid loss: 0.102964, imid1 loss: 0.099386, cmid0 loss: 0.228488
+Epoch (25), Batch(800/2189), loss: 0.424239, imid loss: 0.099737, imid1 loss: 0.101097, cmid0 loss: 0.223405
+Epoch (25), Batch(1000/2189), loss: 0.422240, imid loss: 0.099721, imid1 loss: 0.100951, cmid0 loss: 0.221568
+Epoch (25), Batch(1200/2189), loss: 0.422830, imid loss: 0.099586, imid1 loss: 0.100963, cmid0 loss: 0.222281
+Epoch (25), Batch(1400/2189), loss: 0.426061, imid loss: 0.100274, imid1 loss: 0.100975, cmid0 loss: 0.224811
+Epoch (25), Batch(1600/2189), loss: 0.425546, imid loss: 0.101605, imid1 loss: 0.099601, cmid0 loss: 0.224340
+Epoch (25), Batch(1800/2189), loss: 0.426395, imid loss: 0.101633, imid1 loss: 0.099575, cmid0 loss: 0.225187
+Epoch (25), Batch(2000/2189), loss: 0.426543, imid loss: 0.101974, imid1 loss: 0.099863, cmid0 loss: 0.224705
+Train 25, loss: 0.425808
+Linear Accuracy : 0.8914100486223663
+==> Saving...
+Start training epoch: (26/100)
+Epoch (26), Batch(0/2189), loss: 1.167191, imid loss: 0.403826, imid1 loss: 0.292191, cmid0 loss: 0.471175
+Epoch (26), Batch(200/2189), loss: 0.427409, imid loss: 0.100281, imid1 loss: 0.100571, cmid0 loss: 0.226556
+Epoch (26), Batch(400/2189), loss: 0.420230, imid loss: 0.096758, imid1 loss: 0.099624, cmid0 loss: 0.223848
+Epoch (26), Batch(600/2189), loss: 0.426515, imid loss: 0.097528, imid1 loss: 0.102617, cmid0 loss: 0.226370
+Epoch (26), Batch(800/2189), loss: 0.417906, imid loss: 0.094657, imid1 loss: 0.100930, cmid0 loss: 0.222319
+Epoch (26), Batch(1000/2189), loss: 0.420906, imid loss: 0.096643, imid1 loss: 0.099083, cmid0 loss: 0.225179
+Epoch (26), Batch(1200/2189), loss: 0.419719, imid loss: 0.095629, imid1 loss: 0.099379, cmid0 loss: 0.224711
+Epoch (26), Batch(1400/2189), loss: 0.418453, imid loss: 0.096036, imid1 loss: 0.098885, cmid0 loss: 0.223532
+Epoch (26), Batch(1600/2189), loss: 0.414150, imid loss: 0.095479, imid1 loss: 0.097021, cmid0 loss: 0.221650
+Epoch (26), Batch(1800/2189), loss: 0.411807, imid loss: 0.095513, imid1 loss: 0.096354, cmid0 loss: 0.219941
+Epoch (26), Batch(2000/2189), loss: 0.411778, imid loss: 0.095340, imid1 loss: 0.096042, cmid0 loss: 0.220395
+Train 26, loss: 0.412815
+Linear Accuracy : 0.8926256077795786
+Start training epoch: (27/100)
+Epoch (27), Batch(0/2189), loss: 0.225102, imid loss: 0.052507, imid1 loss: 0.078123, cmid0 loss: 0.094471
+Epoch (27), Batch(200/2189), loss: 0.413051, imid loss: 0.099476, imid1 loss: 0.097476, cmid0 loss: 0.216098
+Epoch (27), Batch(400/2189), loss: 0.402861, imid loss: 0.095965, imid1 loss: 0.094411, cmid0 loss: 0.212484
+Epoch (27), Batch(600/2189), loss: 0.398079, imid loss: 0.096824, imid1 loss: 0.090559, cmid0 loss: 0.210696
+Epoch (27), Batch(800/2189), loss: 0.406265, imid loss: 0.099775, imid1 loss: 0.092183, cmid0 loss: 0.214307
+Epoch (27), Batch(1000/2189), loss: 0.404621, imid loss: 0.098319, imid1 loss: 0.092917, cmid0 loss: 0.213385
+Epoch (27), Batch(1200/2189), loss: 0.407723, imid loss: 0.098028, imid1 loss: 0.094450, cmid0 loss: 0.215244
+Epoch (27), Batch(1400/2189), loss: 0.410342, imid loss: 0.098978, imid1 loss: 0.094469, cmid0 loss: 0.216896
+Epoch (27), Batch(1600/2189), loss: 0.408450, imid loss: 0.098851, imid1 loss: 0.093645, cmid0 loss: 0.215954
+Epoch (27), Batch(1800/2189), loss: 0.409111, imid loss: 0.099726, imid1 loss: 0.093521, cmid0 loss: 0.215864
+Epoch (27), Batch(2000/2189), loss: 0.408211, imid loss: 0.100070, imid1 loss: 0.092805, cmid0 loss: 0.215336
+Train 27, loss: 0.404086
+Linear Accuracy : 0.893030794165316
+Start training epoch: (28/100)
+Epoch (28), Batch(0/2189), loss: 0.321130, imid loss: 0.085751, imid1 loss: 0.021145, cmid0 loss: 0.214235
+Epoch (28), Batch(200/2189), loss: 0.393114, imid loss: 0.092261, imid1 loss: 0.094129, cmid0 loss: 0.206723
+Epoch (28), Batch(400/2189), loss: 0.422044, imid loss: 0.094215, imid1 loss: 0.104501, cmid0 loss: 0.223329
+Epoch (28), Batch(600/2189), loss: 0.409243, imid loss: 0.091494, imid1 loss: 0.099035, cmid0 loss: 0.218713
+Epoch (28), Batch(800/2189), loss: 0.408522, imid loss: 0.093837, imid1 loss: 0.097901, cmid0 loss: 0.216784
+Epoch (28), Batch(1000/2189), loss: 0.410621, imid loss: 0.095508, imid1 loss: 0.097277, cmid0 loss: 0.217836
+Epoch (28), Batch(1200/2189), loss: 0.405561, imid loss: 0.094348, imid1 loss: 0.095567, cmid0 loss: 0.215646
+Epoch (28), Batch(1400/2189), loss: 0.406096, imid loss: 0.094605, imid1 loss: 0.095346, cmid0 loss: 0.216145
+Epoch (28), Batch(1600/2189), loss: 0.403694, imid loss: 0.094552, imid1 loss: 0.094586, cmid0 loss: 0.214556
+Epoch (28), Batch(1800/2189), loss: 0.406248, imid loss: 0.095524, imid1 loss: 0.094482, cmid0 loss: 0.216242
+Epoch (28), Batch(2000/2189), loss: 0.403287, imid loss: 0.095394, imid1 loss: 0.093653, cmid0 loss: 0.214240
+Train 28, loss: 0.404103
+Linear Accuracy : 0.8873581847649918
+Start training epoch: (29/100)
+Epoch (29), Batch(0/2189), loss: 0.287026, imid loss: 0.070004, imid1 loss: 0.037459, cmid0 loss: 0.179563
+Epoch (29), Batch(200/2189), loss: 0.390401, imid loss: 0.093923, imid1 loss: 0.094489, cmid0 loss: 0.201989
+Epoch (29), Batch(400/2189), loss: 0.392769, imid loss: 0.095081, imid1 loss: 0.094449, cmid0 loss: 0.203239
+Epoch (29), Batch(600/2189), loss: 0.395064, imid loss: 0.095990, imid1 loss: 0.096708, cmid0 loss: 0.202366
+Epoch (29), Batch(800/2189), loss: 0.391935, imid loss: 0.095520, imid1 loss: 0.093293, cmid0 loss: 0.203122
+Epoch (29), Batch(1000/2189), loss: 0.390598, imid loss: 0.096307, imid1 loss: 0.091476, cmid0 loss: 0.202816
+Epoch (29), Batch(1200/2189), loss: 0.389789, imid loss: 0.095111, imid1 loss: 0.092034, cmid0 loss: 0.202644
+Epoch (29), Batch(1400/2189), loss: 0.386577, imid loss: 0.094037, imid1 loss: 0.091317, cmid0 loss: 0.201223
+Epoch (29), Batch(1600/2189), loss: 0.387033, imid loss: 0.093863, imid1 loss: 0.091728, cmid0 loss: 0.201442
+Epoch (29), Batch(1800/2189), loss: 0.386945, imid loss: 0.093342, imid1 loss: 0.092062, cmid0 loss: 0.201541
+Epoch (29), Batch(2000/2189), loss: 0.388644, imid loss: 0.093872, imid1 loss: 0.092017, cmid0 loss: 0.202755
+Train 29, loss: 0.388901
+Linear Accuracy : 0.893030794165316
+Start training epoch: (30/100)
+Epoch (30), Batch(0/2189), loss: 0.258447, imid loss: 0.046375, imid1 loss: 0.084854, cmid0 loss: 0.127218
+Epoch (30), Batch(200/2189), loss: 0.372259, imid loss: 0.089671, imid1 loss: 0.086591, cmid0 loss: 0.195997
+Epoch (30), Batch(400/2189), loss: 0.386093, imid loss: 0.095145, imid1 loss: 0.089018, cmid0 loss: 0.201929
+Epoch (30), Batch(600/2189), loss: 0.393151, imid loss: 0.095649, imid1 loss: 0.091567, cmid0 loss: 0.205935
+Epoch (30), Batch(800/2189), loss: 0.388337, imid loss: 0.093483, imid1 loss: 0.090502, cmid0 loss: 0.204352
+Epoch (30), Batch(1000/2189), loss: 0.384216, imid loss: 0.093050, imid1 loss: 0.088782, cmid0 loss: 0.202385
+Epoch (30), Batch(1200/2189), loss: 0.385007, imid loss: 0.093555, imid1 loss: 0.088841, cmid0 loss: 0.202611
+Epoch (30), Batch(1400/2189), loss: 0.383034, imid loss: 0.093183, imid1 loss: 0.088966, cmid0 loss: 0.200885
+Epoch (30), Batch(1600/2189), loss: 0.382855, imid loss: 0.092492, imid1 loss: 0.089190, cmid0 loss: 0.201172
+Epoch (30), Batch(1800/2189), loss: 0.384528, imid loss: 0.093029, imid1 loss: 0.089645, cmid0 loss: 0.201855
+Epoch (30), Batch(2000/2189), loss: 0.384120, imid loss: 0.093210, imid1 loss: 0.088795, cmid0 loss: 0.202115
+Train 30, loss: 0.382430
+Linear Accuracy : 0.8857374392220422
+==> Saving...
+Start training epoch: (31/100)
+Epoch (31), Batch(0/2189), loss: 0.813023, imid loss: 0.162506, imid1 loss: 0.106196, cmid0 loss: 0.544321
+Epoch (31), Batch(200/2189), loss: 0.363655, imid loss: 0.085859, imid1 loss: 0.081220, cmid0 loss: 0.196576
+Epoch (31), Batch(400/2189), loss: 0.364554, imid loss: 0.086590, imid1 loss: 0.084532, cmid0 loss: 0.193432
+Epoch (31), Batch(600/2189), loss: 0.379652, imid loss: 0.092780, imid1 loss: 0.086423, cmid0 loss: 0.200449
+Epoch (31), Batch(800/2189), loss: 0.380103, imid loss: 0.091276, imid1 loss: 0.087245, cmid0 loss: 0.201582
+Epoch (31), Batch(1000/2189), loss: 0.379258, imid loss: 0.090474, imid1 loss: 0.087269, cmid0 loss: 0.201515
+Epoch (31), Batch(1200/2189), loss: 0.381255, imid loss: 0.092230, imid1 loss: 0.087191, cmid0 loss: 0.201833
+Epoch (31), Batch(1400/2189), loss: 0.378782, imid loss: 0.092079, imid1 loss: 0.086251, cmid0 loss: 0.200452
+Epoch (31), Batch(1600/2189), loss: 0.378228, imid loss: 0.091836, imid1 loss: 0.086343, cmid0 loss: 0.200048
+Epoch (31), Batch(1800/2189), loss: 0.376671, imid loss: 0.091292, imid1 loss: 0.086136, cmid0 loss: 0.199243
+Epoch (31), Batch(2000/2189), loss: 0.378827, imid loss: 0.091650, imid1 loss: 0.086973, cmid0 loss: 0.200204
+Train 31, loss: 0.378899
+Linear Accuracy : 0.8910048622366289
+Start training epoch: (32/100)
+Epoch (32), Batch(0/2189), loss: 0.204482, imid loss: 0.040781, imid1 loss: 0.037859, cmid0 loss: 0.125842
+Epoch (32), Batch(200/2189), loss: 0.359050, imid loss: 0.089137, imid1 loss: 0.083191, cmid0 loss: 0.186722
+Epoch (32), Batch(400/2189), loss: 0.341834, imid loss: 0.082113, imid1 loss: 0.077478, cmid0 loss: 0.182244
+Epoch (32), Batch(600/2189), loss: 0.352083, imid loss: 0.085316, imid1 loss: 0.079748, cmid0 loss: 0.187019
+Epoch (32), Batch(800/2189), loss: 0.350403, imid loss: 0.085901, imid1 loss: 0.078801, cmid0 loss: 0.185701
+Epoch (32), Batch(1000/2189), loss: 0.354614, imid loss: 0.084942, imid1 loss: 0.082691, cmid0 loss: 0.186981
+Epoch (32), Batch(1200/2189), loss: 0.351698, imid loss: 0.083858, imid1 loss: 0.081879, cmid0 loss: 0.185961
+Epoch (32), Batch(1400/2189), loss: 0.352735, imid loss: 0.084562, imid1 loss: 0.081550, cmid0 loss: 0.186623
+Epoch (32), Batch(1600/2189), loss: 0.356967, imid loss: 0.084581, imid1 loss: 0.082611, cmid0 loss: 0.189775
+Epoch (32), Batch(1800/2189), loss: 0.356773, imid loss: 0.085192, imid1 loss: 0.081959, cmid0 loss: 0.189622
+Epoch (32), Batch(2000/2189), loss: 0.356232, imid loss: 0.085830, imid1 loss: 0.081296, cmid0 loss: 0.189105
+Train 32, loss: 0.357939
+Linear Accuracy : 0.8950567260940032
+==> Saving Best Model...
+Start training epoch: (33/100)
+Epoch (33), Batch(0/2189), loss: 0.530748, imid loss: 0.103138, imid1 loss: 0.086748, cmid0 loss: 0.340863
+Epoch (33), Batch(200/2189), loss: 0.355716, imid loss: 0.088769, imid1 loss: 0.080584, cmid0 loss: 0.186363
+Epoch (33), Batch(400/2189), loss: 0.363868, imid loss: 0.090400, imid1 loss: 0.083283, cmid0 loss: 0.190186
+Epoch (33), Batch(600/2189), loss: 0.356661, imid loss: 0.087888, imid1 loss: 0.082560, cmid0 loss: 0.186213
+Epoch (33), Batch(800/2189), loss: 0.355689, imid loss: 0.087038, imid1 loss: 0.082560, cmid0 loss: 0.186091
+Epoch (33), Batch(1000/2189), loss: 0.356180, imid loss: 0.087786, imid1 loss: 0.081321, cmid0 loss: 0.187073
+Epoch (33), Batch(1200/2189), loss: 0.354956, imid loss: 0.087302, imid1 loss: 0.081616, cmid0 loss: 0.186037
+Epoch (33), Batch(1400/2189), loss: 0.354585, imid loss: 0.086856, imid1 loss: 0.081344, cmid0 loss: 0.186385
+Epoch (33), Batch(1600/2189), loss: 0.356420, imid loss: 0.087474, imid1 loss: 0.081710, cmid0 loss: 0.187237
+Epoch (33), Batch(1800/2189), loss: 0.353746, imid loss: 0.087267, imid1 loss: 0.080792, cmid0 loss: 0.185688
+Epoch (33), Batch(2000/2189), loss: 0.352760, imid loss: 0.086235, imid1 loss: 0.081221, cmid0 loss: 0.185305
+Train 33, loss: 0.351430
+Linear Accuracy : 0.8946515397082658
+Start training epoch: (34/100)
+Epoch (34), Batch(0/2189), loss: 0.585934, imid loss: 0.090691, imid1 loss: 0.168575, cmid0 loss: 0.326669
+Epoch (34), Batch(200/2189), loss: 0.356050, imid loss: 0.083552, imid1 loss: 0.080863, cmid0 loss: 0.191635
+Epoch (34), Batch(400/2189), loss: 0.357092, imid loss: 0.085919, imid1 loss: 0.081006, cmid0 loss: 0.190168
+Epoch (34), Batch(600/2189), loss: 0.353787, imid loss: 0.084759, imid1 loss: 0.078810, cmid0 loss: 0.190218
+Epoch (34), Batch(800/2189), loss: 0.357163, imid loss: 0.088058, imid1 loss: 0.078949, cmid0 loss: 0.190156
+Epoch (34), Batch(1000/2189), loss: 0.353001, imid loss: 0.087006, imid1 loss: 0.078156, cmid0 loss: 0.187839
+Epoch (34), Batch(1200/2189), loss: 0.353923, imid loss: 0.087168, imid1 loss: 0.079508, cmid0 loss: 0.187247
+Epoch (34), Batch(1400/2189), loss: 0.354683, imid loss: 0.086336, imid1 loss: 0.080738, cmid0 loss: 0.187609
+Epoch (34), Batch(1600/2189), loss: 0.356284, imid loss: 0.087409, imid1 loss: 0.081392, cmid0 loss: 0.187484
+Epoch (34), Batch(1800/2189), loss: 0.357294, imid loss: 0.088034, imid1 loss: 0.081445, cmid0 loss: 0.187816
+Epoch (34), Batch(2000/2189), loss: 0.356767, imid loss: 0.087794, imid1 loss: 0.081335, cmid0 loss: 0.187638
+Train 34, loss: 0.355188
+Linear Accuracy : 0.8962722852512156
+==> Saving Best Model...
+Start training epoch: (35/100)
+Epoch (35), Batch(0/2189), loss: 0.364466, imid loss: 0.116916, imid1 loss: 0.047259, cmid0 loss: 0.200291
+Epoch (35), Batch(200/2189), loss: 0.340757, imid loss: 0.081207, imid1 loss: 0.079450, cmid0 loss: 0.180100
+Epoch (35), Batch(400/2189), loss: 0.336567, imid loss: 0.082126, imid1 loss: 0.077916, cmid0 loss: 0.176526
+Epoch (35), Batch(600/2189), loss: 0.344299, imid loss: 0.083981, imid1 loss: 0.077818, cmid0 loss: 0.182499
+Epoch (35), Batch(800/2189), loss: 0.341015, imid loss: 0.082511, imid1 loss: 0.078276, cmid0 loss: 0.180228
+Epoch (35), Batch(1000/2189), loss: 0.342681, imid loss: 0.082496, imid1 loss: 0.078940, cmid0 loss: 0.181244
+Epoch (35), Batch(1200/2189), loss: 0.340838, imid loss: 0.082634, imid1 loss: 0.078496, cmid0 loss: 0.179708
+Epoch (35), Batch(1400/2189), loss: 0.341805, imid loss: 0.083244, imid1 loss: 0.078712, cmid0 loss: 0.179849
+Epoch (35), Batch(1600/2189), loss: 0.342943, imid loss: 0.083537, imid1 loss: 0.078851, cmid0 loss: 0.180554
+Epoch (35), Batch(1800/2189), loss: 0.344007, imid loss: 0.083540, imid1 loss: 0.079648, cmid0 loss: 0.180820
+Epoch (35), Batch(2000/2189), loss: 0.342703, imid loss: 0.083371, imid1 loss: 0.079837, cmid0 loss: 0.179495
+Train 35, loss: 0.345191
+Linear Accuracy : 0.8914100486223663
+==> Saving...
+Start training epoch: (36/100)
+Epoch (36), Batch(0/2189), loss: 0.461803, imid loss: 0.213249, imid1 loss: 0.032503, cmid0 loss: 0.216051
+Epoch (36), Batch(200/2189), loss: 0.340364, imid loss: 0.082954, imid1 loss: 0.081425, cmid0 loss: 0.175985
+Epoch (36), Batch(400/2189), loss: 0.329304, imid loss: 0.079238, imid1 loss: 0.077113, cmid0 loss: 0.172953
+Epoch (36), Batch(600/2189), loss: 0.332816, imid loss: 0.078586, imid1 loss: 0.078450, cmid0 loss: 0.175780
+Epoch (36), Batch(800/2189), loss: 0.332277, imid loss: 0.078306, imid1 loss: 0.079318, cmid0 loss: 0.174653
+Epoch (36), Batch(1000/2189), loss: 0.338812, imid loss: 0.080711, imid1 loss: 0.078951, cmid0 loss: 0.179150
+Epoch (36), Batch(1200/2189), loss: 0.337861, imid loss: 0.080882, imid1 loss: 0.079354, cmid0 loss: 0.177626
+Epoch (36), Batch(1400/2189), loss: 0.337285, imid loss: 0.080494, imid1 loss: 0.079066, cmid0 loss: 0.177725
+Epoch (36), Batch(1600/2189), loss: 0.338147, imid loss: 0.080771, imid1 loss: 0.079055, cmid0 loss: 0.178321
+Epoch (36), Batch(1800/2189), loss: 0.336536, imid loss: 0.080790, imid1 loss: 0.078282, cmid0 loss: 0.177464
+Epoch (36), Batch(2000/2189), loss: 0.336394, imid loss: 0.080793, imid1 loss: 0.078063, cmid0 loss: 0.177538
+Train 36, loss: 0.336713
+Linear Accuracy : 0.8958670988654781
+Start training epoch: (37/100)
+Epoch (37), Batch(0/2189), loss: 0.375897, imid loss: 0.152324, imid1 loss: 0.032439, cmid0 loss: 0.191135
+Epoch (37), Batch(200/2189), loss: 0.356334, imid loss: 0.090353, imid1 loss: 0.078890, cmid0 loss: 0.187091
+Epoch (37), Batch(400/2189), loss: 0.346293, imid loss: 0.086416, imid1 loss: 0.077750, cmid0 loss: 0.182127
+Epoch (37), Batch(600/2189), loss: 0.335076, imid loss: 0.079421, imid1 loss: 0.077101, cmid0 loss: 0.178554
+Epoch (37), Batch(800/2189), loss: 0.330015, imid loss: 0.078648, imid1 loss: 0.075058, cmid0 loss: 0.176309
+Epoch (37), Batch(1000/2189), loss: 0.327585, imid loss: 0.078139, imid1 loss: 0.075494, cmid0 loss: 0.173951
+Epoch (37), Batch(1200/2189), loss: 0.326378, imid loss: 0.078308, imid1 loss: 0.075127, cmid0 loss: 0.172943
+Epoch (37), Batch(1400/2189), loss: 0.325894, imid loss: 0.077413, imid1 loss: 0.076050, cmid0 loss: 0.172431
+Epoch (37), Batch(1600/2189), loss: 0.323360, imid loss: 0.077453, imid1 loss: 0.075695, cmid0 loss: 0.170212
+Epoch (37), Batch(1800/2189), loss: 0.323953, imid loss: 0.078232, imid1 loss: 0.076067, cmid0 loss: 0.169654
+Epoch (37), Batch(2000/2189), loss: 0.322344, imid loss: 0.077670, imid1 loss: 0.075531, cmid0 loss: 0.169142
+Train 37, loss: 0.324769
+Linear Accuracy : 0.8918152350081038
+Start training epoch: (38/100)
+Epoch (38), Batch(0/2189), loss: 0.408865, imid loss: 0.126725, imid1 loss: 0.045003, cmid0 loss: 0.237137
+Epoch (38), Batch(200/2189), loss: 0.338820, imid loss: 0.089640, imid1 loss: 0.070050, cmid0 loss: 0.179130
+Epoch (38), Batch(400/2189), loss: 0.328465, imid loss: 0.086303, imid1 loss: 0.071802, cmid0 loss: 0.170360
+Epoch (38), Batch(600/2189), loss: 0.334740, imid loss: 0.087942, imid1 loss: 0.075220, cmid0 loss: 0.171578
+Epoch (38), Batch(800/2189), loss: 0.331436, imid loss: 0.086031, imid1 loss: 0.073484, cmid0 loss: 0.171920
+Epoch (38), Batch(1000/2189), loss: 0.329317, imid loss: 0.084193, imid1 loss: 0.074060, cmid0 loss: 0.171064
+Epoch (38), Batch(1200/2189), loss: 0.326112, imid loss: 0.082343, imid1 loss: 0.073175, cmid0 loss: 0.170594
+Epoch (38), Batch(1400/2189), loss: 0.325914, imid loss: 0.081149, imid1 loss: 0.073184, cmid0 loss: 0.171582
+Epoch (38), Batch(1600/2189), loss: 0.324123, imid loss: 0.080611, imid1 loss: 0.073157, cmid0 loss: 0.170355
+Epoch (38), Batch(1800/2189), loss: 0.324895, imid loss: 0.080769, imid1 loss: 0.073401, cmid0 loss: 0.170725
+Epoch (38), Batch(2000/2189), loss: 0.324217, imid loss: 0.080566, imid1 loss: 0.073680, cmid0 loss: 0.169972
+Train 38, loss: 0.323638
+Linear Accuracy : 0.8889789303079416
+Start training epoch: (39/100)
+Epoch (39), Batch(0/2189), loss: 0.525340, imid loss: 0.106654, imid1 loss: 0.082389, cmid0 loss: 0.336298
+Epoch (39), Batch(200/2189), loss: 0.296495, imid loss: 0.070964, imid1 loss: 0.071580, cmid0 loss: 0.153950
+Epoch (39), Batch(400/2189), loss: 0.311621, imid loss: 0.074044, imid1 loss: 0.074134, cmid0 loss: 0.163442
+Epoch (39), Batch(600/2189), loss: 0.310326, imid loss: 0.074171, imid1 loss: 0.072725, cmid0 loss: 0.163429
+Epoch (39), Batch(800/2189), loss: 0.311877, imid loss: 0.074282, imid1 loss: 0.071706, cmid0 loss: 0.165888
+Epoch (39), Batch(1000/2189), loss: 0.318303, imid loss: 0.075950, imid1 loss: 0.072136, cmid0 loss: 0.170216
+Epoch (39), Batch(1200/2189), loss: 0.317085, imid loss: 0.076023, imid1 loss: 0.071898, cmid0 loss: 0.169165
+Epoch (39), Batch(1400/2189), loss: 0.312847, imid loss: 0.074645, imid1 loss: 0.071243, cmid0 loss: 0.166959
+Epoch (39), Batch(1600/2189), loss: 0.310992, imid loss: 0.074046, imid1 loss: 0.071320, cmid0 loss: 0.165625
+Epoch (39), Batch(1800/2189), loss: 0.312390, imid loss: 0.075225, imid1 loss: 0.071649, cmid0 loss: 0.165516
+Epoch (39), Batch(2000/2189), loss: 0.313138, imid loss: 0.075461, imid1 loss: 0.071979, cmid0 loss: 0.165699
+Train 39, loss: 0.314055
+Linear Accuracy : 0.8950567260940032
+Start training epoch: (40/100)
+Epoch (40), Batch(0/2189), loss: 0.338368, imid loss: 0.061368, imid1 loss: 0.090853, cmid0 loss: 0.186148
+Epoch (40), Batch(200/2189), loss: 0.297588, imid loss: 0.071443, imid1 loss: 0.067372, cmid0 loss: 0.158773
+Epoch (40), Batch(400/2189), loss: 0.304856, imid loss: 0.075196, imid1 loss: 0.070096, cmid0 loss: 0.159564
+Epoch (40), Batch(600/2189), loss: 0.308439, imid loss: 0.074439, imid1 loss: 0.070833, cmid0 loss: 0.163166
+Epoch (40), Batch(800/2189), loss: 0.306679, imid loss: 0.074707, imid1 loss: 0.069581, cmid0 loss: 0.162392
+Epoch (40), Batch(1000/2189), loss: 0.308438, imid loss: 0.074766, imid1 loss: 0.070426, cmid0 loss: 0.163246
+Epoch (40), Batch(1200/2189), loss: 0.308099, imid loss: 0.075172, imid1 loss: 0.069765, cmid0 loss: 0.163162
+Epoch (40), Batch(1400/2189), loss: 0.309235, imid loss: 0.075323, imid1 loss: 0.071215, cmid0 loss: 0.162696
+Epoch (40), Batch(1600/2189), loss: 0.310422, imid loss: 0.075366, imid1 loss: 0.072010, cmid0 loss: 0.163045
+Epoch (40), Batch(1800/2189), loss: 0.312212, imid loss: 0.075674, imid1 loss: 0.072239, cmid0 loss: 0.164300
+Epoch (40), Batch(2000/2189), loss: 0.313156, imid loss: 0.075592, imid1 loss: 0.072794, cmid0 loss: 0.164771
+Train 40, loss: 0.311661
+Linear Accuracy : 0.8991085899513777
+==> Saving Best Model...
+==> Saving...
+Start training epoch: (41/100)
+Epoch (41), Batch(0/2189), loss: 0.072896, imid loss: 0.015176, imid1 loss: 0.007761, cmid0 loss: 0.049959
+Epoch (41), Batch(200/2189), loss: 0.302000, imid loss: 0.069572, imid1 loss: 0.072169, cmid0 loss: 0.160259
+Epoch (41), Batch(400/2189), loss: 0.308621, imid loss: 0.072561, imid1 loss: 0.073763, cmid0 loss: 0.162297
+Epoch (41), Batch(600/2189), loss: 0.301345, imid loss: 0.071898, imid1 loss: 0.070854, cmid0 loss: 0.158593
+Epoch (41), Batch(800/2189), loss: 0.301879, imid loss: 0.072921, imid1 loss: 0.070628, cmid0 loss: 0.158329
+Epoch (41), Batch(1000/2189), loss: 0.298534, imid loss: 0.072846, imid1 loss: 0.069285, cmid0 loss: 0.156403
+Epoch (41), Batch(1200/2189), loss: 0.297164, imid loss: 0.072706, imid1 loss: 0.069253, cmid0 loss: 0.155206
+Epoch (41), Batch(1400/2189), loss: 0.300990, imid loss: 0.074055, imid1 loss: 0.070640, cmid0 loss: 0.156294
+Epoch (41), Batch(1600/2189), loss: 0.300832, imid loss: 0.073442, imid1 loss: 0.070109, cmid0 loss: 0.157281
+Epoch (41), Batch(1800/2189), loss: 0.300213, imid loss: 0.073730, imid1 loss: 0.069909, cmid0 loss: 0.156575
+Epoch (41), Batch(2000/2189), loss: 0.301762, imid loss: 0.074267, imid1 loss: 0.070334, cmid0 loss: 0.157160
+Train 41, loss: 0.301498
+Linear Accuracy : 0.9015397082658023
+==> Saving Best Model...
+Start training epoch: (42/100)
+Epoch (42), Batch(0/2189), loss: 0.231830, imid loss: 0.054822, imid1 loss: 0.048398, cmid0 loss: 0.128609
+Epoch (42), Batch(200/2189), loss: 0.304545, imid loss: 0.072245, imid1 loss: 0.071612, cmid0 loss: 0.160688
+Epoch (42), Batch(400/2189), loss: 0.298761, imid loss: 0.073909, imid1 loss: 0.069026, cmid0 loss: 0.155826
+Epoch (42), Batch(600/2189), loss: 0.299406, imid loss: 0.073295, imid1 loss: 0.069495, cmid0 loss: 0.156616
+Epoch (42), Batch(800/2189), loss: 0.294153, imid loss: 0.071223, imid1 loss: 0.068097, cmid0 loss: 0.154832
+Epoch (42), Batch(1000/2189), loss: 0.292022, imid loss: 0.071246, imid1 loss: 0.067735, cmid0 loss: 0.153041
+Epoch (42), Batch(1200/2189), loss: 0.292712, imid loss: 0.071467, imid1 loss: 0.067775, cmid0 loss: 0.153469
+Epoch (42), Batch(1400/2189), loss: 0.292299, imid loss: 0.071533, imid1 loss: 0.067862, cmid0 loss: 0.152904
+Epoch (42), Batch(1600/2189), loss: 0.294222, imid loss: 0.072490, imid1 loss: 0.068121, cmid0 loss: 0.153611
+Epoch (42), Batch(1800/2189), loss: 0.298036, imid loss: 0.074049, imid1 loss: 0.069077, cmid0 loss: 0.154910
+Epoch (42), Batch(2000/2189), loss: 0.299450, imid loss: 0.074309, imid1 loss: 0.069480, cmid0 loss: 0.155661
+Train 42, loss: 0.300221
+Linear Accuracy : 0.8926256077795786
+Start training epoch: (43/100)
+Epoch (43), Batch(0/2189), loss: 0.281753, imid loss: 0.048826, imid1 loss: 0.031850, cmid0 loss: 0.201078
+Epoch (43), Batch(200/2189), loss: 0.278743, imid loss: 0.066687, imid1 loss: 0.065141, cmid0 loss: 0.146915
+Epoch (43), Batch(400/2189), loss: 0.282908, imid loss: 0.067663, imid1 loss: 0.065744, cmid0 loss: 0.149500
+Epoch (43), Batch(600/2189), loss: 0.278854, imid loss: 0.066132, imid1 loss: 0.065560, cmid0 loss: 0.147162
+Epoch (43), Batch(800/2189), loss: 0.285411, imid loss: 0.067513, imid1 loss: 0.067732, cmid0 loss: 0.150167
+Epoch (43), Batch(1000/2189), loss: 0.285942, imid loss: 0.069440, imid1 loss: 0.067488, cmid0 loss: 0.149014
+Epoch (43), Batch(1200/2189), loss: 0.287211, imid loss: 0.069755, imid1 loss: 0.067598, cmid0 loss: 0.149859
+Epoch (43), Batch(1400/2189), loss: 0.289025, imid loss: 0.070961, imid1 loss: 0.067818, cmid0 loss: 0.150245
+Epoch (43), Batch(1600/2189), loss: 0.291037, imid loss: 0.070977, imid1 loss: 0.068927, cmid0 loss: 0.151133
+Epoch (43), Batch(1800/2189), loss: 0.294458, imid loss: 0.072042, imid1 loss: 0.069132, cmid0 loss: 0.153284
+Epoch (43), Batch(2000/2189), loss: 0.295757, imid loss: 0.072208, imid1 loss: 0.069593, cmid0 loss: 0.153955
+Train 43, loss: 0.296362
+Linear Accuracy : 0.8982982171799028
+Start training epoch: (44/100)
+Epoch (44), Batch(0/2189), loss: 0.255064, imid loss: 0.076854, imid1 loss: 0.043574, cmid0 loss: 0.134636
+Epoch (44), Batch(200/2189), loss: 0.259051, imid loss: 0.063410, imid1 loss: 0.059186, cmid0 loss: 0.136456
+Epoch (44), Batch(400/2189), loss: 0.275632, imid loss: 0.067841, imid1 loss: 0.064659, cmid0 loss: 0.143132
+Epoch (44), Batch(600/2189), loss: 0.276399, imid loss: 0.067968, imid1 loss: 0.063499, cmid0 loss: 0.144932
+Epoch (44), Batch(800/2189), loss: 0.274764, imid loss: 0.068608, imid1 loss: 0.063131, cmid0 loss: 0.143025
+Epoch (44), Batch(1000/2189), loss: 0.274799, imid loss: 0.067698, imid1 loss: 0.064075, cmid0 loss: 0.143025
+Epoch (44), Batch(1200/2189), loss: 0.275029, imid loss: 0.067931, imid1 loss: 0.064223, cmid0 loss: 0.142874
+Epoch (44), Batch(1400/2189), loss: 0.275054, imid loss: 0.067518, imid1 loss: 0.063893, cmid0 loss: 0.143643
+Epoch (44), Batch(1600/2189), loss: 0.275891, imid loss: 0.067682, imid1 loss: 0.063778, cmid0 loss: 0.144432
+Epoch (44), Batch(1800/2189), loss: 0.278324, imid loss: 0.068653, imid1 loss: 0.064033, cmid0 loss: 0.145638
+Epoch (44), Batch(2000/2189), loss: 0.281219, imid loss: 0.069624, imid1 loss: 0.064540, cmid0 loss: 0.147055
+Train 44, loss: 0.281931
+Linear Accuracy : 0.8934359805510534
+Start training epoch: (45/100)
+Epoch (45), Batch(0/2189), loss: 0.268835, imid loss: 0.094662, imid1 loss: 0.045038, cmid0 loss: 0.129135
+Epoch (45), Batch(200/2189), loss: 0.269792, imid loss: 0.067605, imid1 loss: 0.064685, cmid0 loss: 0.137501
+Epoch (45), Batch(400/2189), loss: 0.263332, imid loss: 0.066088, imid1 loss: 0.063225, cmid0 loss: 0.134020
+Epoch (45), Batch(600/2189), loss: 0.265967, imid loss: 0.063860, imid1 loss: 0.064710, cmid0 loss: 0.137397
+Epoch (45), Batch(800/2189), loss: 0.265028, imid loss: 0.063765, imid1 loss: 0.063428, cmid0 loss: 0.137835
+Epoch (45), Batch(1000/2189), loss: 0.270853, imid loss: 0.065232, imid1 loss: 0.064873, cmid0 loss: 0.140748
+Epoch (45), Batch(1200/2189), loss: 0.270031, imid loss: 0.065514, imid1 loss: 0.063702, cmid0 loss: 0.140816
+Epoch (45), Batch(1400/2189), loss: 0.270373, imid loss: 0.065570, imid1 loss: 0.063966, cmid0 loss: 0.140837
+Epoch (45), Batch(1600/2189), loss: 0.269746, imid loss: 0.065629, imid1 loss: 0.063572, cmid0 loss: 0.140545
+Epoch (45), Batch(1800/2189), loss: 0.272293, imid loss: 0.066490, imid1 loss: 0.064100, cmid0 loss: 0.141704
+Epoch (45), Batch(2000/2189), loss: 0.273399, imid loss: 0.066925, imid1 loss: 0.064122, cmid0 loss: 0.142352
+Train 45, loss: 0.276436
+Linear Accuracy : 0.8861426256077796
+==> Saving...
+Start training epoch: (46/100)
+Epoch (46), Batch(0/2189), loss: 0.233894, imid loss: 0.046598, imid1 loss: 0.069293, cmid0 loss: 0.118004
+Epoch (46), Batch(200/2189), loss: 0.282584, imid loss: 0.070411, imid1 loss: 0.062722, cmid0 loss: 0.149451
+Epoch (46), Batch(400/2189), loss: 0.286595, imid loss: 0.070884, imid1 loss: 0.063800, cmid0 loss: 0.151911
+Epoch (46), Batch(600/2189), loss: 0.275839, imid loss: 0.068194, imid1 loss: 0.061299, cmid0 loss: 0.146347
+Epoch (46), Batch(800/2189), loss: 0.274280, imid loss: 0.067851, imid1 loss: 0.061086, cmid0 loss: 0.145344
+Epoch (46), Batch(1000/2189), loss: 0.277907, imid loss: 0.067972, imid1 loss: 0.062500, cmid0 loss: 0.147435
+Epoch (46), Batch(1200/2189), loss: 0.275473, imid loss: 0.067500, imid1 loss: 0.062496, cmid0 loss: 0.145476
+Epoch (46), Batch(1400/2189), loss: 0.274419, imid loss: 0.067644, imid1 loss: 0.062157, cmid0 loss: 0.144618
+Epoch (46), Batch(1600/2189), loss: 0.276463, imid loss: 0.067774, imid1 loss: 0.063067, cmid0 loss: 0.145622
+Epoch (46), Batch(1800/2189), loss: 0.275828, imid loss: 0.067528, imid1 loss: 0.063261, cmid0 loss: 0.145038
+Epoch (46), Batch(2000/2189), loss: 0.277077, imid loss: 0.068394, imid1 loss: 0.062870, cmid0 loss: 0.145813
+Train 46, loss: 0.276730
+Linear Accuracy : 0.8885737439222042
+Start training epoch: (47/100)
+Epoch (47), Batch(0/2189), loss: 0.147067, imid loss: 0.059309, imid1 loss: 0.026470, cmid0 loss: 0.061288
+Epoch (47), Batch(200/2189), loss: 0.257616, imid loss: 0.064978, imid1 loss: 0.057432, cmid0 loss: 0.135206
+Epoch (47), Batch(400/2189), loss: 0.260931, imid loss: 0.064964, imid1 loss: 0.061747, cmid0 loss: 0.134221
+Epoch (47), Batch(600/2189), loss: 0.260795, imid loss: 0.063445, imid1 loss: 0.060871, cmid0 loss: 0.136479
+Epoch (47), Batch(800/2189), loss: 0.262293, imid loss: 0.064154, imid1 loss: 0.061344, cmid0 loss: 0.136796
+Epoch (47), Batch(1000/2189), loss: 0.259543, imid loss: 0.063778, imid1 loss: 0.061141, cmid0 loss: 0.134624
+Epoch (47), Batch(1200/2189), loss: 0.263134, imid loss: 0.064987, imid1 loss: 0.061398, cmid0 loss: 0.136748
+Epoch (47), Batch(1400/2189), loss: 0.263088, imid loss: 0.065005, imid1 loss: 0.061503, cmid0 loss: 0.136580
+Epoch (47), Batch(1600/2189), loss: 0.262359, imid loss: 0.064939, imid1 loss: 0.061291, cmid0 loss: 0.136129
+Epoch (47), Batch(1800/2189), loss: 0.263773, imid loss: 0.065200, imid1 loss: 0.061619, cmid0 loss: 0.136954
+Epoch (47), Batch(2000/2189), loss: 0.266168, imid loss: 0.065319, imid1 loss: 0.062473, cmid0 loss: 0.138376
+Train 47, loss: 0.266165
+Linear Accuracy : 0.8942463533225283
+Start training epoch: (48/100)
+Epoch (48), Batch(0/2189), loss: 0.258498, imid loss: 0.026974, imid1 loss: 0.105908, cmid0 loss: 0.125617
+Epoch (48), Batch(200/2189), loss: 0.249183, imid loss: 0.063576, imid1 loss: 0.058091, cmid0 loss: 0.127515
+Epoch (48), Batch(400/2189), loss: 0.257982, imid loss: 0.062675, imid1 loss: 0.059377, cmid0 loss: 0.135930
+Epoch (48), Batch(600/2189), loss: 0.268089, imid loss: 0.066543, imid1 loss: 0.060414, cmid0 loss: 0.141133
+Epoch (48), Batch(800/2189), loss: 0.267764, imid loss: 0.065068, imid1 loss: 0.061964, cmid0 loss: 0.140732
+Epoch (48), Batch(1000/2189), loss: 0.265122, imid loss: 0.063959, imid1 loss: 0.061546, cmid0 loss: 0.139618
+Epoch (48), Batch(1200/2189), loss: 0.263801, imid loss: 0.063406, imid1 loss: 0.061129, cmid0 loss: 0.139266
+Epoch (48), Batch(1400/2189), loss: 0.263205, imid loss: 0.063276, imid1 loss: 0.061624, cmid0 loss: 0.138305
+Epoch (48), Batch(1600/2189), loss: 0.262530, imid loss: 0.063096, imid1 loss: 0.061433, cmid0 loss: 0.138001
+Epoch (48), Batch(1800/2189), loss: 0.261444, imid loss: 0.063125, imid1 loss: 0.060567, cmid0 loss: 0.137752
+Epoch (48), Batch(2000/2189), loss: 0.261654, imid loss: 0.062978, imid1 loss: 0.061214, cmid0 loss: 0.137462
+Train 48, loss: 0.262104
+Linear Accuracy : 0.893030794165316
+Start training epoch: (49/100)
+Epoch (49), Batch(0/2189), loss: 0.354507, imid loss: 0.053356, imid1 loss: 0.039485, cmid0 loss: 0.261667
+Epoch (49), Batch(200/2189), loss: 0.261408, imid loss: 0.068367, imid1 loss: 0.061665, cmid0 loss: 0.131376
+Epoch (49), Batch(400/2189), loss: 0.275745, imid loss: 0.070907, imid1 loss: 0.066180, cmid0 loss: 0.138658
+Epoch (49), Batch(600/2189), loss: 0.270543, imid loss: 0.069235, imid1 loss: 0.064563, cmid0 loss: 0.136744
+Epoch (49), Batch(800/2189), loss: 0.267132, imid loss: 0.067123, imid1 loss: 0.063600, cmid0 loss: 0.136409
+Epoch (49), Batch(1000/2189), loss: 0.258915, imid loss: 0.064924, imid1 loss: 0.061521, cmid0 loss: 0.132470
+Epoch (49), Batch(1200/2189), loss: 0.259043, imid loss: 0.064404, imid1 loss: 0.061469, cmid0 loss: 0.133169
+Epoch (49), Batch(1400/2189), loss: 0.257793, imid loss: 0.064251, imid1 loss: 0.061236, cmid0 loss: 0.132307
+Epoch (49), Batch(1600/2189), loss: 0.257555, imid loss: 0.063967, imid1 loss: 0.061142, cmid0 loss: 0.132446
+Epoch (49), Batch(1800/2189), loss: 0.261231, imid loss: 0.064724, imid1 loss: 0.061988, cmid0 loss: 0.134519
+Epoch (49), Batch(2000/2189), loss: 0.261112, imid loss: 0.064444, imid1 loss: 0.062103, cmid0 loss: 0.134564
+Train 49, loss: 0.262132
+Linear Accuracy : 0.8942463533225283
+Start training epoch: (50/100)
+Epoch (50), Batch(0/2189), loss: 0.366556, imid loss: 0.050503, imid1 loss: 0.144710, cmid0 loss: 0.171343
+Epoch (50), Batch(200/2189), loss: 0.262736, imid loss: 0.066171, imid1 loss: 0.063575, cmid0 loss: 0.132990
+Epoch (50), Batch(400/2189), loss: 0.260197, imid loss: 0.064599, imid1 loss: 0.061459, cmid0 loss: 0.134139
+Epoch (50), Batch(600/2189), loss: 0.259380, imid loss: 0.063333, imid1 loss: 0.061360, cmid0 loss: 0.134687
+Epoch (50), Batch(800/2189), loss: 0.259691, imid loss: 0.064143, imid1 loss: 0.061367, cmid0 loss: 0.134181
+Epoch (50), Batch(1000/2189), loss: 0.260386, imid loss: 0.064424, imid1 loss: 0.061812, cmid0 loss: 0.134150
+Epoch (50), Batch(1200/2189), loss: 0.256410, imid loss: 0.063197, imid1 loss: 0.061331, cmid0 loss: 0.131881
+Epoch (50), Batch(1400/2189), loss: 0.259252, imid loss: 0.063856, imid1 loss: 0.061881, cmid0 loss: 0.133514
+Epoch (50), Batch(1600/2189), loss: 0.257782, imid loss: 0.063710, imid1 loss: 0.060695, cmid0 loss: 0.133378
+Epoch (50), Batch(1800/2189), loss: 0.258198, imid loss: 0.064339, imid1 loss: 0.060377, cmid0 loss: 0.133481
+Epoch (50), Batch(2000/2189), loss: 0.257902, imid loss: 0.064022, imid1 loss: 0.060233, cmid0 loss: 0.133646
+Train 50, loss: 0.258587
+Linear Accuracy : 0.8938411669367909
+==> Saving...
+Start training epoch: (51/100)
+Epoch (51), Batch(0/2189), loss: 0.260041, imid loss: 0.063070, imid1 loss: 0.055448, cmid0 loss: 0.141522
+Epoch (51), Batch(200/2189), loss: 0.230252, imid loss: 0.054550, imid1 loss: 0.054386, cmid0 loss: 0.121315
+Epoch (51), Batch(400/2189), loss: 0.236936, imid loss: 0.057001, imid1 loss: 0.056068, cmid0 loss: 0.123867
+Epoch (51), Batch(600/2189), loss: 0.244800, imid loss: 0.059898, imid1 loss: 0.058557, cmid0 loss: 0.126346
+Epoch (51), Batch(800/2189), loss: 0.247081, imid loss: 0.060946, imid1 loss: 0.058687, cmid0 loss: 0.127449
+Epoch (51), Batch(1000/2189), loss: 0.248513, imid loss: 0.060214, imid1 loss: 0.059960, cmid0 loss: 0.128340
+Epoch (51), Batch(1200/2189), loss: 0.246438, imid loss: 0.059857, imid1 loss: 0.058702, cmid0 loss: 0.127879
+Epoch (51), Batch(1400/2189), loss: 0.248794, imid loss: 0.060104, imid1 loss: 0.059211, cmid0 loss: 0.129479
+Epoch (51), Batch(1600/2189), loss: 0.246039, imid loss: 0.059368, imid1 loss: 0.058266, cmid0 loss: 0.128405
+Epoch (51), Batch(1800/2189), loss: 0.246622, imid loss: 0.059608, imid1 loss: 0.058568, cmid0 loss: 0.128446
+Epoch (51), Batch(2000/2189), loss: 0.246699, imid loss: 0.059876, imid1 loss: 0.058242, cmid0 loss: 0.128582
+Train 51, loss: 0.246385
+Linear Accuracy : 0.8950567260940032
+Start training epoch: (52/100)
+Epoch (52), Batch(0/2189), loss: 0.136747, imid loss: 0.024347, imid1 loss: 0.035448, cmid0 loss: 0.076952
+Epoch (52), Batch(200/2189), loss: 0.256637, imid loss: 0.063657, imid1 loss: 0.061722, cmid0 loss: 0.131257
+Epoch (52), Batch(400/2189), loss: 0.243077, imid loss: 0.061128, imid1 loss: 0.055725, cmid0 loss: 0.126224
+Epoch (52), Batch(600/2189), loss: 0.241698, imid loss: 0.061177, imid1 loss: 0.054074, cmid0 loss: 0.126447
+Epoch (52), Batch(800/2189), loss: 0.244104, imid loss: 0.060659, imid1 loss: 0.055586, cmid0 loss: 0.127859
+Epoch (52), Batch(1000/2189), loss: 0.244704, imid loss: 0.060615, imid1 loss: 0.055459, cmid0 loss: 0.128630
+Epoch (52), Batch(1200/2189), loss: 0.243862, imid loss: 0.059926, imid1 loss: 0.055919, cmid0 loss: 0.128017
+Epoch (52), Batch(1400/2189), loss: 0.244560, imid loss: 0.059934, imid1 loss: 0.056209, cmid0 loss: 0.128417
+Epoch (52), Batch(1600/2189), loss: 0.243775, imid loss: 0.059900, imid1 loss: 0.055689, cmid0 loss: 0.128185
+Epoch (52), Batch(1800/2189), loss: 0.243912, imid loss: 0.059576, imid1 loss: 0.056160, cmid0 loss: 0.128176
+Epoch (52), Batch(2000/2189), loss: 0.242621, imid loss: 0.059308, imid1 loss: 0.055722, cmid0 loss: 0.127592
+Train 52, loss: 0.243848
+Linear Accuracy : 0.8910048622366289
+Start training epoch: (53/100)
+Epoch (53), Batch(0/2189), loss: 0.093828, imid loss: 0.026453, imid1 loss: 0.013611, cmid0 loss: 0.053764
+Epoch (53), Batch(200/2189), loss: 0.237031, imid loss: 0.058632, imid1 loss: 0.055667, cmid0 loss: 0.122731
+Epoch (53), Batch(400/2189), loss: 0.237518, imid loss: 0.060569, imid1 loss: 0.055341, cmid0 loss: 0.121608
+Epoch (53), Batch(600/2189), loss: 0.236543, imid loss: 0.059071, imid1 loss: 0.054031, cmid0 loss: 0.123441
+Epoch (53), Batch(800/2189), loss: 0.235763, imid loss: 0.059200, imid1 loss: 0.052905, cmid0 loss: 0.123659
+Epoch (53), Batch(1000/2189), loss: 0.236968, imid loss: 0.059914, imid1 loss: 0.053925, cmid0 loss: 0.123129
+Epoch (53), Batch(1200/2189), loss: 0.238278, imid loss: 0.059819, imid1 loss: 0.055077, cmid0 loss: 0.123381
+Epoch (53), Batch(1400/2189), loss: 0.239833, imid loss: 0.060024, imid1 loss: 0.055563, cmid0 loss: 0.124246
+Epoch (53), Batch(1600/2189), loss: 0.241253, imid loss: 0.060373, imid1 loss: 0.055810, cmid0 loss: 0.125070
+Epoch (53), Batch(1800/2189), loss: 0.241355, imid loss: 0.060636, imid1 loss: 0.055731, cmid0 loss: 0.124988
+Epoch (53), Batch(2000/2189), loss: 0.243717, imid loss: 0.060999, imid1 loss: 0.056020, cmid0 loss: 0.126698
+Train 53, loss: 0.244022
+Linear Accuracy : 0.8861426256077796
+Start training epoch: (54/100)
+Epoch (54), Batch(0/2189), loss: 0.140518, imid loss: 0.050661, imid1 loss: 0.019854, cmid0 loss: 0.070004
+Epoch (54), Batch(200/2189), loss: 0.218776, imid loss: 0.052306, imid1 loss: 0.057123, cmid0 loss: 0.109347
+Epoch (54), Batch(400/2189), loss: 0.221943, imid loss: 0.053428, imid1 loss: 0.053608, cmid0 loss: 0.114907
+Epoch (54), Batch(600/2189), loss: 0.225329, imid loss: 0.053316, imid1 loss: 0.054316, cmid0 loss: 0.117697
+Epoch (54), Batch(800/2189), loss: 0.228951, imid loss: 0.055331, imid1 loss: 0.053292, cmid0 loss: 0.120328
+Epoch (54), Batch(1000/2189), loss: 0.227585, imid loss: 0.055940, imid1 loss: 0.052600, cmid0 loss: 0.119045
+Epoch (54), Batch(1200/2189), loss: 0.225359, imid loss: 0.055701, imid1 loss: 0.051537, cmid0 loss: 0.118121
+Epoch (54), Batch(1400/2189), loss: 0.225331, imid loss: 0.055097, imid1 loss: 0.051828, cmid0 loss: 0.118406
+Epoch (54), Batch(1600/2189), loss: 0.228205, imid loss: 0.055879, imid1 loss: 0.053215, cmid0 loss: 0.119111
+Epoch (54), Batch(1800/2189), loss: 0.228887, imid loss: 0.055912, imid1 loss: 0.053360, cmid0 loss: 0.119615
+Epoch (54), Batch(2000/2189), loss: 0.228404, imid loss: 0.055761, imid1 loss: 0.052903, cmid0 loss: 0.119740
+Train 54, loss: 0.228857
+Linear Accuracy : 0.8893841166936791
+Start training epoch: (55/100)
+Epoch (55), Batch(0/2189), loss: 0.103355, imid loss: 0.026132, imid1 loss: 0.019965, cmid0 loss: 0.057258
+Epoch (55), Batch(200/2189), loss: 0.218182, imid loss: 0.059927, imid1 loss: 0.050337, cmid0 loss: 0.107917
+Epoch (55), Batch(400/2189), loss: 0.215394, imid loss: 0.055930, imid1 loss: 0.049152, cmid0 loss: 0.110312
+Epoch (55), Batch(600/2189), loss: 0.222297, imid loss: 0.056281, imid1 loss: 0.053906, cmid0 loss: 0.112110
+Epoch (55), Batch(800/2189), loss: 0.228555, imid loss: 0.057837, imid1 loss: 0.054671, cmid0 loss: 0.116046
+Epoch (55), Batch(1000/2189), loss: 0.229873, imid loss: 0.058033, imid1 loss: 0.054082, cmid0 loss: 0.117758
+Epoch (55), Batch(1200/2189), loss: 0.229622, imid loss: 0.058077, imid1 loss: 0.053862, cmid0 loss: 0.117684
+Epoch (55), Batch(1400/2189), loss: 0.230578, imid loss: 0.058766, imid1 loss: 0.053794, cmid0 loss: 0.118018
+Epoch (55), Batch(1600/2189), loss: 0.230485, imid loss: 0.058752, imid1 loss: 0.053878, cmid0 loss: 0.117855
+Epoch (55), Batch(1800/2189), loss: 0.230462, imid loss: 0.058307, imid1 loss: 0.053675, cmid0 loss: 0.118480
+Epoch (55), Batch(2000/2189), loss: 0.229376, imid loss: 0.057524, imid1 loss: 0.054034, cmid0 loss: 0.117819
+Train 55, loss: 0.229911
+Linear Accuracy : 0.8950567260940032
+==> Saving...
+Start training epoch: (56/100)
+Epoch (56), Batch(0/2189), loss: 0.218065, imid loss: 0.033088, imid1 loss: 0.063867, cmid0 loss: 0.121111
+Epoch (56), Batch(200/2189), loss: 0.230076, imid loss: 0.058909, imid1 loss: 0.053450, cmid0 loss: 0.117717
+Epoch (56), Batch(400/2189), loss: 0.218103, imid loss: 0.055322, imid1 loss: 0.049054, cmid0 loss: 0.113727
+Epoch (56), Batch(600/2189), loss: 0.222086, imid loss: 0.055830, imid1 loss: 0.050660, cmid0 loss: 0.115597
+Epoch (56), Batch(800/2189), loss: 0.230716, imid loss: 0.057507, imid1 loss: 0.053269, cmid0 loss: 0.119940
+Epoch (56), Batch(1000/2189), loss: 0.231678, imid loss: 0.058188, imid1 loss: 0.053100, cmid0 loss: 0.120390
+Epoch (56), Batch(1200/2189), loss: 0.231049, imid loss: 0.058286, imid1 loss: 0.053077, cmid0 loss: 0.119686
+Epoch (56), Batch(1400/2189), loss: 0.233555, imid loss: 0.059061, imid1 loss: 0.053610, cmid0 loss: 0.120884
+Epoch (56), Batch(1600/2189), loss: 0.231983, imid loss: 0.058364, imid1 loss: 0.053128, cmid0 loss: 0.120491
+Epoch (56), Batch(1800/2189), loss: 0.233895, imid loss: 0.058473, imid1 loss: 0.053695, cmid0 loss: 0.121727
+Epoch (56), Batch(2000/2189), loss: 0.231828, imid loss: 0.057578, imid1 loss: 0.053671, cmid0 loss: 0.120579
+Train 56, loss: 0.231413
+Linear Accuracy : 0.8905996758508914
+Start training epoch: (57/100)
+Epoch (57), Batch(0/2189), loss: 0.224932, imid loss: 0.069963, imid1 loss: 0.025801, cmid0 loss: 0.129168
+Epoch (57), Batch(200/2189), loss: 0.228811, imid loss: 0.061297, imid1 loss: 0.051827, cmid0 loss: 0.115687
+Epoch (57), Batch(400/2189), loss: 0.229018, imid loss: 0.059840, imid1 loss: 0.049667, cmid0 loss: 0.119512
+Epoch (57), Batch(600/2189), loss: 0.225983, imid loss: 0.057564, imid1 loss: 0.049803, cmid0 loss: 0.118616
+Epoch (57), Batch(800/2189), loss: 0.226881, imid loss: 0.058447, imid1 loss: 0.050555, cmid0 loss: 0.117880
+Epoch (57), Batch(1000/2189), loss: 0.225835, imid loss: 0.057685, imid1 loss: 0.050003, cmid0 loss: 0.118147
+Epoch (57), Batch(1200/2189), loss: 0.224676, imid loss: 0.056731, imid1 loss: 0.051138, cmid0 loss: 0.116807
+Epoch (57), Batch(1400/2189), loss: 0.225767, imid loss: 0.056233, imid1 loss: 0.051598, cmid0 loss: 0.117936
+Epoch (57), Batch(1600/2189), loss: 0.224453, imid loss: 0.055621, imid1 loss: 0.052178, cmid0 loss: 0.116653
+Epoch (57), Batch(1800/2189), loss: 0.226223, imid loss: 0.056062, imid1 loss: 0.052572, cmid0 loss: 0.117590
+Epoch (57), Batch(2000/2189), loss: 0.226593, imid loss: 0.056133, imid1 loss: 0.052846, cmid0 loss: 0.117614
+Train 57, loss: 0.226659
+Linear Accuracy : 0.8950567260940032
+Start training epoch: (58/100)
+Epoch (58), Batch(0/2189), loss: 0.159977, imid loss: 0.042646, imid1 loss: 0.063414, cmid0 loss: 0.053917
+Epoch (58), Batch(200/2189), loss: 0.217088, imid loss: 0.056944, imid1 loss: 0.046247, cmid0 loss: 0.113898
+Epoch (58), Batch(400/2189), loss: 0.220289, imid loss: 0.057280, imid1 loss: 0.051116, cmid0 loss: 0.111893
+Epoch (58), Batch(600/2189), loss: 0.213586, imid loss: 0.054770, imid1 loss: 0.049190, cmid0 loss: 0.109626
+Epoch (58), Batch(800/2189), loss: 0.213965, imid loss: 0.054464, imid1 loss: 0.051053, cmid0 loss: 0.108448
+Epoch (58), Batch(1000/2189), loss: 0.215801, imid loss: 0.053977, imid1 loss: 0.051876, cmid0 loss: 0.109948
+Epoch (58), Batch(1200/2189), loss: 0.216340, imid loss: 0.053925, imid1 loss: 0.052040, cmid0 loss: 0.110375
+Epoch (58), Batch(1400/2189), loss: 0.214792, imid loss: 0.054281, imid1 loss: 0.050931, cmid0 loss: 0.109579
+Epoch (58), Batch(1600/2189), loss: 0.214885, imid loss: 0.054324, imid1 loss: 0.050565, cmid0 loss: 0.109997
+Epoch (58), Batch(1800/2189), loss: 0.216080, imid loss: 0.054826, imid1 loss: 0.050674, cmid0 loss: 0.110580
+Epoch (58), Batch(2000/2189), loss: 0.216523, imid loss: 0.054523, imid1 loss: 0.050905, cmid0 loss: 0.111095
+Train 58, loss: 0.217063
+Linear Accuracy : 0.8958670988654781
+Start training epoch: (59/100)
+Epoch (59), Batch(0/2189), loss: 0.338280, imid loss: 0.158331, imid1 loss: 0.030726, cmid0 loss: 0.149223
+Epoch (59), Batch(200/2189), loss: 0.206417, imid loss: 0.053757, imid1 loss: 0.045520, cmid0 loss: 0.107140
+Epoch (59), Batch(400/2189), loss: 0.207021, imid loss: 0.052086, imid1 loss: 0.047828, cmid0 loss: 0.107108
+Epoch (59), Batch(600/2189), loss: 0.216343, imid loss: 0.052878, imid1 loss: 0.049846, cmid0 loss: 0.113619
+Epoch (59), Batch(800/2189), loss: 0.212282, imid loss: 0.052157, imid1 loss: 0.047781, cmid0 loss: 0.112345
+Epoch (59), Batch(1000/2189), loss: 0.214498, imid loss: 0.052886, imid1 loss: 0.049618, cmid0 loss: 0.111995
+Epoch (59), Batch(1200/2189), loss: 0.215607, imid loss: 0.053037, imid1 loss: 0.050249, cmid0 loss: 0.112321
+Epoch (59), Batch(1400/2189), loss: 0.214044, imid loss: 0.052850, imid1 loss: 0.049926, cmid0 loss: 0.111268
+Epoch (59), Batch(1600/2189), loss: 0.215354, imid loss: 0.053492, imid1 loss: 0.050052, cmid0 loss: 0.111810
+Epoch (59), Batch(1800/2189), loss: 0.216002, imid loss: 0.053457, imid1 loss: 0.050626, cmid0 loss: 0.111918
+Epoch (59), Batch(2000/2189), loss: 0.215526, imid loss: 0.053183, imid1 loss: 0.050529, cmid0 loss: 0.111814
+Train 59, loss: 0.215064
+Linear Accuracy : 0.899513776337115
+Start training epoch: (60/100)
+Epoch (60), Batch(0/2189), loss: 0.061667, imid loss: 0.023968, imid1 loss: 0.008035, cmid0 loss: 0.029665
+Epoch (60), Batch(200/2189), loss: 0.211086, imid loss: 0.053787, imid1 loss: 0.049731, cmid0 loss: 0.107568
+Epoch (60), Batch(400/2189), loss: 0.214763, imid loss: 0.055980, imid1 loss: 0.050338, cmid0 loss: 0.108445
+Epoch (60), Batch(600/2189), loss: 0.213542, imid loss: 0.055336, imid1 loss: 0.049375, cmid0 loss: 0.108831
+Epoch (60), Batch(800/2189), loss: 0.219679, imid loss: 0.055580, imid1 loss: 0.052034, cmid0 loss: 0.112065
+Epoch (60), Batch(1000/2189), loss: 0.219894, imid loss: 0.054959, imid1 loss: 0.053042, cmid0 loss: 0.111894
+Epoch (60), Batch(1200/2189), loss: 0.219448, imid loss: 0.054000, imid1 loss: 0.053436, cmid0 loss: 0.112012
+Epoch (60), Batch(1400/2189), loss: 0.216298, imid loss: 0.053305, imid1 loss: 0.052395, cmid0 loss: 0.110599
+Epoch (60), Batch(1600/2189), loss: 0.219550, imid loss: 0.053918, imid1 loss: 0.052870, cmid0 loss: 0.112762
+Epoch (60), Batch(1800/2189), loss: 0.219164, imid loss: 0.053824, imid1 loss: 0.052471, cmid0 loss: 0.112869
+Epoch (60), Batch(2000/2189), loss: 0.218386, imid loss: 0.053843, imid1 loss: 0.052180, cmid0 loss: 0.112364
+Train 60, loss: 0.217068
+Linear Accuracy : 0.8962722852512156
+==> Saving...
+Start training epoch: (61/100)
+Epoch (61), Batch(0/2189), loss: 0.073526, imid loss: 0.010831, imid1 loss: 0.008623, cmid0 loss: 0.054073
+Epoch (61), Batch(200/2189), loss: 0.211956, imid loss: 0.047974, imid1 loss: 0.056109, cmid0 loss: 0.107873
+Epoch (61), Batch(400/2189), loss: 0.204324, imid loss: 0.047541, imid1 loss: 0.051066, cmid0 loss: 0.105717
+Epoch (61), Batch(600/2189), loss: 0.206515, imid loss: 0.048401, imid1 loss: 0.049995, cmid0 loss: 0.108119
+Epoch (61), Batch(800/2189), loss: 0.206684, imid loss: 0.048785, imid1 loss: 0.050434, cmid0 loss: 0.107465
+Epoch (61), Batch(1000/2189), loss: 0.205244, imid loss: 0.049014, imid1 loss: 0.049210, cmid0 loss: 0.107019
+Epoch (61), Batch(1200/2189), loss: 0.204979, imid loss: 0.049469, imid1 loss: 0.049326, cmid0 loss: 0.106184
+Epoch (61), Batch(1400/2189), loss: 0.204202, imid loss: 0.049049, imid1 loss: 0.049256, cmid0 loss: 0.105896
+Epoch (61), Batch(1600/2189), loss: 0.205525, imid loss: 0.050016, imid1 loss: 0.049110, cmid0 loss: 0.106399
+Epoch (61), Batch(1800/2189), loss: 0.204203, imid loss: 0.049801, imid1 loss: 0.048789, cmid0 loss: 0.105614
+Epoch (61), Batch(2000/2189), loss: 0.204941, imid loss: 0.050189, imid1 loss: 0.048811, cmid0 loss: 0.105941
+Train 61, loss: 0.204463
+Linear Accuracy : 0.893030794165316
+Start training epoch: (62/100)
+Epoch (62), Batch(0/2189), loss: 0.041938, imid loss: 0.008947, imid1 loss: 0.005901, cmid0 loss: 0.027090
+Epoch (62), Batch(200/2189), loss: 0.190270, imid loss: 0.047053, imid1 loss: 0.045358, cmid0 loss: 0.097859
+Epoch (62), Batch(400/2189), loss: 0.202638, imid loss: 0.048736, imid1 loss: 0.049913, cmid0 loss: 0.103989
+Epoch (62), Batch(600/2189), loss: 0.208326, imid loss: 0.051666, imid1 loss: 0.050325, cmid0 loss: 0.106335
+Epoch (62), Batch(800/2189), loss: 0.211443, imid loss: 0.053178, imid1 loss: 0.050101, cmid0 loss: 0.108165
+Epoch (62), Batch(1000/2189), loss: 0.209099, imid loss: 0.052388, imid1 loss: 0.049309, cmid0 loss: 0.107402
+Epoch (62), Batch(1200/2189), loss: 0.206353, imid loss: 0.051118, imid1 loss: 0.049105, cmid0 loss: 0.106130
+Epoch (62), Batch(1400/2189), loss: 0.206481, imid loss: 0.051276, imid1 loss: 0.049226, cmid0 loss: 0.105979
+Epoch (62), Batch(1600/2189), loss: 0.207022, imid loss: 0.051443, imid1 loss: 0.049245, cmid0 loss: 0.106334
+Epoch (62), Batch(1800/2189), loss: 0.207527, imid loss: 0.051500, imid1 loss: 0.049479, cmid0 loss: 0.106548
+Epoch (62), Batch(2000/2189), loss: 0.205708, imid loss: 0.051196, imid1 loss: 0.049005, cmid0 loss: 0.105507
+Train 62, loss: 0.205098
+Linear Accuracy : 0.8946515397082658
+Start training epoch: (63/100)
+Epoch (63), Batch(0/2189), loss: 0.143684, imid loss: 0.039403, imid1 loss: 0.041199, cmid0 loss: 0.063082
+Epoch (63), Batch(200/2189), loss: 0.212343, imid loss: 0.052433, imid1 loss: 0.051964, cmid0 loss: 0.107946
+Epoch (63), Batch(400/2189), loss: 0.200799, imid loss: 0.049936, imid1 loss: 0.048669, cmid0 loss: 0.102194
+Epoch (63), Batch(600/2189), loss: 0.197800, imid loss: 0.050466, imid1 loss: 0.047333, cmid0 loss: 0.100002
+Epoch (63), Batch(800/2189), loss: 0.194415, imid loss: 0.049835, imid1 loss: 0.045540, cmid0 loss: 0.099041
+Epoch (63), Batch(1000/2189), loss: 0.197418, imid loss: 0.049324, imid1 loss: 0.046766, cmid0 loss: 0.101328
+Epoch (63), Batch(1200/2189), loss: 0.200870, imid loss: 0.050176, imid1 loss: 0.047891, cmid0 loss: 0.102803
+Epoch (63), Batch(1400/2189), loss: 0.201319, imid loss: 0.050442, imid1 loss: 0.048428, cmid0 loss: 0.102449
+Epoch (63), Batch(1600/2189), loss: 0.201472, imid loss: 0.049927, imid1 loss: 0.048370, cmid0 loss: 0.103174
+Epoch (63), Batch(1800/2189), loss: 0.200772, imid loss: 0.049234, imid1 loss: 0.048712, cmid0 loss: 0.102826
+Epoch (63), Batch(2000/2189), loss: 0.200353, imid loss: 0.049347, imid1 loss: 0.048452, cmid0 loss: 0.102554
+Train 63, loss: 0.199658
+Linear Accuracy : 0.896677471636953
+Start training epoch: (64/100)
+Epoch (64), Batch(0/2189), loss: 0.157748, imid loss: 0.080862, imid1 loss: 0.004424, cmid0 loss: 0.072462
+Epoch (64), Batch(200/2189), loss: 0.185366, imid loss: 0.044983, imid1 loss: 0.040746, cmid0 loss: 0.099637
+Epoch (64), Batch(400/2189), loss: 0.189305, imid loss: 0.048296, imid1 loss: 0.042935, cmid0 loss: 0.098075
+Epoch (64), Batch(600/2189), loss: 0.192331, imid loss: 0.049381, imid1 loss: 0.044066, cmid0 loss: 0.098883
+Epoch (64), Batch(800/2189), loss: 0.192353, imid loss: 0.048730, imid1 loss: 0.044821, cmid0 loss: 0.098802
+Epoch (64), Batch(1000/2189), loss: 0.191957, imid loss: 0.048263, imid1 loss: 0.044809, cmid0 loss: 0.098885
+Epoch (64), Batch(1200/2189), loss: 0.193693, imid loss: 0.048887, imid1 loss: 0.044819, cmid0 loss: 0.099987
+Epoch (64), Batch(1400/2189), loss: 0.194222, imid loss: 0.048653, imid1 loss: 0.045553, cmid0 loss: 0.100016
+Epoch (64), Batch(1600/2189), loss: 0.195866, imid loss: 0.048810, imid1 loss: 0.046078, cmid0 loss: 0.100978
+Epoch (64), Batch(1800/2189), loss: 0.194869, imid loss: 0.048412, imid1 loss: 0.045736, cmid0 loss: 0.100722
+Epoch (64), Batch(2000/2189), loss: 0.194270, imid loss: 0.048240, imid1 loss: 0.045728, cmid0 loss: 0.100302
+Train 64, loss: 0.193581
+Linear Accuracy : 0.893030794165316
+Start training epoch: (65/100)
+Epoch (65), Batch(0/2189), loss: 0.197436, imid loss: 0.039105, imid1 loss: 0.018301, cmid0 loss: 0.140030
+Epoch (65), Batch(200/2189), loss: 0.191849, imid loss: 0.049072, imid1 loss: 0.043679, cmid0 loss: 0.099098
+Epoch (65), Batch(400/2189), loss: 0.190484, imid loss: 0.049243, imid1 loss: 0.042976, cmid0 loss: 0.098265
+Epoch (65), Batch(600/2189), loss: 0.193001, imid loss: 0.048307, imid1 loss: 0.044386, cmid0 loss: 0.100308
+Epoch (65), Batch(800/2189), loss: 0.195005, imid loss: 0.048487, imid1 loss: 0.045828, cmid0 loss: 0.100690
+Epoch (65), Batch(1000/2189), loss: 0.195728, imid loss: 0.048658, imid1 loss: 0.045453, cmid0 loss: 0.101617
+Epoch (65), Batch(1200/2189), loss: 0.194883, imid loss: 0.047779, imid1 loss: 0.045764, cmid0 loss: 0.101341
+Epoch (65), Batch(1400/2189), loss: 0.194263, imid loss: 0.048067, imid1 loss: 0.044864, cmid0 loss: 0.101332
+Epoch (65), Batch(1600/2189), loss: 0.194865, imid loss: 0.047919, imid1 loss: 0.045640, cmid0 loss: 0.101307
+Epoch (65), Batch(1800/2189), loss: 0.193293, imid loss: 0.047624, imid1 loss: 0.044859, cmid0 loss: 0.100810
+Epoch (65), Batch(2000/2189), loss: 0.194807, imid loss: 0.048079, imid1 loss: 0.045064, cmid0 loss: 0.101664
+Train 65, loss: 0.194612
+Linear Accuracy : 0.8914100486223663
+==> Saving...
+Start training epoch: (66/100)
+Epoch (66), Batch(0/2189), loss: 0.198875, imid loss: 0.046237, imid1 loss: 0.009122, cmid0 loss: 0.143517
+Epoch (66), Batch(200/2189), loss: 0.202017, imid loss: 0.047554, imid1 loss: 0.052667, cmid0 loss: 0.101796
+Epoch (66), Batch(400/2189), loss: 0.190399, imid loss: 0.046699, imid1 loss: 0.046324, cmid0 loss: 0.097375
+Epoch (66), Batch(600/2189), loss: 0.192752, imid loss: 0.047151, imid1 loss: 0.046644, cmid0 loss: 0.098958
+Epoch (66), Batch(800/2189), loss: 0.192540, imid loss: 0.047601, imid1 loss: 0.046413, cmid0 loss: 0.098525
+Epoch (66), Batch(1000/2189), loss: 0.190038, imid loss: 0.047298, imid1 loss: 0.045781, cmid0 loss: 0.096959
+Epoch (66), Batch(1200/2189), loss: 0.189941, imid loss: 0.047380, imid1 loss: 0.046058, cmid0 loss: 0.096504
+Epoch (66), Batch(1400/2189), loss: 0.192271, imid loss: 0.047621, imid1 loss: 0.047457, cmid0 loss: 0.097193
+Epoch (66), Batch(1600/2189), loss: 0.191465, imid loss: 0.047408, imid1 loss: 0.046882, cmid0 loss: 0.097175
+Epoch (66), Batch(1800/2189), loss: 0.190120, imid loss: 0.047239, imid1 loss: 0.046044, cmid0 loss: 0.096837
+Epoch (66), Batch(2000/2189), loss: 0.190595, imid loss: 0.047106, imid1 loss: 0.046200, cmid0 loss: 0.097289
+Train 66, loss: 0.191031
+Linear Accuracy : 0.9011345218800648
+Start training epoch: (67/100)
+Epoch (67), Batch(0/2189), loss: 0.082011, imid loss: 0.030482, imid1 loss: 0.012669, cmid0 loss: 0.038860
+Epoch (67), Batch(200/2189), loss: 0.175281, imid loss: 0.044726, imid1 loss: 0.037883, cmid0 loss: 0.092672
+Epoch (67), Batch(400/2189), loss: 0.181358, imid loss: 0.045211, imid1 loss: 0.040159, cmid0 loss: 0.095988
+Epoch (67), Batch(600/2189), loss: 0.178534, imid loss: 0.045107, imid1 loss: 0.040104, cmid0 loss: 0.093323
+Epoch (67), Batch(800/2189), loss: 0.177158, imid loss: 0.044160, imid1 loss: 0.039925, cmid0 loss: 0.093073
+Epoch (67), Batch(1000/2189), loss: 0.179391, imid loss: 0.045617, imid1 loss: 0.039832, cmid0 loss: 0.093943
+Epoch (67), Batch(1200/2189), loss: 0.181037, imid loss: 0.045669, imid1 loss: 0.040532, cmid0 loss: 0.094836
+Epoch (67), Batch(1400/2189), loss: 0.180702, imid loss: 0.045468, imid1 loss: 0.040107, cmid0 loss: 0.095127
+Epoch (67), Batch(1600/2189), loss: 0.182420, imid loss: 0.046059, imid1 loss: 0.040920, cmid0 loss: 0.095441
+Epoch (67), Batch(1800/2189), loss: 0.183545, imid loss: 0.045918, imid1 loss: 0.041699, cmid0 loss: 0.095928
+Epoch (67), Batch(2000/2189), loss: 0.183675, imid loss: 0.045879, imid1 loss: 0.041691, cmid0 loss: 0.096104
+Train 67, loss: 0.183428
+Linear Accuracy : 0.8914100486223663
+Start training epoch: (68/100)
+Epoch (68), Batch(0/2189), loss: 0.121734, imid loss: 0.021787, imid1 loss: 0.027655, cmid0 loss: 0.072293
+Epoch (68), Batch(200/2189), loss: 0.173774, imid loss: 0.044736, imid1 loss: 0.039097, cmid0 loss: 0.089941
+Epoch (68), Batch(400/2189), loss: 0.174950, imid loss: 0.044702, imid1 loss: 0.039917, cmid0 loss: 0.090331
+Epoch (68), Batch(600/2189), loss: 0.182743, imid loss: 0.047539, imid1 loss: 0.042737, cmid0 loss: 0.092467
+Epoch (68), Batch(800/2189), loss: 0.185437, imid loss: 0.048854, imid1 loss: 0.042766, cmid0 loss: 0.093818
+Epoch (68), Batch(1000/2189), loss: 0.183250, imid loss: 0.047736, imid1 loss: 0.042754, cmid0 loss: 0.092761
+Epoch (68), Batch(1200/2189), loss: 0.183157, imid loss: 0.047435, imid1 loss: 0.043010, cmid0 loss: 0.092712
+Epoch (68), Batch(1400/2189), loss: 0.182608, imid loss: 0.046513, imid1 loss: 0.043169, cmid0 loss: 0.092926
+Epoch (68), Batch(1600/2189), loss: 0.182569, imid loss: 0.046657, imid1 loss: 0.042769, cmid0 loss: 0.093143
+Epoch (68), Batch(1800/2189), loss: 0.182831, imid loss: 0.046046, imid1 loss: 0.042658, cmid0 loss: 0.094127
+Epoch (68), Batch(2000/2189), loss: 0.182515, imid loss: 0.045798, imid1 loss: 0.042290, cmid0 loss: 0.094427
+Train 68, loss: 0.182366
+Linear Accuracy : 0.896677471636953
+Start training epoch: (69/100)
+Epoch (69), Batch(0/2189), loss: 0.087677, imid loss: 0.013598, imid1 loss: 0.023562, cmid0 loss: 0.050517
+Epoch (69), Batch(200/2189), loss: 0.185716, imid loss: 0.048618, imid1 loss: 0.042192, cmid0 loss: 0.094905
+Epoch (69), Batch(400/2189), loss: 0.186461, imid loss: 0.046790, imid1 loss: 0.044379, cmid0 loss: 0.095291
+Epoch (69), Batch(600/2189), loss: 0.182439, imid loss: 0.045446, imid1 loss: 0.043916, cmid0 loss: 0.093077
+Epoch (69), Batch(800/2189), loss: 0.179866, imid loss: 0.045543, imid1 loss: 0.042336, cmid0 loss: 0.091986
+Epoch (69), Batch(1000/2189), loss: 0.180574, imid loss: 0.046138, imid1 loss: 0.041946, cmid0 loss: 0.092491
+Epoch (69), Batch(1200/2189), loss: 0.181689, imid loss: 0.045957, imid1 loss: 0.042589, cmid0 loss: 0.093144
+Epoch (69), Batch(1400/2189), loss: 0.181878, imid loss: 0.045966, imid1 loss: 0.042449, cmid0 loss: 0.093464
+Epoch (69), Batch(1600/2189), loss: 0.182744, imid loss: 0.046360, imid1 loss: 0.042720, cmid0 loss: 0.093663
+Epoch (69), Batch(1800/2189), loss: 0.181927, imid loss: 0.045984, imid1 loss: 0.042559, cmid0 loss: 0.093384
+Epoch (69), Batch(2000/2189), loss: 0.181120, imid loss: 0.045897, imid1 loss: 0.042320, cmid0 loss: 0.092903
+Train 69, loss: 0.180409
+Linear Accuracy : 0.8926256077795786
+Start training epoch: (70/100)
+Epoch (70), Batch(0/2189), loss: 0.220669, imid loss: 0.021667, imid1 loss: 0.128529, cmid0 loss: 0.070473
+Epoch (70), Batch(200/2189), loss: 0.177420, imid loss: 0.042579, imid1 loss: 0.043094, cmid0 loss: 0.091746
+Epoch (70), Batch(400/2189), loss: 0.177410, imid loss: 0.043376, imid1 loss: 0.044889, cmid0 loss: 0.089145
+Epoch (70), Batch(600/2189), loss: 0.175379, imid loss: 0.044019, imid1 loss: 0.043164, cmid0 loss: 0.088196
+Epoch (70), Batch(800/2189), loss: 0.172722, imid loss: 0.042584, imid1 loss: 0.043166, cmid0 loss: 0.086973
+Epoch (70), Batch(1000/2189), loss: 0.174840, imid loss: 0.043759, imid1 loss: 0.042976, cmid0 loss: 0.088105
+Epoch (70), Batch(1200/2189), loss: 0.175214, imid loss: 0.044214, imid1 loss: 0.042702, cmid0 loss: 0.088298
+Epoch (70), Batch(1400/2189), loss: 0.174272, imid loss: 0.044157, imid1 loss: 0.042312, cmid0 loss: 0.087803
+Epoch (70), Batch(1600/2189), loss: 0.174549, imid loss: 0.043825, imid1 loss: 0.042560, cmid0 loss: 0.088164
+Epoch (70), Batch(1800/2189), loss: 0.173598, imid loss: 0.043960, imid1 loss: 0.042169, cmid0 loss: 0.087469
+Epoch (70), Batch(2000/2189), loss: 0.174357, imid loss: 0.043939, imid1 loss: 0.042536, cmid0 loss: 0.087882
+Train 70, loss: 0.174060
+Linear Accuracy : 0.8982982171799028
+==> Saving...
+Start training epoch: (71/100)
+Epoch (71), Batch(0/2189), loss: 0.069467, imid loss: 0.016105, imid1 loss: 0.014827, cmid0 loss: 0.038535
+Epoch (71), Batch(200/2189), loss: 0.180963, imid loss: 0.045095, imid1 loss: 0.042610, cmid0 loss: 0.093258
+Epoch (71), Batch(400/2189), loss: 0.178523, imid loss: 0.044593, imid1 loss: 0.041006, cmid0 loss: 0.092925
+Epoch (71), Batch(600/2189), loss: 0.176337, imid loss: 0.043258, imid1 loss: 0.042019, cmid0 loss: 0.091060
+Epoch (71), Batch(800/2189), loss: 0.176237, imid loss: 0.044081, imid1 loss: 0.041974, cmid0 loss: 0.090181
+Epoch (71), Batch(1000/2189), loss: 0.174589, imid loss: 0.043717, imid1 loss: 0.041730, cmid0 loss: 0.089142
+Epoch (71), Batch(1200/2189), loss: 0.175798, imid loss: 0.043871, imid1 loss: 0.041893, cmid0 loss: 0.090033
+Epoch (71), Batch(1400/2189), loss: 0.175533, imid loss: 0.044254, imid1 loss: 0.040946, cmid0 loss: 0.090333
+Epoch (71), Batch(1600/2189), loss: 0.174845, imid loss: 0.044181, imid1 loss: 0.041053, cmid0 loss: 0.089611
+Epoch (71), Batch(1800/2189), loss: 0.176123, imid loss: 0.044557, imid1 loss: 0.041267, cmid0 loss: 0.090299
+Epoch (71), Batch(2000/2189), loss: 0.177755, imid loss: 0.044958, imid1 loss: 0.041706, cmid0 loss: 0.091091
+Train 71, loss: 0.177881
+Linear Accuracy : 0.8918152350081038
+Start training epoch: (72/100)
+Epoch (72), Batch(0/2189), loss: 0.125731, imid loss: 0.024821, imid1 loss: 0.024075, cmid0 loss: 0.076836
+Epoch (72), Batch(200/2189), loss: 0.165500, imid loss: 0.041729, imid1 loss: 0.036425, cmid0 loss: 0.087346
+Epoch (72), Batch(400/2189), loss: 0.165876, imid loss: 0.040855, imid1 loss: 0.039061, cmid0 loss: 0.085960
+Epoch (72), Batch(600/2189), loss: 0.167682, imid loss: 0.041475, imid1 loss: 0.039680, cmid0 loss: 0.086526
+Epoch (72), Batch(800/2189), loss: 0.163231, imid loss: 0.040768, imid1 loss: 0.038437, cmid0 loss: 0.084026
+Epoch (72), Batch(1000/2189), loss: 0.164339, imid loss: 0.041194, imid1 loss: 0.038943, cmid0 loss: 0.084203
+Epoch (72), Batch(1200/2189), loss: 0.163611, imid loss: 0.040979, imid1 loss: 0.039264, cmid0 loss: 0.083368
+Epoch (72), Batch(1400/2189), loss: 0.166056, imid loss: 0.041585, imid1 loss: 0.039357, cmid0 loss: 0.085114
+Epoch (72), Batch(1600/2189), loss: 0.165821, imid loss: 0.041380, imid1 loss: 0.039496, cmid0 loss: 0.084945
+Epoch (72), Batch(1800/2189), loss: 0.165975, imid loss: 0.041489, imid1 loss: 0.039401, cmid0 loss: 0.085085
+Epoch (72), Batch(2000/2189), loss: 0.165351, imid loss: 0.041247, imid1 loss: 0.039008, cmid0 loss: 0.085096
+Train 72, loss: 0.166101
+Linear Accuracy : 0.8954619124797407
+Start training epoch: (73/100)
+Epoch (73), Batch(0/2189), loss: 0.311345, imid loss: 0.081927, imid1 loss: 0.069029, cmid0 loss: 0.160389
+Epoch (73), Batch(200/2189), loss: 0.159889, imid loss: 0.038391, imid1 loss: 0.038350, cmid0 loss: 0.083149
+Epoch (73), Batch(400/2189), loss: 0.160571, imid loss: 0.040004, imid1 loss: 0.038447, cmid0 loss: 0.082121
+Epoch (73), Batch(600/2189), loss: 0.163869, imid loss: 0.041845, imid1 loss: 0.038410, cmid0 loss: 0.083613
+Epoch (73), Batch(800/2189), loss: 0.166549, imid loss: 0.042290, imid1 loss: 0.038149, cmid0 loss: 0.086111
+Epoch (73), Batch(1000/2189), loss: 0.166989, imid loss: 0.041756, imid1 loss: 0.038733, cmid0 loss: 0.086501
+Epoch (73), Batch(1200/2189), loss: 0.167563, imid loss: 0.041781, imid1 loss: 0.039316, cmid0 loss: 0.086466
+Epoch (73), Batch(1400/2189), loss: 0.166679, imid loss: 0.041910, imid1 loss: 0.038608, cmid0 loss: 0.086161
+Epoch (73), Batch(1600/2189), loss: 0.166384, imid loss: 0.041955, imid1 loss: 0.038435, cmid0 loss: 0.085995
+Epoch (73), Batch(1800/2189), loss: 0.166668, imid loss: 0.041790, imid1 loss: 0.038462, cmid0 loss: 0.086416
+Epoch (73), Batch(2000/2189), loss: 0.166628, imid loss: 0.041575, imid1 loss: 0.038789, cmid0 loss: 0.086265
+Train 73, loss: 0.166578
+Linear Accuracy : 0.8970826580226904
+Start training epoch: (74/100)
+Epoch (74), Batch(0/2189), loss: 0.460203, imid loss: 0.127105, imid1 loss: 0.032709, cmid0 loss: 0.300390
+Epoch (74), Batch(200/2189), loss: 0.153763, imid loss: 0.037948, imid1 loss: 0.036391, cmid0 loss: 0.079424
+Epoch (74), Batch(400/2189), loss: 0.158920, imid loss: 0.041050, imid1 loss: 0.037127, cmid0 loss: 0.080743
+Epoch (74), Batch(600/2189), loss: 0.159309, imid loss: 0.040987, imid1 loss: 0.037860, cmid0 loss: 0.080462
+Epoch (74), Batch(800/2189), loss: 0.163011, imid loss: 0.042621, imid1 loss: 0.039443, cmid0 loss: 0.080946
+Epoch (74), Batch(1000/2189), loss: 0.166690, imid loss: 0.043152, imid1 loss: 0.040202, cmid0 loss: 0.083336
+Epoch (74), Batch(1200/2189), loss: 0.164107, imid loss: 0.042271, imid1 loss: 0.039869, cmid0 loss: 0.081967
+Epoch (74), Batch(1400/2189), loss: 0.162227, imid loss: 0.041802, imid1 loss: 0.038743, cmid0 loss: 0.081682
+Epoch (74), Batch(1600/2189), loss: 0.163413, imid loss: 0.042016, imid1 loss: 0.039070, cmid0 loss: 0.082327
+Epoch (74), Batch(1800/2189), loss: 0.163657, imid loss: 0.041879, imid1 loss: 0.039008, cmid0 loss: 0.082770
+Epoch (74), Batch(2000/2189), loss: 0.163662, imid loss: 0.041599, imid1 loss: 0.039031, cmid0 loss: 0.083032
+Train 74, loss: 0.162705
+Linear Accuracy : 0.8970826580226904
+Start training epoch: (75/100)
+Epoch (75), Batch(0/2189), loss: 0.407403, imid loss: 0.175082, imid1 loss: 0.015086, cmid0 loss: 0.217236
+Epoch (75), Batch(200/2189), loss: 0.148286, imid loss: 0.035398, imid1 loss: 0.034684, cmid0 loss: 0.078203
+Epoch (75), Batch(400/2189), loss: 0.156371, imid loss: 0.039152, imid1 loss: 0.036133, cmid0 loss: 0.081086
+Epoch (75), Batch(600/2189), loss: 0.159182, imid loss: 0.039351, imid1 loss: 0.037721, cmid0 loss: 0.082110
+Epoch (75), Batch(800/2189), loss: 0.157959, imid loss: 0.038778, imid1 loss: 0.038488, cmid0 loss: 0.080694
+Epoch (75), Batch(1000/2189), loss: 0.160928, imid loss: 0.040440, imid1 loss: 0.037959, cmid0 loss: 0.082528
+Epoch (75), Batch(1200/2189), loss: 0.160546, imid loss: 0.040308, imid1 loss: 0.037596, cmid0 loss: 0.082642
+Epoch (75), Batch(1400/2189), loss: 0.160168, imid loss: 0.040316, imid1 loss: 0.037218, cmid0 loss: 0.082633
+Epoch (75), Batch(1600/2189), loss: 0.159451, imid loss: 0.039905, imid1 loss: 0.037377, cmid0 loss: 0.082170
+Epoch (75), Batch(1800/2189), loss: 0.159265, imid loss: 0.040211, imid1 loss: 0.037148, cmid0 loss: 0.081905
+Epoch (75), Batch(2000/2189), loss: 0.159252, imid loss: 0.040181, imid1 loss: 0.036859, cmid0 loss: 0.082212
+Train 75, loss: 0.159780
+Linear Accuracy : 0.8934359805510534
+==> Saving...
+Start training epoch: (76/100)
+Epoch (76), Batch(0/2189), loss: 0.187580, imid loss: 0.044847, imid1 loss: 0.070106, cmid0 loss: 0.072627
+Epoch (76), Batch(200/2189), loss: 0.173028, imid loss: 0.045166, imid1 loss: 0.040714, cmid0 loss: 0.087148
+Epoch (76), Batch(400/2189), loss: 0.169088, imid loss: 0.043586, imid1 loss: 0.038886, cmid0 loss: 0.086615
+Epoch (76), Batch(600/2189), loss: 0.162934, imid loss: 0.040854, imid1 loss: 0.038060, cmid0 loss: 0.084019
+Epoch (76), Batch(800/2189), loss: 0.162223, imid loss: 0.041398, imid1 loss: 0.037402, cmid0 loss: 0.083423
+Epoch (76), Batch(1000/2189), loss: 0.162611, imid loss: 0.041599, imid1 loss: 0.037585, cmid0 loss: 0.083426
+Epoch (76), Batch(1200/2189), loss: 0.161207, imid loss: 0.041511, imid1 loss: 0.037323, cmid0 loss: 0.082372
+Epoch (76), Batch(1400/2189), loss: 0.161184, imid loss: 0.041340, imid1 loss: 0.037036, cmid0 loss: 0.082808
+Epoch (76), Batch(1600/2189), loss: 0.161091, imid loss: 0.041275, imid1 loss: 0.037062, cmid0 loss: 0.082753
+Epoch (76), Batch(1800/2189), loss: 0.162841, imid loss: 0.041414, imid1 loss: 0.037565, cmid0 loss: 0.083862
+Epoch (76), Batch(2000/2189), loss: 0.162055, imid loss: 0.041342, imid1 loss: 0.037305, cmid0 loss: 0.083408
+Train 76, loss: 0.162370
+Linear Accuracy : 0.893030794165316
+Start training epoch: (77/100)
+Epoch (77), Batch(0/2189), loss: 0.048286, imid loss: 0.009046, imid1 loss: 0.016283, cmid0 loss: 0.022957
+Epoch (77), Batch(200/2189), loss: 0.169820, imid loss: 0.043182, imid1 loss: 0.041329, cmid0 loss: 0.085309
+Epoch (77), Batch(400/2189), loss: 0.161396, imid loss: 0.041581, imid1 loss: 0.038283, cmid0 loss: 0.081531
+Epoch (77), Batch(600/2189), loss: 0.160522, imid loss: 0.041544, imid1 loss: 0.037327, cmid0 loss: 0.081650
+Epoch (77), Batch(800/2189), loss: 0.162416, imid loss: 0.042380, imid1 loss: 0.037612, cmid0 loss: 0.082424
+Epoch (77), Batch(1000/2189), loss: 0.161511, imid loss: 0.041485, imid1 loss: 0.037861, cmid0 loss: 0.082166
+Epoch (77), Batch(1200/2189), loss: 0.162773, imid loss: 0.041204, imid1 loss: 0.038997, cmid0 loss: 0.082572
+Epoch (77), Batch(1400/2189), loss: 0.159295, imid loss: 0.040306, imid1 loss: 0.038053, cmid0 loss: 0.080936
+Epoch (77), Batch(1600/2189), loss: 0.158618, imid loss: 0.040125, imid1 loss: 0.037773, cmid0 loss: 0.080719
+Epoch (77), Batch(1800/2189), loss: 0.157848, imid loss: 0.039748, imid1 loss: 0.037388, cmid0 loss: 0.080712
+Epoch (77), Batch(2000/2189), loss: 0.156672, imid loss: 0.039321, imid1 loss: 0.037330, cmid0 loss: 0.080021
+Train 77, loss: 0.155846
+Linear Accuracy : 0.9035656401944895
+==> Saving Best Model...
+Start training epoch: (78/100)
+Epoch (78), Batch(0/2189), loss: 0.118963, imid loss: 0.026257, imid1 loss: 0.031184, cmid0 loss: 0.061521
+Epoch (78), Batch(200/2189), loss: 0.144416, imid loss: 0.035571, imid1 loss: 0.034245, cmid0 loss: 0.074600
+Epoch (78), Batch(400/2189), loss: 0.146851, imid loss: 0.035266, imid1 loss: 0.036342, cmid0 loss: 0.075243
+Epoch (78), Batch(600/2189), loss: 0.150210, imid loss: 0.036589, imid1 loss: 0.036836, cmid0 loss: 0.076785
+Epoch (78), Batch(800/2189), loss: 0.151358, imid loss: 0.036183, imid1 loss: 0.037234, cmid0 loss: 0.077940
+Epoch (78), Batch(1000/2189), loss: 0.153437, imid loss: 0.036738, imid1 loss: 0.037815, cmid0 loss: 0.078885
+Epoch (78), Batch(1200/2189), loss: 0.154125, imid loss: 0.037212, imid1 loss: 0.037995, cmid0 loss: 0.078918
+Epoch (78), Batch(1400/2189), loss: 0.155282, imid loss: 0.037908, imid1 loss: 0.038259, cmid0 loss: 0.079115
+Epoch (78), Batch(1600/2189), loss: 0.156216, imid loss: 0.038363, imid1 loss: 0.037920, cmid0 loss: 0.079934
+Epoch (78), Batch(1800/2189), loss: 0.155957, imid loss: 0.038303, imid1 loss: 0.037680, cmid0 loss: 0.079974
+Epoch (78), Batch(2000/2189), loss: 0.155380, imid loss: 0.037851, imid1 loss: 0.037707, cmid0 loss: 0.079822
+Train 78, loss: 0.154128
+Linear Accuracy : 0.8950567260940032
+Start training epoch: (79/100)
+Epoch (79), Batch(0/2189), loss: 0.507243, imid loss: 0.078778, imid1 loss: 0.131708, cmid0 loss: 0.296757
+Epoch (79), Batch(200/2189), loss: 0.158417, imid loss: 0.040960, imid1 loss: 0.035904, cmid0 loss: 0.081553
+Epoch (79), Batch(400/2189), loss: 0.159964, imid loss: 0.040453, imid1 loss: 0.037179, cmid0 loss: 0.082333
+Epoch (79), Batch(600/2189), loss: 0.165087, imid loss: 0.042732, imid1 loss: 0.038947, cmid0 loss: 0.083409
+Epoch (79), Batch(800/2189), loss: 0.166453, imid loss: 0.043407, imid1 loss: 0.039060, cmid0 loss: 0.083986
+Epoch (79), Batch(1000/2189), loss: 0.169327, imid loss: 0.043709, imid1 loss: 0.039428, cmid0 loss: 0.086190
+Epoch (79), Batch(1200/2189), loss: 0.167086, imid loss: 0.042647, imid1 loss: 0.038269, cmid0 loss: 0.086170
+Epoch (79), Batch(1400/2189), loss: 0.163647, imid loss: 0.041681, imid1 loss: 0.037590, cmid0 loss: 0.084376
+Epoch (79), Batch(1600/2189), loss: 0.162116, imid loss: 0.041344, imid1 loss: 0.037300, cmid0 loss: 0.083471
+Epoch (79), Batch(1800/2189), loss: 0.160808, imid loss: 0.041072, imid1 loss: 0.036645, cmid0 loss: 0.083091
+Epoch (79), Batch(2000/2189), loss: 0.160413, imid loss: 0.040692, imid1 loss: 0.036855, cmid0 loss: 0.082866
+Train 79, loss: 0.159543
+Linear Accuracy : 0.8978930307941653
+Start training epoch: (80/100)
+Epoch (80), Batch(0/2189), loss: 0.060291, imid loss: 0.021907, imid1 loss: 0.016266, cmid0 loss: 0.022119
+Epoch (80), Batch(200/2189), loss: 0.148124, imid loss: 0.038416, imid1 loss: 0.031509, cmid0 loss: 0.078198
+Epoch (80), Batch(400/2189), loss: 0.149456, imid loss: 0.038179, imid1 loss: 0.032710, cmid0 loss: 0.078567
+Epoch (80), Batch(600/2189), loss: 0.150324, imid loss: 0.038606, imid1 loss: 0.033860, cmid0 loss: 0.077858
+Epoch (80), Batch(800/2189), loss: 0.149523, imid loss: 0.038474, imid1 loss: 0.033524, cmid0 loss: 0.077526
+Epoch (80), Batch(1000/2189), loss: 0.149601, imid loss: 0.038196, imid1 loss: 0.034103, cmid0 loss: 0.077302
+Epoch (80), Batch(1200/2189), loss: 0.149187, imid loss: 0.038112, imid1 loss: 0.034131, cmid0 loss: 0.076944
+Epoch (80), Batch(1400/2189), loss: 0.147108, imid loss: 0.037664, imid1 loss: 0.033693, cmid0 loss: 0.075751
+Epoch (80), Batch(1600/2189), loss: 0.147705, imid loss: 0.037275, imid1 loss: 0.034147, cmid0 loss: 0.076283
+Epoch (80), Batch(1800/2189), loss: 0.148424, imid loss: 0.037178, imid1 loss: 0.034654, cmid0 loss: 0.076593
+Epoch (80), Batch(2000/2189), loss: 0.148780, imid loss: 0.037233, imid1 loss: 0.034895, cmid0 loss: 0.076652
+Train 80, loss: 0.148943
+Linear Accuracy : 0.8962722852512156
+==> Saving...
+Start training epoch: (81/100)
+Epoch (81), Batch(0/2189), loss: 0.076263, imid loss: 0.014753, imid1 loss: 0.012180, cmid0 loss: 0.049330
+Epoch (81), Batch(200/2189), loss: 0.151977, imid loss: 0.038530, imid1 loss: 0.035094, cmid0 loss: 0.078353
+Epoch (81), Batch(400/2189), loss: 0.157471, imid loss: 0.039482, imid1 loss: 0.037905, cmid0 loss: 0.080084
+Epoch (81), Batch(600/2189), loss: 0.152691, imid loss: 0.037564, imid1 loss: 0.036868, cmid0 loss: 0.078259
+Epoch (81), Batch(800/2189), loss: 0.152173, imid loss: 0.037581, imid1 loss: 0.036232, cmid0 loss: 0.078360
+Epoch (81), Batch(1000/2189), loss: 0.151460, imid loss: 0.037983, imid1 loss: 0.035487, cmid0 loss: 0.077991
+Epoch (81), Batch(1200/2189), loss: 0.155215, imid loss: 0.039046, imid1 loss: 0.036110, cmid0 loss: 0.080059
+Epoch (81), Batch(1400/2189), loss: 0.155710, imid loss: 0.039405, imid1 loss: 0.036142, cmid0 loss: 0.080163
+Epoch (81), Batch(1600/2189), loss: 0.153475, imid loss: 0.039005, imid1 loss: 0.035819, cmid0 loss: 0.078651
+Epoch (81), Batch(1800/2189), loss: 0.152867, imid loss: 0.038773, imid1 loss: 0.035696, cmid0 loss: 0.078398
+Epoch (81), Batch(2000/2189), loss: 0.152234, imid loss: 0.038349, imid1 loss: 0.035786, cmid0 loss: 0.078100
+Train 81, loss: 0.151745
+Linear Accuracy : 0.8926256077795786
+Start training epoch: (82/100)
+Epoch (82), Batch(0/2189), loss: 0.270173, imid loss: 0.093408, imid1 loss: 0.052744, cmid0 loss: 0.124021
+Epoch (82), Batch(200/2189), loss: 0.136765, imid loss: 0.035740, imid1 loss: 0.030374, cmid0 loss: 0.070651
+Epoch (82), Batch(400/2189), loss: 0.146074, imid loss: 0.038220, imid1 loss: 0.033986, cmid0 loss: 0.073868
+Epoch (82), Batch(600/2189), loss: 0.146357, imid loss: 0.037179, imid1 loss: 0.034421, cmid0 loss: 0.074757
+Epoch (82), Batch(800/2189), loss: 0.147932, imid loss: 0.037636, imid1 loss: 0.035594, cmid0 loss: 0.074702
+Epoch (82), Batch(1000/2189), loss: 0.148595, imid loss: 0.038413, imid1 loss: 0.035299, cmid0 loss: 0.074883
+Epoch (82), Batch(1200/2189), loss: 0.147711, imid loss: 0.037810, imid1 loss: 0.035980, cmid0 loss: 0.073921
+Epoch (82), Batch(1400/2189), loss: 0.148010, imid loss: 0.038173, imid1 loss: 0.035628, cmid0 loss: 0.074210
+Epoch (82), Batch(1600/2189), loss: 0.149157, imid loss: 0.038117, imid1 loss: 0.035987, cmid0 loss: 0.075053
+Epoch (82), Batch(1800/2189), loss: 0.147980, imid loss: 0.037909, imid1 loss: 0.035558, cmid0 loss: 0.074512
+Epoch (82), Batch(2000/2189), loss: 0.147884, imid loss: 0.037950, imid1 loss: 0.035228, cmid0 loss: 0.074706
+Train 82, loss: 0.147750
+Linear Accuracy : 0.8918152350081038
+Start training epoch: (83/100)
+Epoch (83), Batch(0/2189), loss: 0.184064, imid loss: 0.041652, imid1 loss: 0.059331, cmid0 loss: 0.083081
+Epoch (83), Batch(200/2189), loss: 0.144562, imid loss: 0.037538, imid1 loss: 0.032244, cmid0 loss: 0.074780
+Epoch (83), Batch(400/2189), loss: 0.141636, imid loss: 0.036348, imid1 loss: 0.031230, cmid0 loss: 0.074059
+Epoch (83), Batch(600/2189), loss: 0.141223, imid loss: 0.036482, imid1 loss: 0.031557, cmid0 loss: 0.073184
+Epoch (83), Batch(800/2189), loss: 0.141569, imid loss: 0.036661, imid1 loss: 0.031518, cmid0 loss: 0.073390
+Epoch (83), Batch(1000/2189), loss: 0.142312, imid loss: 0.036503, imid1 loss: 0.032356, cmid0 loss: 0.073453
+Epoch (83), Batch(1200/2189), loss: 0.140933, imid loss: 0.035626, imid1 loss: 0.032564, cmid0 loss: 0.072743
+Epoch (83), Batch(1400/2189), loss: 0.141337, imid loss: 0.035785, imid1 loss: 0.032355, cmid0 loss: 0.073197
+Epoch (83), Batch(1600/2189), loss: 0.141869, imid loss: 0.035709, imid1 loss: 0.032748, cmid0 loss: 0.073412
+Epoch (83), Batch(1800/2189), loss: 0.140982, imid loss: 0.035605, imid1 loss: 0.032476, cmid0 loss: 0.072902
+Epoch (83), Batch(2000/2189), loss: 0.143797, imid loss: 0.036268, imid1 loss: 0.033446, cmid0 loss: 0.074083
+Train 83, loss: 0.144218
+Linear Accuracy : 0.8978930307941653
+Start training epoch: (84/100)
+Epoch (84), Batch(0/2189), loss: 0.241542, imid loss: 0.058338, imid1 loss: 0.027594, cmid0 loss: 0.155611
+Epoch (84), Batch(200/2189), loss: 0.140463, imid loss: 0.032606, imid1 loss: 0.036952, cmid0 loss: 0.070905
+Epoch (84), Batch(400/2189), loss: 0.145291, imid loss: 0.035697, imid1 loss: 0.036817, cmid0 loss: 0.072778
+Epoch (84), Batch(600/2189), loss: 0.142971, imid loss: 0.035053, imid1 loss: 0.035458, cmid0 loss: 0.072460
+Epoch (84), Batch(800/2189), loss: 0.145933, imid loss: 0.035797, imid1 loss: 0.036115, cmid0 loss: 0.074021
+Epoch (84), Batch(1000/2189), loss: 0.144353, imid loss: 0.035279, imid1 loss: 0.035490, cmid0 loss: 0.073584
+Epoch (84), Batch(1200/2189), loss: 0.145326, imid loss: 0.035376, imid1 loss: 0.035401, cmid0 loss: 0.074549
+Epoch (84), Batch(1400/2189), loss: 0.147812, imid loss: 0.035955, imid1 loss: 0.036037, cmid0 loss: 0.075820
+Epoch (84), Batch(1600/2189), loss: 0.145789, imid loss: 0.035503, imid1 loss: 0.035268, cmid0 loss: 0.075017
+Epoch (84), Batch(1800/2189), loss: 0.146573, imid loss: 0.035984, imid1 loss: 0.035309, cmid0 loss: 0.075280
+Epoch (84), Batch(2000/2189), loss: 0.146652, imid loss: 0.036204, imid1 loss: 0.035411, cmid0 loss: 0.075036
+Train 84, loss: 0.146334
+Linear Accuracy : 0.8962722852512156
+Start training epoch: (85/100)
+Epoch (85), Batch(0/2189), loss: 0.105429, imid loss: 0.038176, imid1 loss: 0.016028, cmid0 loss: 0.051225
+Epoch (85), Batch(200/2189), loss: 0.134744, imid loss: 0.035691, imid1 loss: 0.029228, cmid0 loss: 0.069824
+Epoch (85), Batch(400/2189), loss: 0.137922, imid loss: 0.034726, imid1 loss: 0.031927, cmid0 loss: 0.071270
+Epoch (85), Batch(600/2189), loss: 0.141679, imid loss: 0.035473, imid1 loss: 0.034603, cmid0 loss: 0.071602
+Epoch (85), Batch(800/2189), loss: 0.144997, imid loss: 0.036873, imid1 loss: 0.034242, cmid0 loss: 0.073883
+Epoch (85), Batch(1000/2189), loss: 0.143348, imid loss: 0.036125, imid1 loss: 0.033859, cmid0 loss: 0.073364
+Epoch (85), Batch(1200/2189), loss: 0.144875, imid loss: 0.036378, imid1 loss: 0.034339, cmid0 loss: 0.074158
+Epoch (85), Batch(1400/2189), loss: 0.145208, imid loss: 0.036400, imid1 loss: 0.034255, cmid0 loss: 0.074552
+Epoch (85), Batch(1600/2189), loss: 0.144437, imid loss: 0.036349, imid1 loss: 0.033616, cmid0 loss: 0.074472
+Epoch (85), Batch(1800/2189), loss: 0.144218, imid loss: 0.036359, imid1 loss: 0.033499, cmid0 loss: 0.074360
+Epoch (85), Batch(2000/2189), loss: 0.145034, imid loss: 0.036575, imid1 loss: 0.033642, cmid0 loss: 0.074817
+Train 85, loss: 0.144528
+Linear Accuracy : 0.8958670988654781
+==> Saving...
+Start training epoch: (86/100)
+Epoch (86), Batch(0/2189), loss: 0.087898, imid loss: 0.019441, imid1 loss: 0.004826, cmid0 loss: 0.063632
+Epoch (86), Batch(200/2189), loss: 0.138707, imid loss: 0.034084, imid1 loss: 0.032682, cmid0 loss: 0.071940
+Epoch (86), Batch(400/2189), loss: 0.141566, imid loss: 0.036759, imid1 loss: 0.031834, cmid0 loss: 0.072973
+Epoch (86), Batch(600/2189), loss: 0.140870, imid loss: 0.036792, imid1 loss: 0.032039, cmid0 loss: 0.072039
+Epoch (86), Batch(800/2189), loss: 0.137856, imid loss: 0.035651, imid1 loss: 0.031237, cmid0 loss: 0.070968
+Epoch (86), Batch(1000/2189), loss: 0.138103, imid loss: 0.035863, imid1 loss: 0.031408, cmid0 loss: 0.070832
+Epoch (86), Batch(1200/2189), loss: 0.140101, imid loss: 0.035907, imid1 loss: 0.031848, cmid0 loss: 0.072345
+Epoch (86), Batch(1400/2189), loss: 0.139507, imid loss: 0.035853, imid1 loss: 0.031944, cmid0 loss: 0.071709
+Epoch (86), Batch(1600/2189), loss: 0.140354, imid loss: 0.036165, imid1 loss: 0.031982, cmid0 loss: 0.072207
+Epoch (86), Batch(1800/2189), loss: 0.139998, imid loss: 0.035780, imid1 loss: 0.032048, cmid0 loss: 0.072169
+Epoch (86), Batch(2000/2189), loss: 0.141215, imid loss: 0.036020, imid1 loss: 0.032449, cmid0 loss: 0.072745
+Train 86, loss: 0.140790
+Linear Accuracy : 0.8946515397082658
+Start training epoch: (87/100)
+Epoch (87), Batch(0/2189), loss: 0.178600, imid loss: 0.031955, imid1 loss: 0.072383, cmid0 loss: 0.074262
+Epoch (87), Batch(200/2189), loss: 0.136410, imid loss: 0.031765, imid1 loss: 0.031953, cmid0 loss: 0.072692
+Epoch (87), Batch(400/2189), loss: 0.133822, imid loss: 0.032225, imid1 loss: 0.031956, cmid0 loss: 0.069641
+Epoch (87), Batch(600/2189), loss: 0.138450, imid loss: 0.034121, imid1 loss: 0.032543, cmid0 loss: 0.071786
+Epoch (87), Batch(800/2189), loss: 0.138638, imid loss: 0.034066, imid1 loss: 0.031913, cmid0 loss: 0.072659
+Epoch (87), Batch(1000/2189), loss: 0.139520, imid loss: 0.034265, imid1 loss: 0.032223, cmid0 loss: 0.073032
+Epoch (87), Batch(1200/2189), loss: 0.139511, imid loss: 0.034300, imid1 loss: 0.032697, cmid0 loss: 0.072514
+Epoch (87), Batch(1400/2189), loss: 0.139124, imid loss: 0.034227, imid1 loss: 0.033008, cmid0 loss: 0.071890
+Epoch (87), Batch(1600/2189), loss: 0.139477, imid loss: 0.034232, imid1 loss: 0.033169, cmid0 loss: 0.072076
+Epoch (87), Batch(1800/2189), loss: 0.140515, imid loss: 0.034308, imid1 loss: 0.033472, cmid0 loss: 0.072735
+Epoch (87), Batch(2000/2189), loss: 0.139854, imid loss: 0.034081, imid1 loss: 0.033459, cmid0 loss: 0.072313
+Train 87, loss: 0.138991
+Linear Accuracy : 0.8914100486223663
+Start training epoch: (88/100)
+Epoch (88), Batch(0/2189), loss: 0.078842, imid loss: 0.016940, imid1 loss: 0.033047, cmid0 loss: 0.028854
+Epoch (88), Batch(200/2189), loss: 0.144278, imid loss: 0.035902, imid1 loss: 0.033200, cmid0 loss: 0.075175
+Epoch (88), Batch(400/2189), loss: 0.139737, imid loss: 0.035911, imid1 loss: 0.033688, cmid0 loss: 0.070139
+Epoch (88), Batch(600/2189), loss: 0.143804, imid loss: 0.037398, imid1 loss: 0.033550, cmid0 loss: 0.072857
+Epoch (88), Batch(800/2189), loss: 0.141884, imid loss: 0.036658, imid1 loss: 0.032749, cmid0 loss: 0.072478
+Epoch (88), Batch(1000/2189), loss: 0.144269, imid loss: 0.037044, imid1 loss: 0.033550, cmid0 loss: 0.073676
+Epoch (88), Batch(1200/2189), loss: 0.143989, imid loss: 0.036999, imid1 loss: 0.033406, cmid0 loss: 0.073584
+Epoch (88), Batch(1400/2189), loss: 0.143247, imid loss: 0.036838, imid1 loss: 0.033022, cmid0 loss: 0.073386
+Epoch (88), Batch(1600/2189), loss: 0.141728, imid loss: 0.036520, imid1 loss: 0.032669, cmid0 loss: 0.072539
+Epoch (88), Batch(1800/2189), loss: 0.141268, imid loss: 0.036307, imid1 loss: 0.032362, cmid0 loss: 0.072599
+Epoch (88), Batch(2000/2189), loss: 0.141372, imid loss: 0.035895, imid1 loss: 0.032643, cmid0 loss: 0.072834
+Train 88, loss: 0.140971
+Linear Accuracy : 0.896677471636953
+Start training epoch: (89/100)
+Epoch (89), Batch(0/2189), loss: 0.048915, imid loss: 0.015413, imid1 loss: 0.014476, cmid0 loss: 0.019026
+Epoch (89), Batch(200/2189), loss: 0.131112, imid loss: 0.034294, imid1 loss: 0.028800, cmid0 loss: 0.068018
+Epoch (89), Batch(400/2189), loss: 0.134457, imid loss: 0.033543, imid1 loss: 0.030859, cmid0 loss: 0.070055
+Epoch (89), Batch(600/2189), loss: 0.130902, imid loss: 0.032635, imid1 loss: 0.029701, cmid0 loss: 0.068565
+Epoch (89), Batch(800/2189), loss: 0.132743, imid loss: 0.033444, imid1 loss: 0.030124, cmid0 loss: 0.069175
+Epoch (89), Batch(1000/2189), loss: 0.136380, imid loss: 0.033952, imid1 loss: 0.031045, cmid0 loss: 0.071383
+Epoch (89), Batch(1200/2189), loss: 0.137831, imid loss: 0.034916, imid1 loss: 0.031354, cmid0 loss: 0.071562
+Epoch (89), Batch(1400/2189), loss: 0.136870, imid loss: 0.034449, imid1 loss: 0.031348, cmid0 loss: 0.071072
+Epoch (89), Batch(1600/2189), loss: 0.137324, imid loss: 0.034459, imid1 loss: 0.031495, cmid0 loss: 0.071370
+Epoch (89), Batch(1800/2189), loss: 0.137673, imid loss: 0.034308, imid1 loss: 0.031550, cmid0 loss: 0.071815
+Epoch (89), Batch(2000/2189), loss: 0.137846, imid loss: 0.034500, imid1 loss: 0.031532, cmid0 loss: 0.071814
+Train 89, loss: 0.137873
+Linear Accuracy : 0.8958670988654781
+Start training epoch: (90/100)
+Epoch (90), Batch(0/2189), loss: 0.121492, imid loss: 0.033666, imid1 loss: 0.023530, cmid0 loss: 0.064296
+Epoch (90), Batch(200/2189), loss: 0.139725, imid loss: 0.035611, imid1 loss: 0.031536, cmid0 loss: 0.072578
+Epoch (90), Batch(400/2189), loss: 0.139540, imid loss: 0.036436, imid1 loss: 0.031843, cmid0 loss: 0.071262
+Epoch (90), Batch(600/2189), loss: 0.138429, imid loss: 0.035528, imid1 loss: 0.031631, cmid0 loss: 0.071270
+Epoch (90), Batch(800/2189), loss: 0.141301, imid loss: 0.036001, imid1 loss: 0.032679, cmid0 loss: 0.072620
+Epoch (90), Batch(1000/2189), loss: 0.142844, imid loss: 0.036513, imid1 loss: 0.032667, cmid0 loss: 0.073664
+Epoch (90), Batch(1200/2189), loss: 0.141567, imid loss: 0.036193, imid1 loss: 0.032082, cmid0 loss: 0.073292
+Epoch (90), Batch(1400/2189), loss: 0.141324, imid loss: 0.036046, imid1 loss: 0.031942, cmid0 loss: 0.073336
+Epoch (90), Batch(1600/2189), loss: 0.141373, imid loss: 0.035880, imid1 loss: 0.032086, cmid0 loss: 0.073406
+Epoch (90), Batch(1800/2189), loss: 0.140914, imid loss: 0.035762, imid1 loss: 0.032283, cmid0 loss: 0.072868
+Epoch (90), Batch(2000/2189), loss: 0.139024, imid loss: 0.035104, imid1 loss: 0.032141, cmid0 loss: 0.071780
+Train 90, loss: 0.138362
+Linear Accuracy : 0.8938411669367909
+==> Saving...
+Start training epoch: (91/100)
+Epoch (91), Batch(0/2189), loss: 0.054147, imid loss: 0.015805, imid1 loss: 0.016316, cmid0 loss: 0.022026
+Epoch (91), Batch(200/2189), loss: 0.147593, imid loss: 0.038843, imid1 loss: 0.033271, cmid0 loss: 0.075479
+Epoch (91), Batch(400/2189), loss: 0.149186, imid loss: 0.038425, imid1 loss: 0.034163, cmid0 loss: 0.076598
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:38.184067, resuming normal operation.
+Epoch (91), Batch(600/2189), loss: 0.145561, imid loss: 0.036913, imid1 loss: 0.033813, cmid0 loss: 0.074835
+Epoch (91), Batch(800/2189), loss: 0.139098, imid loss: 0.035485, imid1 loss: 0.032067, cmid0 loss: 0.071546
+Epoch (91), Batch(1000/2189), loss: 0.137845, imid loss: 0.035565, imid1 loss: 0.031443, cmid0 loss: 0.070837
+Epoch (91), Batch(1200/2189), loss: 0.137460, imid loss: 0.035198, imid1 loss: 0.031859, cmid0 loss: 0.070402
+Epoch (91), Batch(1400/2189), loss: 0.136323, imid loss: 0.035129, imid1 loss: 0.031099, cmid0 loss: 0.070095
+Epoch (91), Batch(1600/2189), loss: 0.136160, imid loss: 0.034954, imid1 loss: 0.031413, cmid0 loss: 0.069793
+Epoch (91), Batch(1800/2189), loss: 0.135533, imid loss: 0.034682, imid1 loss: 0.031228, cmid0 loss: 0.069623
+Epoch (91), Batch(2000/2189), loss: 0.135540, imid loss: 0.034948, imid1 loss: 0.031238, cmid0 loss: 0.069355
+Train 91, loss: 0.137044
+Linear Accuracy : 0.8974878444084279
+Start training epoch: (92/100)
+Epoch (92), Batch(0/2189), loss: 0.242578, imid loss: 0.028283, imid1 loss: 0.044529, cmid0 loss: 0.169766
+Epoch (92), Batch(200/2189), loss: 0.129085, imid loss: 0.031172, imid1 loss: 0.030437, cmid0 loss: 0.067476
+Epoch (92), Batch(400/2189), loss: 0.131105, imid loss: 0.032002, imid1 loss: 0.031561, cmid0 loss: 0.067541
+Epoch (92), Batch(600/2189), loss: 0.130963, imid loss: 0.032592, imid1 loss: 0.030136, cmid0 loss: 0.068235
+Epoch (92), Batch(800/2189), loss: 0.132369, imid loss: 0.033558, imid1 loss: 0.029819, cmid0 loss: 0.068991
+Epoch (92), Batch(1000/2189), loss: 0.134775, imid loss: 0.034140, imid1 loss: 0.030174, cmid0 loss: 0.070461
+Epoch (92), Batch(1200/2189), loss: 0.134870, imid loss: 0.033960, imid1 loss: 0.030758, cmid0 loss: 0.070152
+Epoch (92), Batch(1400/2189), loss: 0.133274, imid loss: 0.033372, imid1 loss: 0.030457, cmid0 loss: 0.069444
+Epoch (92), Batch(1600/2189), loss: 0.134300, imid loss: 0.033765, imid1 loss: 0.030997, cmid0 loss: 0.069538
+Epoch (92), Batch(1800/2189), loss: 0.134573, imid loss: 0.033638, imid1 loss: 0.031009, cmid0 loss: 0.069925
+Epoch (92), Batch(2000/2189), loss: 0.134228, imid loss: 0.033826, imid1 loss: 0.030715, cmid0 loss: 0.069687
+Train 92, loss: 0.134909
+Linear Accuracy : 0.8987034035656402
+Start training epoch: (93/100)
+Epoch (93), Batch(0/2189), loss: 0.196544, imid loss: 0.016400, imid1 loss: 0.051363, cmid0 loss: 0.128781
+Epoch (93), Batch(200/2189), loss: 0.133694, imid loss: 0.033776, imid1 loss: 0.032162, cmid0 loss: 0.067756
+Epoch (93), Batch(400/2189), loss: 0.136169, imid loss: 0.033570, imid1 loss: 0.032124, cmid0 loss: 0.070476
+Epoch (93), Batch(600/2189), loss: 0.138944, imid loss: 0.034224, imid1 loss: 0.032434, cmid0 loss: 0.072286
+Epoch (93), Batch(800/2189), loss: 0.136210, imid loss: 0.033414, imid1 loss: 0.032143, cmid0 loss: 0.070652
+Epoch (93), Batch(1000/2189), loss: 0.132857, imid loss: 0.032913, imid1 loss: 0.030873, cmid0 loss: 0.069071
+Epoch (93), Batch(1200/2189), loss: 0.132995, imid loss: 0.033319, imid1 loss: 0.031149, cmid0 loss: 0.068528
+Epoch (93), Batch(1400/2189), loss: 0.131687, imid loss: 0.032833, imid1 loss: 0.030908, cmid0 loss: 0.067946
+Epoch (93), Batch(1600/2189), loss: 0.131940, imid loss: 0.032926, imid1 loss: 0.030962, cmid0 loss: 0.068052
+Epoch (93), Batch(1800/2189), loss: 0.133108, imid loss: 0.033396, imid1 loss: 0.030714, cmid0 loss: 0.068998
+Epoch (93), Batch(2000/2189), loss: 0.131799, imid loss: 0.033011, imid1 loss: 0.030326, cmid0 loss: 0.068462
+Train 93, loss: 0.132108
+Linear Accuracy : 0.8946515397082658
+Start training epoch: (94/100)
+Epoch (94), Batch(0/2189), loss: 0.218657, imid loss: 0.043715, imid1 loss: 0.043820, cmid0 loss: 0.131123
+Epoch (94), Batch(200/2189), loss: 0.141682, imid loss: 0.039273, imid1 loss: 0.032577, cmid0 loss: 0.069832
+Epoch (94), Batch(400/2189), loss: 0.135657, imid loss: 0.036547, imid1 loss: 0.031030, cmid0 loss: 0.068079
+Epoch (94), Batch(600/2189), loss: 0.135639, imid loss: 0.035499, imid1 loss: 0.030386, cmid0 loss: 0.069754
+Epoch (94), Batch(800/2189), loss: 0.133276, imid loss: 0.034462, imid1 loss: 0.030023, cmid0 loss: 0.068791
+Epoch (94), Batch(1000/2189), loss: 0.132460, imid loss: 0.033966, imid1 loss: 0.030077, cmid0 loss: 0.068417
+Epoch (94), Batch(1200/2189), loss: 0.134240, imid loss: 0.033945, imid1 loss: 0.031122, cmid0 loss: 0.069173
+Epoch (94), Batch(1400/2189), loss: 0.135088, imid loss: 0.034023, imid1 loss: 0.031462, cmid0 loss: 0.069603
+Epoch (94), Batch(1600/2189), loss: 0.133721, imid loss: 0.033740, imid1 loss: 0.031201, cmid0 loss: 0.068780
+Epoch (94), Batch(1800/2189), loss: 0.133829, imid loss: 0.033848, imid1 loss: 0.030998, cmid0 loss: 0.068983
+Epoch (94), Batch(2000/2189), loss: 0.135213, imid loss: 0.034107, imid1 loss: 0.031556, cmid0 loss: 0.069549
+Train 94, loss: 0.135019
+Linear Accuracy : 0.8938411669367909
+Start training epoch: (95/100)
+Epoch (95), Batch(0/2189), loss: 0.076720, imid loss: 0.034613, imid1 loss: 0.009174, cmid0 loss: 0.032934
+Epoch (95), Batch(200/2189), loss: 0.134002, imid loss: 0.032895, imid1 loss: 0.031491, cmid0 loss: 0.069616
+Epoch (95), Batch(400/2189), loss: 0.135229, imid loss: 0.031528, imid1 loss: 0.033476, cmid0 loss: 0.070225
+Epoch (95), Batch(600/2189), loss: 0.136313, imid loss: 0.032408, imid1 loss: 0.033774, cmid0 loss: 0.070131
+Epoch (95), Batch(800/2189), loss: 0.135375, imid loss: 0.032868, imid1 loss: 0.032584, cmid0 loss: 0.069923
+Epoch (95), Batch(1000/2189), loss: 0.134568, imid loss: 0.032938, imid1 loss: 0.031985, cmid0 loss: 0.069645
+Epoch (95), Batch(1200/2189), loss: 0.135547, imid loss: 0.033108, imid1 loss: 0.031997, cmid0 loss: 0.070442
+Epoch (95), Batch(1400/2189), loss: 0.136763, imid loss: 0.033572, imid1 loss: 0.032236, cmid0 loss: 0.070955
+Epoch (95), Batch(1600/2189), loss: 0.135501, imid loss: 0.033516, imid1 loss: 0.031777, cmid0 loss: 0.070208
+Epoch (95), Batch(1800/2189), loss: 0.134568, imid loss: 0.033537, imid1 loss: 0.031450, cmid0 loss: 0.069581
+Epoch (95), Batch(2000/2189), loss: 0.134564, imid loss: 0.033551, imid1 loss: 0.031348, cmid0 loss: 0.069665
+Train 95, loss: 0.134408
+Linear Accuracy : 0.8926256077795786
+==> Saving...
+Start training epoch: (96/100)
+Epoch (96), Batch(0/2189), loss: 0.186105, imid loss: 0.118591, imid1 loss: 0.007385, cmid0 loss: 0.060129
+Epoch (96), Batch(200/2189), loss: 0.135002, imid loss: 0.034469, imid1 loss: 0.033184, cmid0 loss: 0.067348
+Epoch (96), Batch(400/2189), loss: 0.134421, imid loss: 0.034564, imid1 loss: 0.031586, cmid0 loss: 0.068271
+Epoch (96), Batch(600/2189), loss: 0.130587, imid loss: 0.033452, imid1 loss: 0.030457, cmid0 loss: 0.066678
+Epoch (96), Batch(800/2189), loss: 0.135289, imid loss: 0.034970, imid1 loss: 0.031444, cmid0 loss: 0.068875
+Epoch (96), Batch(1000/2189), loss: 0.137824, imid loss: 0.035391, imid1 loss: 0.032217, cmid0 loss: 0.070215
+Epoch (96), Batch(1200/2189), loss: 0.137053, imid loss: 0.035392, imid1 loss: 0.031641, cmid0 loss: 0.070020
+Epoch (96), Batch(1400/2189), loss: 0.135118, imid loss: 0.034711, imid1 loss: 0.031029, cmid0 loss: 0.069379
+Epoch (96), Batch(1600/2189), loss: 0.136021, imid loss: 0.034590, imid1 loss: 0.031743, cmid0 loss: 0.069689
+Epoch (96), Batch(1800/2189), loss: 0.136044, imid loss: 0.034681, imid1 loss: 0.031835, cmid0 loss: 0.069528
+Epoch (96), Batch(2000/2189), loss: 0.136479, imid loss: 0.034788, imid1 loss: 0.031985, cmid0 loss: 0.069706
+Train 96, loss: 0.135853
+Linear Accuracy : 0.896677471636953
+Start training epoch: (97/100)
+Epoch (97), Batch(0/2189), loss: 0.070245, imid loss: 0.044199, imid1 loss: 0.006458, cmid0 loss: 0.019588
+Epoch (97), Batch(200/2189), loss: 0.128988, imid loss: 0.034241, imid1 loss: 0.028606, cmid0 loss: 0.066140
+Epoch (97), Batch(400/2189), loss: 0.128311, imid loss: 0.033697, imid1 loss: 0.029941, cmid0 loss: 0.064673
+Epoch (97), Batch(600/2189), loss: 0.131325, imid loss: 0.033176, imid1 loss: 0.031641, cmid0 loss: 0.066509
+Epoch (97), Batch(800/2189), loss: 0.130328, imid loss: 0.032834, imid1 loss: 0.030810, cmid0 loss: 0.066684
+Epoch (97), Batch(1000/2189), loss: 0.130195, imid loss: 0.032823, imid1 loss: 0.030685, cmid0 loss: 0.066687
+Epoch (97), Batch(1200/2189), loss: 0.131133, imid loss: 0.032971, imid1 loss: 0.030294, cmid0 loss: 0.067869
+Epoch (97), Batch(1400/2189), loss: 0.132823, imid loss: 0.033363, imid1 loss: 0.030518, cmid0 loss: 0.068942
+Epoch (97), Batch(1600/2189), loss: 0.133878, imid loss: 0.033491, imid1 loss: 0.031029, cmid0 loss: 0.069358
+Epoch (97), Batch(1800/2189), loss: 0.134166, imid loss: 0.033694, imid1 loss: 0.030891, cmid0 loss: 0.069581
+Epoch (97), Batch(2000/2189), loss: 0.133596, imid loss: 0.033744, imid1 loss: 0.030780, cmid0 loss: 0.069071
+Train 97, loss: 0.133427
+Linear Accuracy : 0.8974878444084279
+Start training epoch: (98/100)
+Epoch (98), Batch(0/2189), loss: 0.076649, imid loss: 0.018266, imid1 loss: 0.013267, cmid0 loss: 0.045116
+Epoch (98), Batch(200/2189), loss: 0.134438, imid loss: 0.034504, imid1 loss: 0.030560, cmid0 loss: 0.069375
+Epoch (98), Batch(400/2189), loss: 0.130255, imid loss: 0.031723, imid1 loss: 0.030665, cmid0 loss: 0.067867
+Epoch (98), Batch(600/2189), loss: 0.132389, imid loss: 0.031980, imid1 loss: 0.032418, cmid0 loss: 0.067991
+Epoch (98), Batch(800/2189), loss: 0.131235, imid loss: 0.031676, imid1 loss: 0.032088, cmid0 loss: 0.067472
+Epoch (98), Batch(1000/2189), loss: 0.130402, imid loss: 0.031421, imid1 loss: 0.031586, cmid0 loss: 0.067394
+Epoch (98), Batch(1200/2189), loss: 0.131071, imid loss: 0.032052, imid1 loss: 0.031347, cmid0 loss: 0.067672
+Epoch (98), Batch(1400/2189), loss: 0.131172, imid loss: 0.032088, imid1 loss: 0.031570, cmid0 loss: 0.067514
+Epoch (98), Batch(1600/2189), loss: 0.130191, imid loss: 0.031755, imid1 loss: 0.031284, cmid0 loss: 0.067151
+Epoch (98), Batch(1800/2189), loss: 0.130300, imid loss: 0.031726, imid1 loss: 0.031500, cmid0 loss: 0.067074
+Epoch (98), Batch(2000/2189), loss: 0.129977, imid loss: 0.031705, imid1 loss: 0.031206, cmid0 loss: 0.067066
+Train 98, loss: 0.131350
+Linear Accuracy : 0.8978930307941653
+Start training epoch: (99/100)
+Epoch (99), Batch(0/2189), loss: 0.188707, imid loss: 0.062577, imid1 loss: 0.033033, cmid0 loss: 0.093097
+Epoch (99), Batch(200/2189), loss: 0.133942, imid loss: 0.033767, imid1 loss: 0.031638, cmid0 loss: 0.068536
+Epoch (99), Batch(400/2189), loss: 0.137315, imid loss: 0.035656, imid1 loss: 0.032822, cmid0 loss: 0.068837
+Epoch (99), Batch(600/2189), loss: 0.137185, imid loss: 0.034732, imid1 loss: 0.032868, cmid0 loss: 0.069585
+Epoch (99), Batch(800/2189), loss: 0.138480, imid loss: 0.035097, imid1 loss: 0.033468, cmid0 loss: 0.069916
+Epoch (99), Batch(1000/2189), loss: 0.139671, imid loss: 0.035171, imid1 loss: 0.033076, cmid0 loss: 0.071423
+Epoch (99), Batch(1200/2189), loss: 0.141182, imid loss: 0.035744, imid1 loss: 0.033424, cmid0 loss: 0.072014
+Epoch (99), Batch(1400/2189), loss: 0.140094, imid loss: 0.035196, imid1 loss: 0.033087, cmid0 loss: 0.071810
+Epoch (99), Batch(1600/2189), loss: 0.141005, imid loss: 0.035301, imid1 loss: 0.033744, cmid0 loss: 0.071960
+Epoch (99), Batch(1800/2189), loss: 0.140265, imid loss: 0.035105, imid1 loss: 0.033653, cmid0 loss: 0.071507
+Epoch (99), Batch(2000/2189), loss: 0.138387, imid loss: 0.034593, imid1 loss: 0.033409, cmid0 loss: 0.070385
+Train 99, loss: 0.138223
+Linear Accuracy : 0.8926256077795786
+==> Saving Last Model...

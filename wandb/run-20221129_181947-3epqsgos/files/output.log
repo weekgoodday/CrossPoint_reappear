@@ -1,0 +1,31 @@
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Use Adam
+Start training epoch: (0/100)
+Epoch (0), Batch(0/2189), loss: 11.938055, imid loss: 3.679281, cmid loss: 8.258775
+Epoch (0), Batch(1/2189), loss: 11.161968, imid loss: 3.872249, cmid loss: 7.289720
+Epoch (0), Batch(2/2189), loss: 10.405804, imid loss: 3.857721, cmid loss: 6.548083
+Epoch (0), Batch(3/2189), loss: 9.836307, imid loss: 3.830947, cmid loss: 6.005361
+Epoch (0), Batch(4/2189), loss: 9.405499, imid loss: 3.809592, cmid loss: 5.595906
+Epoch (0), Batch(5/2189), loss: 9.067346, imid loss: 3.762632, cmid loss: 5.304714
+Epoch (0), Batch(6/2189), loss: 8.840947, imid loss: 3.747238, cmid loss: 5.093709
+Epoch (0), Batch(7/2189), loss: 8.646497, imid loss: 3.713835, cmid loss: 4.932662
+Epoch (0), Batch(8/2189), loss: 8.483866, imid loss: 3.679308, cmid loss: 4.804558
+Epoch (0), Batch(9/2189), loss: 8.366110, imid loss: 3.662352, cmid loss: 4.703758
+Epoch (0), Batch(10/2189), loss: 8.266325, imid loss: 3.647452, cmid loss: 4.618873
+Epoch (0), Batch(11/2189), loss: 8.173510, imid loss: 3.626368, cmid loss: 4.547142
+Epoch (0), Batch(12/2189), loss: 8.091877, imid loss: 3.608482, cmid loss: 4.483395
+Traceback (most recent call last):
+  File "train_crosspoint.py", line 258, in <module>
+    train(args, io)
+  File "train_crosspoint.py", line 111, in train
+    total_loss.backward()
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/autograd/__init__.py", line 147, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+Epoch (0), Batch(13/2189), loss: 8.028960, imid loss: 3.601311, cmid loss: 4.427650
+Epoch (0), Batch(14/2189), loss: 7.973604, imid loss: 3.594871, cmid loss: 4.378733

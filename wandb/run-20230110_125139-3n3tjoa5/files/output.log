@@ -1,0 +1,25 @@
+Use Adam
+Start training epoch: (0/100)
+Pretrain: Epoch (0), Batch(0/2189), loss: 6.638407, imid loss: 2.825998, imid1 loss: 0.784632, cmid loss: 3.027777
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Traceback (most recent call last):
+  File "train_crosspoint_update.py", line 431, in <module>
+    train(args, io)
+  File "train_crosspoint_update.py", line 144, in train
+    for i, ((data_t1, data_t2), (imgs0, imgs1), idxs) in enumerate(train_loader):
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zht/github_play/crosspoint/CrossPoint/datasets/data.py", line 141, in __getitem__
+    render_img = Image.open(render_img_path).convert('RGB')
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/PIL/Image.py", line 2984, in open
+    prefix = fp.read(16)
+KeyboardInterrupt

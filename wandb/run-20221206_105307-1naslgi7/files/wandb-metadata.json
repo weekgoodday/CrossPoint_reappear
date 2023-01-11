@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.4.0-124-generic-x86_64-with-glibc2.17",
+    "python": "3.8.15",
+    "heartbeatAt": "2022-12-06T02:53:08.833844",
+    "startedAt": "2022-12-06T02:53:07.581381",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "--exp_name",
+        "mydgcnn_partseg",
+        "--pretrained_path",
+        "./models/dgcnn_partseg_mybest.pth",
+        "--batch_size",
+        "8",
+        "--k",
+        "40",
+        "--test_batch_size",
+        "8",
+        "--epochs",
+        "300"
+    ],
+    "state": "running",
+    "program": "train_partseg.py",
+    "codePath": "train_partseg.py",
+    "git": {
+        "remote": "https://gitclone.com/github.com/MohamedAfham/CrossPoint.git",
+        "commit": "364987ed8ae3b9f439b2c08305746ad3c451a820"
+    },
+    "email": null,
+    "root": "/home/zht/github_play/crosspoint/CrossPoint",
+    "host": "pku",
+    "username": "zht",
+    "executable": "/home/zht/anaconda3/envs/py38torch19/bin/python"
+}

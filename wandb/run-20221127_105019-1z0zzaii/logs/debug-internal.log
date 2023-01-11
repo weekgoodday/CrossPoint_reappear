@@ -1,0 +1,167 @@
+2022-11-27 10:50:19,472 INFO    MainThread:577 [internal.py:wandb_internal():86] W&B internal server running at pid: 577, started at: 2022-11-27 10:50:19.472101
+2022-11-27 10:50:19,473 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: check_version
+2022-11-27 10:50:19,473 INFO    WriterThread:577 [datastore.py:open_for_write():77] open: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/run-1z0zzaii.wandb
+2022-11-27 10:50:19,475 DEBUG   SenderThread:577 [sender.py:send():182] send: header
+2022-11-27 10:50:19,475 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: check_version
+2022-11-27 10:50:19,894 DEBUG   SenderThread:577 [sender.py:send():182] send: run
+2022-11-27 10:50:20,252 INFO    SenderThread:577 [dir_watcher.py:__init__():169] watching files in: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files
+2022-11-27 10:50:20,253 INFO    SenderThread:577 [sender.py:_start_run_threads():740] run started: 1z0zzaii with start time 1669517419
+2022-11-27 10:50:20,253 DEBUG   SenderThread:577 [sender.py:send():182] send: summary
+2022-11-27 10:50:20,253 INFO    SenderThread:577 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-11-27 10:50:20,253 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: run_start
+2022-11-27 10:50:20,257 DEBUG   HandlerThread:577 [meta.py:__init__():40] meta init
+2022-11-27 10:50:20,257 DEBUG   HandlerThread:577 [meta.py:__init__():54] meta init done
+2022-11-27 10:50:20,257 DEBUG   HandlerThread:577 [meta.py:probe():211] probe
+2022-11-27 10:50:20,263 DEBUG   HandlerThread:577 [meta.py:_setup_git():201] setup git
+2022-11-27 10:50:20,273 DEBUG   HandlerThread:577 [meta.py:_setup_git():208] setup git done
+2022-11-27 10:50:20,273 DEBUG   HandlerThread:577 [meta.py:_save_pip():58] save pip
+2022-11-27 10:50:20,273 DEBUG   HandlerThread:577 [meta.py:_save_pip():72] save pip done
+2022-11-27 10:50:20,273 DEBUG   HandlerThread:577 [meta.py:_save_conda():79] save conda
+2022-11-27 10:50:21,254 INFO    Thread-8  :577 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/conda-environment.yaml
+2022-11-27 10:50:21,254 INFO    Thread-8  :577 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/requirements.txt
+2022-11-27 10:50:21,255 INFO    Thread-8  :577 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/wandb-summary.json
+2022-11-27 10:50:21,360 DEBUG   HandlerThread:577 [meta.py:_save_conda():87] save conda done
+2022-11-27 10:50:21,360 DEBUG   HandlerThread:577 [meta.py:probe():249] probe done
+2022-11-27 10:50:21,362 DEBUG   SenderThread:577 [sender.py:send():182] send: files
+2022-11-27 10:50:21,362 INFO    SenderThread:577 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2022-11-27 10:50:21,366 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: stop_status
+2022-11-27 10:50:21,366 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: stop_status
+2022-11-27 10:50:22,253 INFO    Thread-8  :577 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/conda-environment.yaml
+2022-11-27 10:50:22,253 INFO    Thread-8  :577 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/wandb-metadata.json
+2022-11-27 10:50:22,253 INFO    Thread-8  :577 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/output.log
+2022-11-27 10:50:22,294 INFO    Thread-11 :577 [upload_job.py:push():137] Uploaded file /tmp/tmphyw9wtrowandb/7zbj782u-wandb-metadata.json
+2022-11-27 10:50:26,254 INFO    Thread-8  :577 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/output.log
+2022-11-27 10:50:36,688 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: stop_status
+2022-11-27 10:50:36,688 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: stop_status
+2022-11-27 10:50:48,542 DEBUG   SenderThread:577 [sender.py:send():182] send: stats
+2022-11-27 10:50:52,032 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: stop_status
+2022-11-27 10:50:52,032 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: stop_status
+2022-11-27 10:51:07,348 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: stop_status
+2022-11-27 10:51:07,348 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: stop_status
+2022-11-27 10:51:18,779 DEBUG   SenderThread:577 [sender.py:send():182] send: stats
+2022-11-27 10:51:22,665 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: stop_status
+2022-11-27 10:51:22,665 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: stop_status
+2022-11-27 10:51:37,982 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: stop_status
+2022-11-27 10:51:37,982 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: stop_status
+2022-11-27 10:51:44,273 INFO    Thread-8  :577 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/output.log
+2022-11-27 10:51:49,018 DEBUG   SenderThread:577 [sender.py:send():182] send: stats
+2022-11-27 10:51:49,542 WARNING MainThread:577 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2022-11-27 10:51:51,969 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:51,969 DEBUG   SenderThread:577 [sender.py:send():182] send: telemetry
+2022-11-27 10:51:51,969 DEBUG   SenderThread:577 [sender.py:send():182] send: exit
+2022-11-27 10:51:51,969 INFO    SenderThread:577 [sender.py:send_exit():291] handling exit code: 255
+2022-11-27 10:51:51,969 INFO    SenderThread:577 [sender.py:send_exit():293] handling runtime: 91
+2022-11-27 10:51:51,970 INFO    SenderThread:577 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-11-27 10:51:51,970 INFO    SenderThread:577 [sender.py:send_exit():303] send defer
+2022-11-27 10:51:51,970 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:51,970 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:51,970 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 0
+2022-11-27 10:51:51,971 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:51,971 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 0
+2022-11-27 10:51:51,971 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 1
+2022-11-27 10:51:51,971 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:51,971 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 1
+2022-11-27 10:51:52,061 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:52,062 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 1
+2022-11-27 10:51:52,062 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 2
+2022-11-27 10:51:52,062 DEBUG   SenderThread:577 [sender.py:send():182] send: stats
+2022-11-27 10:51:52,062 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:52,062 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 2
+2022-11-27 10:51:52,062 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:52,063 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 2
+2022-11-27 10:51:52,063 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 3
+2022-11-27 10:51:52,063 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:52,063 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 3
+2022-11-27 10:51:52,063 DEBUG   SenderThread:577 [sender.py:send():182] send: summary
+2022-11-27 10:51:52,063 INFO    SenderThread:577 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-11-27 10:51:52,063 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:52,064 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 3
+2022-11-27 10:51:52,064 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 4
+2022-11-27 10:51:52,064 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:52,064 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 4
+2022-11-27 10:51:52,064 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:52,064 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 4
+2022-11-27 10:51:52,071 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:52,275 INFO    Thread-8  :577 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/output.log
+2022-11-27 10:51:52,275 INFO    Thread-8  :577 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/wandb-summary.json
+2022-11-27 10:51:52,426 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 5
+2022-11-27 10:51:52,426 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:52,427 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:52,427 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 5
+2022-11-27 10:51:52,427 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:52,427 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 5
+2022-11-27 10:51:52,427 INFO    SenderThread:577 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-11-27 10:51:52,528 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,276 INFO    Thread-8  :577 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/config.yaml
+2022-11-27 10:51:53,276 INFO    SenderThread:577 [dir_watcher.py:finish():313] scan: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files
+2022-11-27 10:51:53,276 INFO    SenderThread:577 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/wandb-summary.json wandb-summary.json
+2022-11-27 10:51:53,276 INFO    SenderThread:577 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/output.log output.log
+2022-11-27 10:51:53,277 INFO    SenderThread:577 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/conda-environment.yaml conda-environment.yaml
+2022-11-27 10:51:53,282 INFO    SenderThread:577 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/config.yaml config.yaml
+2022-11-27 10:51:53,285 INFO    SenderThread:577 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/requirements.txt requirements.txt
+2022-11-27 10:51:53,285 INFO    SenderThread:577 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/wandb-metadata.json wandb-metadata.json
+2022-11-27 10:51:53,285 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 6
+2022-11-27 10:51:53,285 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,286 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:53,286 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 6
+2022-11-27 10:51:53,287 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:53,289 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 6
+2022-11-27 10:51:53,289 INFO    SenderThread:577 [file_pusher.py:finish():177] shutting down file pusher
+2022-11-27 10:51:53,386 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,387 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,489 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,489 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,591 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,591 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,693 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,693 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,795 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,795 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,897 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:53,897 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:53,999 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,000 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,101 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,102 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,151 INFO    Thread-15 :577 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/config.yaml
+2022-11-27 10:51:54,173 INFO    Thread-14 :577 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/conda-environment.yaml
+2022-11-27 10:51:54,188 INFO    Thread-16 :577 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/requirements.txt
+2022-11-27 10:51:54,204 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,204 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,229 INFO    Thread-12 :577 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/wandb-summary.json
+2022-11-27 10:51:54,250 INFO    Thread-13 :577 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/files/output.log
+2022-11-27 10:51:54,306 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,306 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,408 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,408 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,451 INFO    Thread-7  :577 [sender.py:transition_state():316] send defer: 7
+2022-11-27 10:51:54,452 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:54,452 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 7
+2022-11-27 10:51:54,452 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:54,452 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 7
+2022-11-27 10:51:54,510 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,686 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 8
+2022-11-27 10:51:54,686 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,687 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:54,687 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 8
+2022-11-27 10:51:54,687 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:54,687 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 8
+2022-11-27 10:51:54,687 INFO    SenderThread:577 [sender.py:transition_state():316] send defer: 9
+2022-11-27 10:51:54,688 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: defer
+2022-11-27 10:51:54,688 DEBUG   SenderThread:577 [sender.py:send():182] send: final
+2022-11-27 10:51:54,688 INFO    HandlerThread:577 [handler.py:handle_request_defer():143] handle defer: 9
+2022-11-27 10:51:54,688 DEBUG   SenderThread:577 [sender.py:send():182] send: footer
+2022-11-27 10:51:54,688 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: defer
+2022-11-27 10:51:54,688 INFO    SenderThread:577 [sender.py:send_request_defer():312] handle sender defer: 9
+2022-11-27 10:51:54,788 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: poll_exit
+2022-11-27 10:51:54,789 DEBUG   SenderThread:577 [sender.py:send_request():196] send_request: poll_exit
+2022-11-27 10:51:54,789 INFO    SenderThread:577 [file_pusher.py:join():182] waiting for file pusher
+2022-11-27 10:51:54,790 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: get_summary
+2022-11-27 10:51:54,791 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: sampled_history
+2022-11-27 10:51:54,792 DEBUG   HandlerThread:577 [handler.py:handle_request():126] handle_request: shutdown
+2022-11-27 10:51:54,792 INFO    HandlerThread:577 [handler.py:finish():683] shutting down handler
+2022-11-27 10:51:55,689 INFO    WriterThread:577 [datastore.py:close():281] close: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20221127_105019-1z0zzaii/run-1z0zzaii.wandb
+2022-11-27 10:51:55,790 INFO    SenderThread:577 [sender.py:finish():979] shutting down sender
+2022-11-27 10:51:55,790 INFO    SenderThread:577 [file_pusher.py:finish():177] shutting down file pusher
+2022-11-27 10:51:55,790 INFO    SenderThread:577 [file_pusher.py:join():182] waiting for file pusher
+2022-11-27 10:51:55,792 INFO    MainThread:577 [internal.py:handle_exit():76] Internal process exited

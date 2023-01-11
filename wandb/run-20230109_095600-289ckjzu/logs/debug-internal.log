@@ -1,0 +1,162 @@
+2023-01-09 09:56:00,896 INFO    MainThread:23337 [internal.py:wandb_internal():86] W&B internal server running at pid: 23337, started at: 2023-01-09 09:56:00.895830
+2023-01-09 09:56:00,897 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: check_version
+2023-01-09 09:56:00,898 INFO    WriterThread:23337 [datastore.py:open_for_write():77] open: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/run-289ckjzu.wandb
+2023-01-09 09:56:00,898 DEBUG   SenderThread:23337 [sender.py:send():182] send: header
+2023-01-09 09:56:00,899 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: check_version
+2023-01-09 09:56:01,338 DEBUG   SenderThread:23337 [sender.py:send():182] send: run
+2023-01-09 09:56:01,702 INFO    SenderThread:23337 [dir_watcher.py:__init__():169] watching files in: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files
+2023-01-09 09:56:01,703 INFO    SenderThread:23337 [sender.py:_start_run_threads():740] run started: 289ckjzu with start time 1673229360
+2023-01-09 09:56:01,703 DEBUG   SenderThread:23337 [sender.py:send():182] send: summary
+2023-01-09 09:56:01,703 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: run_start
+2023-01-09 09:56:01,704 INFO    SenderThread:23337 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2023-01-09 09:56:01,706 DEBUG   HandlerThread:23337 [meta.py:__init__():40] meta init
+2023-01-09 09:56:01,706 DEBUG   HandlerThread:23337 [meta.py:__init__():54] meta init done
+2023-01-09 09:56:01,706 DEBUG   HandlerThread:23337 [meta.py:probe():211] probe
+2023-01-09 09:56:01,712 DEBUG   HandlerThread:23337 [meta.py:_setup_git():201] setup git
+2023-01-09 09:56:01,721 DEBUG   HandlerThread:23337 [meta.py:_setup_git():208] setup git done
+2023-01-09 09:56:01,721 DEBUG   HandlerThread:23337 [meta.py:_save_pip():58] save pip
+2023-01-09 09:56:01,722 DEBUG   HandlerThread:23337 [meta.py:_save_pip():72] save pip done
+2023-01-09 09:56:01,722 DEBUG   HandlerThread:23337 [meta.py:_save_conda():79] save conda
+2023-01-09 09:56:02,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/conda-environment.yaml
+2023-01-09 09:56:02,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/requirements.txt
+2023-01-09 09:56:02,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/wandb-summary.json
+2023-01-09 09:56:02,915 DEBUG   HandlerThread:23337 [meta.py:_save_conda():87] save conda done
+2023-01-09 09:56:02,915 DEBUG   HandlerThread:23337 [meta.py:probe():249] probe done
+2023-01-09 09:56:02,917 DEBUG   SenderThread:23337 [sender.py:send():182] send: files
+2023-01-09 09:56:02,917 INFO    SenderThread:23337 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2023-01-09 09:56:02,920 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: stop_status
+2023-01-09 09:56:02,921 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: stop_status
+2023-01-09 09:56:03,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/conda-environment.yaml
+2023-01-09 09:56:03,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/wandb-metadata.json
+2023-01-09 09:56:03,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_created():217] file/dir created: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/output.log
+2023-01-09 09:56:03,809 INFO    Thread-11 :23337 [upload_job.py:push():137] Uploaded file /tmp/tmpgf3_7j7rwandb/33c4fxqe-wandb-metadata.json
+2023-01-09 09:56:07,704 INFO    Thread-8  :23337 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/output.log
+2023-01-09 09:56:08,934 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:08,934 DEBUG   SenderThread:23337 [sender.py:send():182] send: telemetry
+2023-01-09 09:56:08,934 DEBUG   SenderThread:23337 [sender.py:send():182] send: exit
+2023-01-09 09:56:08,934 INFO    SenderThread:23337 [sender.py:send_exit():291] handling exit code: 1
+2023-01-09 09:56:08,934 INFO    SenderThread:23337 [sender.py:send_exit():293] handling runtime: 7
+2023-01-09 09:56:08,934 INFO    SenderThread:23337 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2023-01-09 09:56:08,934 INFO    SenderThread:23337 [sender.py:send_exit():303] send defer
+2023-01-09 09:56:08,934 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:08,935 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:08,935 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 0
+2023-01-09 09:56:08,935 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:08,935 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 0
+2023-01-09 09:56:08,935 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 1
+2023-01-09 09:56:08,935 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:08,935 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 1
+2023-01-09 09:56:09,019 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:09,019 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 1
+2023-01-09 09:56:09,019 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 2
+2023-01-09 09:56:09,020 DEBUG   SenderThread:23337 [sender.py:send():182] send: stats
+2023-01-09 09:56:09,020 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:09,020 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 2
+2023-01-09 09:56:09,020 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:09,020 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 2
+2023-01-09 09:56:09,020 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 3
+2023-01-09 09:56:09,020 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:09,020 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 3
+2023-01-09 09:56:09,020 DEBUG   SenderThread:23337 [sender.py:send():182] send: summary
+2023-01-09 09:56:09,020 INFO    SenderThread:23337 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2023-01-09 09:56:09,021 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:09,021 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 3
+2023-01-09 09:56:09,021 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 4
+2023-01-09 09:56:09,021 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:09,021 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 4
+2023-01-09 09:56:09,021 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:09,021 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 4
+2023-01-09 09:56:09,036 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:09,364 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 5
+2023-01-09 09:56:09,364 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:09,364 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:09,365 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 5
+2023-01-09 09:56:09,365 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:09,365 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 5
+2023-01-09 09:56:09,365 INFO    SenderThread:23337 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-01-09 09:56:09,465 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:09,705 INFO    SenderThread:23337 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/output.log
+2023-01-09 09:56:09,705 INFO    SenderThread:23337 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/wandb-summary.json
+2023-01-09 09:56:09,705 INFO    SenderThread:23337 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/config.yaml
+2023-01-09 09:56:09,705 INFO    SenderThread:23337 [dir_watcher.py:finish():313] scan: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files
+2023-01-09 09:56:09,705 INFO    SenderThread:23337 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/wandb-summary.json wandb-summary.json
+2023-01-09 09:56:09,706 INFO    SenderThread:23337 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/output.log output.log
+2023-01-09 09:56:09,706 INFO    SenderThread:23337 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/conda-environment.yaml conda-environment.yaml
+2023-01-09 09:56:09,706 INFO    SenderThread:23337 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/config.yaml config.yaml
+2023-01-09 09:56:09,706 INFO    SenderThread:23337 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/requirements.txt requirements.txt
+2023-01-09 09:56:09,708 INFO    SenderThread:23337 [dir_watcher.py:finish():327] scan save: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/wandb-metadata.json wandb-metadata.json
+2023-01-09 09:56:09,708 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 6
+2023-01-09 09:56:09,708 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:09,717 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:09,717 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 6
+2023-01-09 09:56:09,717 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:09,717 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 6
+2023-01-09 09:56:09,717 INFO    SenderThread:23337 [file_pusher.py:finish():177] shutting down file pusher
+2023-01-09 09:56:09,810 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:09,810 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:09,911 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:09,911 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,012 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,012 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,113 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,113 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,214 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,215 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,316 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,316 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,417 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,417 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,518 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,518 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,620 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,620 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,721 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,721 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,822 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,823 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:10,907 INFO    Thread-13 :23337 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/output.log
+2023-01-09 09:56:10,924 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:10,924 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,025 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:11,025 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,126 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:11,126 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,173 INFO    Thread-16 :23337 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/requirements.txt
+2023-01-09 09:56:11,195 INFO    Thread-15 :23337 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/config.yaml
+2023-01-09 09:56:11,201 INFO    Thread-14 :23337 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/conda-environment.yaml
+2023-01-09 09:56:11,202 INFO    Thread-12 :23337 [upload_job.py:push():137] Uploaded file /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/files/wandb-summary.json
+2023-01-09 09:56:11,227 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:11,227 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,328 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:11,329 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,402 INFO    Thread-7  :23337 [sender.py:transition_state():316] send defer: 7
+2023-01-09 09:56:11,403 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:11,403 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 7
+2023-01-09 09:56:11,403 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:11,403 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 7
+2023-01-09 09:56:11,429 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:11,656 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 8
+2023-01-09 09:56:11,656 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,657 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:11,657 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 8
+2023-01-09 09:56:11,657 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:11,657 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 8
+2023-01-09 09:56:11,657 INFO    SenderThread:23337 [sender.py:transition_state():316] send defer: 9
+2023-01-09 09:56:11,657 DEBUG   SenderThread:23337 [sender.py:send():182] send: final
+2023-01-09 09:56:11,657 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: defer
+2023-01-09 09:56:11,657 DEBUG   SenderThread:23337 [sender.py:send():182] send: footer
+2023-01-09 09:56:11,657 INFO    HandlerThread:23337 [handler.py:handle_request_defer():143] handle defer: 9
+2023-01-09 09:56:11,657 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: defer
+2023-01-09 09:56:11,658 INFO    SenderThread:23337 [sender.py:send_request_defer():312] handle sender defer: 9
+2023-01-09 09:56:11,758 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-09 09:56:11,758 DEBUG   SenderThread:23337 [sender.py:send_request():196] send_request: poll_exit
+2023-01-09 09:56:11,758 INFO    SenderThread:23337 [file_pusher.py:join():182] waiting for file pusher
+2023-01-09 09:56:11,758 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: get_summary
+2023-01-09 09:56:11,759 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: sampled_history
+2023-01-09 09:56:11,759 DEBUG   HandlerThread:23337 [handler.py:handle_request():126] handle_request: shutdown
+2023-01-09 09:56:11,759 INFO    HandlerThread:23337 [handler.py:finish():683] shutting down handler
+2023-01-09 09:56:12,657 INFO    WriterThread:23337 [datastore.py:close():281] close: /home/zht/github_play/crosspoint/CrossPoint/wandb/run-20230109_095600-289ckjzu/run-289ckjzu.wandb
+2023-01-09 09:56:12,758 INFO    SenderThread:23337 [sender.py:finish():979] shutting down sender
+2023-01-09 09:56:12,758 INFO    SenderThread:23337 [file_pusher.py:finish():177] shutting down file pusher
+2023-01-09 09:56:12,758 INFO    SenderThread:23337 [file_pusher.py:join():182] waiting for file pusher
+2023-01-09 09:56:12,759 INFO    MainThread:23337 [internal.py:handle_exit():76] Internal process exited

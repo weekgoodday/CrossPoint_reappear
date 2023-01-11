@@ -1,0 +1,22 @@
+Use Adam
+Start training epoch: (0/100)
+Epoch (0), Batch(0/2189), loss: 14.087687, imid loss: 5.030414, cmid loss: 9.057274
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Epoch (0), Batch(200/2189), loss: 6.545152, imid loss: 2.937155, cmid loss: 3.607997
+Epoch (0), Batch(400/2189), loss: 6.084298, imid loss: 2.683564, cmid loss: 3.400734
+Epoch (0), Batch(600/2189), loss: 5.717656, imid loss: 2.490113, cmid loss: 3.227543
+Epoch (0), Batch(800/2189), loss: 5.412245, imid loss: 2.333893, cmid loss: 3.078352
+Epoch (0), Batch(1000/2189), loss: 5.164818, imid loss: 2.199857, cmid loss: 2.964961
+Epoch (0), Batch(1200/2189), loss: 4.948487, imid loss: 2.088369, cmid loss: 2.860118
+Epoch (0), Batch(1400/2189), loss: 4.765279, imid loss: 1.997552, cmid loss: 2.767727
+Epoch (0), Batch(1600/2189), loss: 4.578124, imid loss: 1.889924, cmid loss: 2.688200
+Epoch (0), Batch(1800/2189), loss: 4.403096, imid loss: 1.788102, cmid loss: 2.614994
+Epoch (0), Batch(2000/2189), loss: 4.246898, imid loss: 1.697447, cmid loss: 2.549451
+Train 0, loss: 4.140059
+Linear Accuracy : 0.8723662884927067
+==> Saving Best Model...
+==> Saving...
+Start training epoch: (1/100)

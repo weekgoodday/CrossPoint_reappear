@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "trytoload.py", line 130, in <module>
+    train(args, io)
+  File "trytoload.py", line 57, in train
+    point_model = DGCNN_update(args).to(device)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/modules/module.py", line 852, in to
+    return self._apply(convert)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/modules/module.py", line 552, in _apply
+    param_applied = fn(param)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/modules/module.py", line 850, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+KeyboardInterrupt

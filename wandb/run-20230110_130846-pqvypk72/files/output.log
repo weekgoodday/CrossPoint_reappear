@@ -1,0 +1,126 @@
+Use Adam
+Start training epoch: (0/100)
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Pretrain: Epoch (0), Batch(0/2189), loss: 6.143235, imid loss: 2.465748, imid1 loss: 0.621026, cmid loss: 3.056460
+Pretrain: Epoch (0), Batch(1/2189), loss: 6.265818, imid loss: 2.480488, imid1 loss: 0.758092, cmid loss: 3.027238
+Pretrain: Epoch (0), Batch(2/2189), loss: 6.330645, imid loss: 2.493616, imid1 loss: 0.834061, cmid loss: 3.002968
+Pretrain: Epoch (0), Batch(3/2189), loss: 6.333885, imid loss: 2.440022, imid1 loss: 0.912017, cmid loss: 2.981846
+Pretrain: Epoch (0), Batch(4/2189), loss: 6.301388, imid loss: 2.460607, imid1 loss: 0.869727, cmid loss: 2.971055
+Pretrain: Epoch (0), Batch(5/2189), loss: 6.256310, imid loss: 2.456360, imid1 loss: 0.849404, cmid loss: 2.950546
+Pretrain: Epoch (0), Batch(6/2189), loss: 6.198909, imid loss: 2.410075, imid1 loss: 0.843372, cmid loss: 2.945462
+Pretrain: Epoch (0), Batch(7/2189), loss: 6.119154, imid loss: 2.384320, imid1 loss: 0.798443, cmid loss: 2.936390
+Pretrain: Epoch (0), Batch(8/2189), loss: 6.032274, imid loss: 2.295753, imid1 loss: 0.805154, cmid loss: 2.931367
+Pretrain: Epoch (0), Batch(9/2189), loss: 5.944122, imid loss: 2.237288, imid1 loss: 0.785103, cmid loss: 2.921731
+Pretrain: Epoch (0), Batch(10/2189), loss: 5.891549, imid loss: 2.184360, imid1 loss: 0.791223, cmid loss: 2.915966
+Pretrain: Epoch (0), Batch(11/2189), loss: 5.815574, imid loss: 2.151597, imid1 loss: 0.761963, cmid loss: 2.902014
+Pretrain: Epoch (0), Batch(12/2189), loss: 5.769039, imid loss: 2.124609, imid1 loss: 0.756274, cmid loss: 2.888156
+Pretrain: Epoch (0), Batch(13/2189), loss: 5.705762, imid loss: 2.091317, imid1 loss: 0.737045, cmid loss: 2.877400
+Pretrain: Epoch (0), Batch(14/2189), loss: 5.655076, imid loss: 2.061607, imid1 loss: 0.728436, cmid loss: 2.865033
+Pretrain: Epoch (0), Batch(15/2189), loss: 5.607887, imid loss: 2.031498, imid1 loss: 0.727990, cmid loss: 2.848400
+Pretrain: Epoch (0), Batch(16/2189), loss: 5.579470, imid loss: 2.025744, imid1 loss: 0.719820, cmid loss: 2.833906
+Pretrain: Epoch (0), Batch(17/2189), loss: 5.518289, imid loss: 1.985520, imid1 loss: 0.716519, cmid loss: 2.816250
+Pretrain: Epoch (0), Batch(18/2189), loss: 5.484749, imid loss: 1.968711, imid1 loss: 0.714933, cmid loss: 2.801105
+Pretrain: Epoch (0), Batch(19/2189), loss: 5.439407, imid loss: 1.948422, imid1 loss: 0.702931, cmid loss: 2.788054
+Pretrain: Epoch (0), Batch(20/2189), loss: 5.403745, imid loss: 1.929742, imid1 loss: 0.697863, cmid loss: 2.776139
+Pretrain: Epoch (0), Batch(21/2189), loss: 5.375837, imid loss: 1.920644, imid1 loss: 0.694618, cmid loss: 2.760575
+Pretrain: Epoch (0), Batch(22/2189), loss: 5.352368, imid loss: 1.913861, imid1 loss: 0.692302, cmid loss: 2.746205
+Pretrain: Epoch (0), Batch(23/2189), loss: 5.305384, imid loss: 1.878416, imid1 loss: 0.695737, cmid loss: 2.731231
+Pretrain: Epoch (0), Batch(24/2189), loss: 5.265156, imid loss: 1.849794, imid1 loss: 0.695919, cmid loss: 2.719443
+Pretrain: Epoch (0), Batch(25/2189), loss: 5.223577, imid loss: 1.828290, imid1 loss: 0.687967, cmid loss: 2.707320
+Pretrain: Epoch (0), Batch(26/2189), loss: 5.198252, imid loss: 1.805653, imid1 loss: 0.698470, cmid loss: 2.694129
+Pretrain: Epoch (0), Batch(27/2189), loss: 5.162169, imid loss: 1.785551, imid1 loss: 0.695180, cmid loss: 2.681438
+Pretrain: Epoch (0), Batch(28/2189), loss: 5.128900, imid loss: 1.768716, imid1 loss: 0.689612, cmid loss: 2.670573
+Pretrain: Epoch (0), Batch(29/2189), loss: 5.091079, imid loss: 1.746176, imid1 loss: 0.688055, cmid loss: 2.656848
+Pretrain: Epoch (0), Batch(30/2189), loss: 5.042493, imid loss: 1.720040, imid1 loss: 0.676180, cmid loss: 2.646273
+Pretrain: Epoch (0), Batch(31/2189), loss: 4.999666, imid loss: 1.694167, imid1 loss: 0.670676, cmid loss: 2.634824
+Pretrain: Epoch (0), Batch(32/2189), loss: 4.959098, imid loss: 1.673556, imid1 loss: 0.661476, cmid loss: 2.624066
+Pretrain: Epoch (0), Batch(33/2189), loss: 4.928567, imid loss: 1.658448, imid1 loss: 0.655470, cmid loss: 2.614648
+Pretrain: Epoch (0), Batch(34/2189), loss: 4.891909, imid loss: 1.636400, imid1 loss: 0.650948, cmid loss: 2.604561
+Pretrain: Epoch (0), Batch(35/2189), loss: 4.858085, imid loss: 1.612447, imid1 loss: 0.651083, cmid loss: 2.594555
+Pretrain: Epoch (0), Batch(36/2189), loss: 4.821271, imid loss: 1.595316, imid1 loss: 0.641464, cmid loss: 2.584491
+Pretrain: Epoch (0), Batch(37/2189), loss: 4.798306, imid loss: 1.584406, imid1 loss: 0.637706, cmid loss: 2.576194
+Pretrain: Epoch (0), Batch(38/2189), loss: 4.771206, imid loss: 1.570068, imid1 loss: 0.634826, cmid loss: 2.566313
+Pretrain: Epoch (0), Batch(39/2189), loss: 4.752337, imid loss: 1.559358, imid1 loss: 0.636029, cmid loss: 2.556950
+Pretrain: Epoch (0), Batch(40/2189), loss: 4.723983, imid loss: 1.545785, imid1 loss: 0.630032, cmid loss: 2.548166
+Pretrain: Epoch (0), Batch(41/2189), loss: 4.703618, imid loss: 1.535509, imid1 loss: 0.629534, cmid loss: 2.538575
+Pretrain: Epoch (0), Batch(42/2189), loss: 4.675024, imid loss: 1.520914, imid1 loss: 0.622714, cmid loss: 2.531396
+Pretrain: Epoch (0), Batch(43/2189), loss: 4.656777, imid loss: 1.511955, imid1 loss: 0.621378, cmid loss: 2.523444
+Pretrain: Epoch (0), Batch(44/2189), loss: 4.631003, imid loss: 1.499449, imid1 loss: 0.616964, cmid loss: 2.514589
+Pretrain: Epoch (0), Batch(45/2189), loss: 4.610881, imid loss: 1.492195, imid1 loss: 0.611648, cmid loss: 2.507038
+Pretrain: Epoch (0), Batch(46/2189), loss: 4.586113, imid loss: 1.482328, imid1 loss: 0.604629, cmid loss: 2.499156
+Pretrain: Epoch (0), Batch(47/2189), loss: 4.569122, imid loss: 1.473794, imid1 loss: 0.603138, cmid loss: 2.492190
+Pretrain: Epoch (0), Batch(48/2189), loss: 4.553597, imid loss: 1.464098, imid1 loss: 0.604457, cmid loss: 2.485042
+Pretrain: Epoch (0), Batch(49/2189), loss: 4.531258, imid loss: 1.455988, imid1 loss: 0.596793, cmid loss: 2.478478
+Pretrain: Epoch (0), Batch(50/2189), loss: 4.517665, imid loss: 1.446801, imid1 loss: 0.598397, cmid loss: 2.472468
+Pretrain: Epoch (0), Batch(51/2189), loss: 4.498922, imid loss: 1.435724, imid1 loss: 0.597459, cmid loss: 2.465739
+Pretrain: Epoch (0), Batch(52/2189), loss: 4.483768, imid loss: 1.426998, imid1 loss: 0.597279, cmid loss: 2.459490
+Pretrain: Epoch (0), Batch(53/2189), loss: 4.466890, imid loss: 1.418154, imid1 loss: 0.594028, cmid loss: 2.454707
+Pretrain: Epoch (0), Batch(54/2189), loss: 4.455041, imid loss: 1.413022, imid1 loss: 0.592903, cmid loss: 2.449116
+Pretrain: Epoch (0), Batch(55/2189), loss: 4.435297, imid loss: 1.403540, imid1 loss: 0.588809, cmid loss: 2.442947
+Pretrain: Epoch (0), Batch(56/2189), loss: 4.422822, imid loss: 1.397547, imid1 loss: 0.588789, cmid loss: 2.436487
+Pretrain: Epoch (0), Batch(57/2189), loss: 4.402778, imid loss: 1.386905, imid1 loss: 0.585060, cmid loss: 2.430813
+Pretrain: Epoch (0), Batch(58/2189), loss: 4.387494, imid loss: 1.381031, imid1 loss: 0.581584, cmid loss: 2.424879
+Pretrain: Epoch (0), Batch(59/2189), loss: 4.374222, imid loss: 1.376490, imid1 loss: 0.578461, cmid loss: 2.419270
+Pretrain: Epoch (0), Batch(60/2189), loss: 4.360219, imid loss: 1.365084, imid1 loss: 0.581223, cmid loss: 2.413912
+Pretrain: Epoch (0), Batch(61/2189), loss: 4.343259, imid loss: 1.353493, imid1 loss: 0.580990, cmid loss: 2.408775
+Pretrain: Epoch (0), Batch(62/2189), loss: 4.331797, imid loss: 1.343180, imid1 loss: 0.583992, cmid loss: 2.404625
+Pretrain: Epoch (0), Batch(63/2189), loss: 4.316848, imid loss: 1.335227, imid1 loss: 0.581867, cmid loss: 2.399754
+Pretrain: Epoch (0), Batch(64/2189), loss: 4.300992, imid loss: 1.326508, imid1 loss: 0.580037, cmid loss: 2.394448
+Pretrain: Epoch (0), Batch(65/2189), loss: 4.284429, imid loss: 1.318012, imid1 loss: 0.575241, cmid loss: 2.391176
+Pretrain: Epoch (0), Batch(66/2189), loss: 4.273525, imid loss: 1.309679, imid1 loss: 0.577676, cmid loss: 2.386170
+Pretrain: Epoch (0), Batch(67/2189), loss: 4.263919, imid loss: 1.304268, imid1 loss: 0.578807, cmid loss: 2.380844
+Pretrain: Epoch (0), Batch(68/2189), loss: 4.250470, imid loss: 1.298019, imid1 loss: 0.575536, cmid loss: 2.376915
+Pretrain: Epoch (0), Batch(69/2189), loss: 4.242763, imid loss: 1.291819, imid1 loss: 0.578389, cmid loss: 2.372555
+Pretrain: Epoch (0), Batch(70/2189), loss: 4.226649, imid loss: 1.283787, imid1 loss: 0.574820, cmid loss: 2.368042
+Pretrain: Epoch (0), Batch(71/2189), loss: 4.213560, imid loss: 1.274858, imid1 loss: 0.575154, cmid loss: 2.363549
+Pretrain: Epoch (0), Batch(72/2189), loss: 4.195480, imid loss: 1.263808, imid1 loss: 0.571892, cmid loss: 2.359780
+Pretrain: Epoch (0), Batch(73/2189), loss: 4.185531, imid loss: 1.257709, imid1 loss: 0.571851, cmid loss: 2.355971
+Pretrain: Epoch (0), Batch(74/2189), loss: 4.171676, imid loss: 1.250677, imid1 loss: 0.568528, cmid loss: 2.352471
+Pretrain: Epoch (0), Batch(75/2189), loss: 4.158443, imid loss: 1.243767, imid1 loss: 0.565508, cmid loss: 2.349168
+Pretrain: Epoch (0), Batch(76/2189), loss: 4.151888, imid loss: 1.239759, imid1 loss: 0.566456, cmid loss: 2.345673
+Pretrain: Epoch (0), Batch(77/2189), loss: 4.136145, imid loss: 1.231649, imid1 loss: 0.562453, cmid loss: 2.342043
+Pretrain: Epoch (0), Batch(78/2189), loss: 4.123430, imid loss: 1.226907, imid1 loss: 0.558440, cmid loss: 2.338083
+Pretrain: Epoch (0), Batch(79/2189), loss: 4.114104, imid loss: 1.222406, imid1 loss: 0.557256, cmid loss: 2.334442
+Pretrain: Epoch (0), Batch(80/2189), loss: 4.106843, imid loss: 1.219616, imid1 loss: 0.556084, cmid loss: 2.331143
+Pretrain: Epoch (0), Batch(81/2189), loss: 4.096732, imid loss: 1.215967, imid1 loss: 0.554005, cmid loss: 2.326760
+Pretrain: Epoch (0), Batch(82/2189), loss: 4.085334, imid loss: 1.211324, imid1 loss: 0.549926, cmid loss: 2.324084
+Pretrain: Epoch (0), Batch(83/2189), loss: 4.074741, imid loss: 1.207690, imid1 loss: 0.547240, cmid loss: 2.319810
+Pretrain: Epoch (0), Batch(84/2189), loss: 4.067729, imid loss: 1.203340, imid1 loss: 0.547954, cmid loss: 2.316434
+Pretrain: Epoch (0), Batch(85/2189), loss: 4.058249, imid loss: 1.198372, imid1 loss: 0.547408, cmid loss: 2.312469
+Pretrain: Epoch (0), Batch(86/2189), loss: 4.050739, imid loss: 1.194105, imid1 loss: 0.546862, cmid loss: 2.309773
+Pretrain: Epoch (0), Batch(87/2189), loss: 4.040960, imid loss: 1.189212, imid1 loss: 0.545559, cmid loss: 2.306189
+Pretrain: Epoch (0), Batch(88/2189), loss: 4.035799, imid loss: 1.187313, imid1 loss: 0.546074, cmid loss: 2.302412
+Pretrain: Epoch (0), Batch(89/2189), loss: 4.021789, imid loss: 1.180069, imid1 loss: 0.542843, cmid loss: 2.298877
+Pretrain: Epoch (0), Batch(90/2189), loss: 4.015569, imid loss: 1.175360, imid1 loss: 0.544424, cmid loss: 2.295785
+Pretrain: Epoch (0), Batch(91/2189), loss: 4.007444, imid loss: 1.169094, imid1 loss: 0.545523, cmid loss: 2.292826
+Pretrain: Epoch (0), Batch(92/2189), loss: 3.998712, imid loss: 1.164655, imid1 loss: 0.544261, cmid loss: 2.289795
+Pretrain: Epoch (0), Batch(93/2189), loss: 3.989382, imid loss: 1.159617, imid1 loss: 0.543009, cmid loss: 2.286756
+Pretrain: Epoch (0), Batch(94/2189), loss: 3.986169, imid loss: 1.156541, imid1 loss: 0.545629, cmid loss: 2.284000
+Pretrain: Epoch (0), Batch(95/2189), loss: 3.975191, imid loss: 1.150412, imid1 loss: 0.543626, cmid loss: 2.281154
+Pretrain: Epoch (0), Batch(96/2189), loss: 3.965022, imid loss: 1.144054, imid1 loss: 0.542729, cmid loss: 2.278239
+Pretrain: Epoch (0), Batch(97/2189), loss: 3.956942, imid loss: 1.139627, imid1 loss: 0.542364, cmid loss: 2.274951
+Pretrain: Epoch (0), Batch(98/2189), loss: 3.948554, imid loss: 1.136306, imid1 loss: 0.540165, cmid loss: 2.272082
+Pretrain: Epoch (0), Batch(99/2189), loss: 3.939835, imid loss: 1.133178, imid1 loss: 0.537821, cmid loss: 2.268836
+Pretrain: Epoch (0), Batch(100/2189), loss: 3.930720, imid loss: 1.128713, imid1 loss: 0.535543, cmid loss: 2.266464
+Pretrain: Epoch (0), Batch(101/2189), loss: 3.922034, imid loss: 1.124875, imid1 loss: 0.533388, cmid loss: 2.263771
+Pretrain: Epoch (0), Batch(102/2189), loss: 3.914067, imid loss: 1.121536, imid1 loss: 0.531089, cmid loss: 2.261442
+Pretrain: Epoch (0), Batch(103/2189), loss: 3.909779, imid loss: 1.119227, imid1 loss: 0.531091, cmid loss: 2.259461
+Pretrain: Epoch (0), Batch(104/2189), loss: 3.901658, imid loss: 1.114790, imid1 loss: 0.529478, cmid loss: 2.257389
+Pretrain: Epoch (0), Batch(105/2189), loss: 3.894036, imid loss: 1.111489, imid1 loss: 0.527889, cmid loss: 2.254658
+Pretrain: Epoch (0), Batch(106/2189), loss: 3.882901, imid loss: 1.105136, imid1 loss: 0.525122, cmid loss: 2.252643
+Pretrain: Epoch (0), Batch(107/2189), loss: 3.874331, imid loss: 1.101066, imid1 loss: 0.523411, cmid loss: 2.249854
+Pretrain: Epoch (0), Batch(108/2189), loss: 3.867159, imid loss: 1.097729, imid1 loss: 0.522054, cmid loss: 2.247376
+Pretrain: Epoch (0), Batch(109/2189), loss: 3.860664, imid loss: 1.094642, imid1 loss: 0.520233, cmid loss: 2.245789
+Traceback (most recent call last):
+  File "train_crosspoint_update.py", line 431, in <module>
+    train(args, io)
+  File "train_crosspoint_update.py", line 208, in train
+    torch.save(model_dict,f"checkpoints/{args.exp_name}/models/model.pt")
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/serialization.py", line 380, in save
+    return
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/serialization.py", line 214, in __exit__
+    self.file_like.close()
+KeyboardInterrupt

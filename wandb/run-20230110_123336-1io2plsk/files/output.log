@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_crosspoint_update.py", line 453, in <module>
+    train(args, io)
+  File "train_crosspoint_update.py", line 49, in train
+    device = torch.device(f"cuda:{args.cudaNo}" if args.cuda else "cpu")
+AttributeError: 'Namespace' object has no attribute 'cudaNo'

@@ -1,0 +1,25 @@
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Use Adam
+Start training epoch: (0/100)
+Pretrain: Epoch (0), Batch(0/2189), loss: 6.143235, imid loss: 2.465748, imid1 loss: 0.621026, cmid loss: 3.056460
+Pretrain: Epoch (0), Batch(1/2189), loss: 6.265818, imid loss: 2.480488, imid1 loss: 0.758092, cmid loss: 3.027238
+Pretrain: Epoch (0), Batch(2/2189), loss: 6.330645, imid loss: 2.493616, imid1 loss: 0.834061, cmid loss: 3.002968
+Pretrain: Epoch (0), Batch(3/2189), loss: 6.333885, imid loss: 2.440022, imid1 loss: 0.912017, cmid loss: 2.981846
+Pretrain: Epoch (0), Batch(4/2189), loss: 6.301388, imid loss: 2.460607, imid1 loss: 0.869727, cmid loss: 2.971055
+Pretrain: Epoch (0), Batch(5/2189), loss: 6.256310, imid loss: 2.456360, imid1 loss: 0.849404, cmid loss: 2.950546
+Pretrain: Epoch (0), Batch(6/2189), loss: 6.198909, imid loss: 2.410075, imid1 loss: 0.843372, cmid loss: 2.945462
+Pretrain: Epoch (0), Batch(7/2189), loss: 6.119154, imid loss: 2.384320, imid1 loss: 0.798443, cmid loss: 2.936390
+Pretrain: Epoch (0), Batch(8/2189), loss: 6.032274, imid loss: 2.295753, imid1 loss: 0.805154, cmid loss: 2.931367
+Traceback (most recent call last):
+  File "train_crosspoint_update.py", line 431, in <module>
+    train(args, io)
+  File "train_crosspoint_update.py", line 207, in train
+    torch.save(scheduler_dict,f"checkpoints/{args.exp_name}/models/scheduler.pt")
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/serialization.py", line 380, in save
+    return
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/serialization.py", line 214, in __exit__
+    self.file_like.close()
+KeyboardInterrupt

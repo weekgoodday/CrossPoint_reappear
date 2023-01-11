@@ -1,0 +1,36 @@
+Use Adam
+Start training epoch: (0/100)
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+path_list before 24
+/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+Traceback (most recent call last):
+  File "train_crosspoint.py", line 290, in <module>
+    train(args, io)
+  File "train_crosspoint.py", line 108, in train
+    _, point_feats, _ = point_model(data)
+  File "/home/zht/anaconda3/envs/py38torch19/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zht/github_play/crosspoint/CrossPoint/models/dgcnn.py", line 95, in forward
+    x = get_graph_feature(x, k=self.k)
+  File "/home/zht/github_play/crosspoint/CrossPoint/models/dgcnn.py", line 31, in get_graph_feature
+    idx = idx + idx_base
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cuda:1!

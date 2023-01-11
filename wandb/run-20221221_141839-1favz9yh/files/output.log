@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_crosspoint.py", line 290, in <module>
+    train(args, io)
+  File "train_crosspoint.py", line 51, in train
+    device = torch.device("cuda: 0" if args.cuda else "cpu")
+RuntimeError: Invalid device string: 'cuda: 0'
