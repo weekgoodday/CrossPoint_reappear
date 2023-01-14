@@ -6,6 +6,19 @@ Datasets are available [here](https://drive.google.com/drive/folders/1dAH9R3XDV0
 cd data
 source download_data.sh
 ```
+Data file structure should look like this:
+```
+./
+├── train_crosspoint_update.py
+├── train_crosspoint.py
+├── train_partseg.py
+├── ...
+└── data/
+    ├── ShapeNetRendering
+    ├── ScanObjectNN
+    ├── ...
+    └── download_data.sh
+```
 ## Usage
 sign up a wandb account so that you can easily visualize the output.
 ### Our revised code: 
