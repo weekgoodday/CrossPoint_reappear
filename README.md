@@ -1,6 +1,11 @@
 # CrossPoint_reappear
 ## [Reference github](https://github.com/MohamedAfham/CrossPoint) | [Original Paper Link](https://arxiv.org/abs/2203.00680) | [Original Project Page](https://mohamedafham.github.io/CrossPoint/) 
-
+## data dependency
+Datasets are available [here](https://drive.google.com/drive/folders/1dAH9R3XDV0z69Bz6lBaftmJJyuckbPmR?usp=sharing), you can download them, then put them in data directory. Alternatively, Run the command below to download all the datasets (ShapeNetRender, ModelNet40, ScanObjectNN, ShapeNetPart) to reproduce the results.
+···
+cd data
+source download_data.sh
+···
 ## usage
 sign up a wandb account so that you can easily visualize the output.
 ### to use our revised code: 
