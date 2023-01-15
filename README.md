@@ -1,4 +1,5 @@
 # CrossPoint_reappear
+The codes are tested on Ubuntu 16.04, PyTorch 1.9 and Python 3.8.
 ## [Reference github](https://github.com/MohamedAfham/CrossPoint) | [Original Paper Link](https://arxiv.org/abs/2203.00680) | [Original Project Page](https://mohamedafham.github.io/CrossPoint/) 
 ## Data Dependency
 Datasets are available [here](https://drive.google.com/drive/folders/1dAH9R3XDV0z69Bz6lBaftmJJyuckbPmR?usp=sharing), you can download them, then put them in data directory. Alternatively, Run the command below to download all the datasets (ShapeNetRender, ModelNet40, ScanObjectNN, ShapeNetPart) to reproduce the results.
